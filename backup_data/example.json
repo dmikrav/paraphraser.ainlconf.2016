@@ -1,0 +1,42 @@
+[
+{
+	"source": 
+		["The first sentence", "The second sentence"],
+	"class":"none",
+	"translations":{
+		"Google":{
+			"pair": ["Returning from Syria Russians are concerned about employment in their homeland.",
+					"Emergencies Ministry aircraft will take out the Russians from Syria destroyed."],
+			"features":{
+				"greedyComparerWNLin" : 0.33333334,
+				"optimumComparerLSATasa" : 0.33333334,
+				"dependencyComparerWnLeskTanim" : 0.0,
+				"cmComparer" : 0.5322187,
+				"bleuComparer" : 0.0,
+				"lsaComparer" : 0.221014
+			}
+		}
+	}
+}
+,
+{
+	"source": 
+		["The first sentence", "The second sentence"],
+	"class":"para",
+	"translations":{
+		"Google":{
+			"pair": ["In Saratov brawler from the airplane Moscow - Hurghada opened a case.",
+					"Saratov rowdy refuses to return home from Egypt."],
+			"features":{
+				"greedyComparerWNLin" : 0.3471173,
+				"optimumComparerLSATasa" : 0.18181819,
+				"dependencyComparerWnLeskTanim" : 0.033397775,
+				"cmComparer" : 0.43229267,
+				"bleuComparer" : 0.0,
+				"lsaComparer" : 0.09794241
+			}
+		}
+	}
+}
+
+]

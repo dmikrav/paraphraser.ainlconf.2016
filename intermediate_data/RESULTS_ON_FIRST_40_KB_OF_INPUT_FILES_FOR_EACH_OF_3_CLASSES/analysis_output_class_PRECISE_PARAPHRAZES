@@ -1,0 +1,2500 @@
+Sentence 1:Bailiffs collect fingerprints Russian debtors.
+Sentence 2:Bailiffs fingerprints from malicious defaulters.
+------------------------------
+greedyComparerWNLin : 0.5
+optimumComparerLSATasa : 0.5246486
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.45
+bleuComparer : 0.0
+lsaComparer : 0.32381114
+                              
+Sentence 1:Muscovites will be able to book a place on the Internet to the cemetery.
+Sentence 2:In Moscow, it will be possible to book a place in the cemetery over the internet.
+------------------------------
+greedyComparerWNLin : 0.6896552
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.70032996
+cmComparer : 0.7537462
+bleuComparer : 0.2135737
+lsaComparer : 0.7079438
+                              
+Sentence 1:North Korean leader for the first time in 19 years, congratulated the citizens a Happy New Year.
+Sentence 2:DPRK leader for the first time in 19 years, congratulated compatriots on the New Year.
+------------------------------
+greedyComparerWNLin : 0.81496537
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.70835763
+cmComparer : 0.8116543
+bleuComparer : 0.6051304
+lsaComparer : 0.9986776
+                              
+Sentence 1:The man from the suburbs accidentally killed his wife in the New Year.
+Sentence 2:A resident of Moscow accidentally killed his wife on New Year's feast.
+------------------------------
+greedyComparerWNLin : 0.53846157
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.4167986
+cmComparer : 0.83142674
+bleuComparer : 0.21972814
+lsaComparer : 0.97757494
+                              
+Sentence 1:Resident of Ukraine shot the visitors cafe.
+Sentence 2:In Ukraine, a man shot through the window of the cafe visitors.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.13968503
+cmComparer : 0.82368505
+bleuComparer : 0.0
+lsaComparer : 0.5480495
+                              
+Sentence 1:In the New Year's Eve in France burnt more than a thousand machines.
+Sentence 2:On New Year's night in France in 1193 burned the car.
+------------------------------
+greedyComparerWNLin : 0.61538464
+optimumComparerLSATasa : 0.33333334
+dependencyComparerWnLeskTanim : 0.25033304
+cmComparer : 0.74760956
+bleuComparer : 0.0
+lsaComparer : 0.13233903
+                              
+Sentence 1:In Angola, in a stampede during a church service killed 10 people.
+Sentence 2:During the stampede at a church service 10 people have died in Angola.
+------------------------------
+greedyComparerWNLin : 0.7692308
+optimumComparerLSATasa : 0.85714287
+dependencyComparerWnLeskTanim : 0.6113765
+cmComparer : 0.89690375
+bleuComparer : 0.0
+lsaComparer : 0.9986253
+                              
+Sentence 1:Morgan Stanley has hired the former deputy chairman of the Bank of Russia.
+Sentence 2:Former head of the Federal Financial Markets Service has found a job in Morgan Stanley.
+------------------------------
+greedyComparerWNLin : 0.62894213
+optimumComparerLSATasa : 0.33333334
+dependencyComparerWnLeskTanim : 0.38247237
+cmComparer : 0.5794414
+bleuComparer : 0.0
+lsaComparer : 0.35072345
+                              
+Sentence 1:The US Congress has approved a plan to prevent the "fiscal cliff."
+Sentence 2:The House of Representatives has approved a plan to prevent the "fiscal cliff."
+------------------------------
+greedyComparerWNLin : 0.88640666
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 2.9996667
+cmComparer : 0.88326544
+bleuComparer : 0.76422644
+lsaComparer : 1.0
+                              
+Sentence 1:New comic book about the Prophet Muhammad appeared in France.
+Sentence 2:In France, a distance comics based on the life of Prophet Muhammad.
+------------------------------
+greedyComparerWNLin : 0.5069553
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.1786301
+cmComparer : 0.51527095
+bleuComparer : 0.0
+lsaComparer : 0.1077338
+                              
+Sentence 1:The US pop star died 1950 Patti Page.
+Sentence 2:He died an American singer Patti Page.
+------------------------------
+greedyComparerWNLin : 0.5555779
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.09090082
+cmComparer : 0.6540147
+bleuComparer : 0.0
+lsaComparer : 0.6354677
+                              
+Sentence 1:The US Senate unanimously condemned the "law of Dima Yakovlev".
+Sentence 2:The US Senate has unanimously condemned the ban on adoptions.
+------------------------------
+greedyComparerWNLin : 0.6041445
+optimumComparerLSATasa : 0.6128349
+dependencyComparerWnLeskTanim : 0.56720525
+cmComparer : 0.7326564
+bleuComparer : 0.0
+lsaComparer : 0.31655064
+                              
+Sentence 1:SK find out whether bribing a witness in the case was Yu.Budanova.
+Sentence 2:Insurance check information about bribing witness in the trial of Budanov's murder.
+------------------------------
+greedyComparerWNLin : 0.42671102
+optimumComparerLSATasa : 0.30769232
+dependencyComparerWnLeskTanim : 0.22411077
+cmComparer : 0.46599278
+bleuComparer : 0.0
+lsaComparer : 0.13146816
+                              
+Sentence 1:The Vatican no longer accept payments with bank cards.
+Sentence 2:Bank of Italy has banned card payments in Vatican.
+------------------------------
+greedyComparerWNLin : 0.4
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.72334176
+bleuComparer : 0.0
+lsaComparer : 0.8143486
+                              
+Sentence 1:In Germany, the trial of Russian spies - the couple Full House.
+Sentence 2:In Germany, the trial of Russian spies.
+------------------------------
+greedyComparerWNLin : 0.8181818
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 1.4996251
+cmComparer : 0.8170889
+bleuComparer : 0.7093736
+lsaComparer : 0.8000919
+                              
+Sentence 1:The head of the district council the North Medvedkovo detained for a bribe.
+Sentence 2:Head of Northern Medvedkovo council caught on a bribe.
+------------------------------
+greedyComparerWNLin : 0.6363636
+optimumComparerLSATasa : 0.71666104
+dependencyComparerWnLeskTanim : 0.2917257
+cmComparer : 0.7139822
+bleuComparer : 0.0
+lsaComparer : 0.33205888
+                              
+Sentence 1:"Swamp thing": TFR in for questioning blogger waiting Mitya Aleshkovskii.
+Sentence 2:Aleshkovskii Mitya was summoned for questioning on the "swamp case."
+------------------------------
+greedyComparerWNLin : 0.6349092
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.031310543
+cmComparer : 0.7090223
+bleuComparer : 0.0
+lsaComparer : 0.3139855
+                              
+Sentence 1:US will receive $ 1.4 billion for the accident on an oil platform in the Gulf of Mexico.
+Sentence 2:Deepwater Horizon platform owner fined $ 1.4 billion.
+------------------------------
+greedyComparerWNLin : 0.37037036
+optimumComparerLSATasa : 0.4
+dependencyComparerWnLeskTanim : 0.099995
+cmComparer : 0.46350738
+bleuComparer : 0.0
+lsaComparer : 0.31267628
+                              
+Sentence 1:Correspondent of the Russian TV channel was shot in the suburbs of Damascus.
+Sentence 2:In Syria wounded correspondent of the Russian TV channel.
+------------------------------
+greedyComparerWNLin : 0.7620503
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.49995
+cmComparer : 0.8082226
+bleuComparer : 0.34468994
+lsaComparer : 0.52988595
+                              
+Sentence 1:An explosion at a gas station in Damascus killed 11 people.
+Sentence 2:The explosion killed 11 people at a gas station in Damascus.
+------------------------------
+greedyComparerWNLin : 0.9166667
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 1.8747813
+cmComparer : 1.0
+bleuComparer : 0.55839485
+lsaComparer : 1.0
+                              
+Sentence 1:In Eritrea, there was a coup attempt.
+Sentence 2:In Eritrea, there was an attempt of a military coup.
+------------------------------
+greedyComparerWNLin : 0.85714287
+optimumComparerLSATasa : 0.85714287
+dependencyComparerWnLeskTanim : 0.9161563
+cmComparer : 0.9166667
+bleuComparer : 0.44208938
+lsaComparer : 0.7231611
+                              
+Sentence 1:Economic damage from the "Arab Spring" will be $ 225 billion.
+Sentence 2:Estimate the amount of the "Arab Spring" was increased to $ 225 billion.
+------------------------------
+greedyComparerWNLin : 0.6604744
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.37505206
+cmComparer : 0.76331013
+bleuComparer : 0.4144322
+lsaComparer : 0.61790097
+                              
+Sentence 1:Went for a landing, "AeroSvit" opened the procedure.
+Sentence 2:Ukrainian court has started the procedure of bankruptcy "Aerosvit" company.
+------------------------------
+greedyComparerWNLin : 0.50877476
+optimumComparerLSATasa : 0.4
+dependencyComparerWnLeskTanim : 0.07142347
+cmComparer : 0.52659076
+bleuComparer : 0.0
+lsaComparer : 0.22574767
+                              
+Sentence 1:Railways has filed a lawsuit to recover 2 million rubles from Apple.
+Sentence 2:Railways in court with Apple demanded 2 million rubles.
+------------------------------
+greedyComparerWNLin : 0.5217391
+optimumComparerLSATasa : 0.7729862
+dependencyComparerWnLeskTanim : 0.19236982
+cmComparer : 0.67058134
+bleuComparer : 0.0
+lsaComparer : 0.65896726
+                              
+Sentence 1:He died a veteran human rights activist V.Abramkin.
+Sentence 2:He died a veteran human rights activist Valery Abramkin.
+------------------------------
+greedyComparerWNLin : 0.9
+optimumComparerLSATasa : 0.85714287
+dependencyComparerWnLeskTanim : 7501.0
+cmComparer : 0.85714287
+bleuComparer : 0.70710677
+lsaComparer : 1.0
+                              
+Sentence 1:In Egypt, was sentenced to death, the participants of the pogrom at the stadium in Port Said.
+Sentence 2:In Egypt, the death sentence for the massacre at the stadium.
+------------------------------
+greedyComparerWNLin : 0.5925926
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.1944892
+cmComparer : 0.54785717
+bleuComparer : 0.0
+lsaComparer : 0.31790772
+                              
+Sentence 1:In the suburbs covered a gathering of criminal authorities.
+Sentence 2:At a gathering of crime bosses in Moscow detained 23 people.
+------------------------------
+greedyComparerWNLin : 0.4987958
+optimumComparerLSATasa : 0.16666667
+dependencyComparerWnLeskTanim : 0.14284694
+cmComparer : 0.3809579
+bleuComparer : 0.0
+lsaComparer : 0.3481597
+                              
+Sentence 1:The first Patriot in Turkey alerted.
+Sentence 2:The first Patriot battery to intercede on combat duty in Turkey.
+------------------------------
+greedyComparerWNLin : 0.6315789
+optimumComparerLSATasa : 0.44444445
+dependencyComparerWnLeskTanim : 0.5000714
+cmComparer : 0.6583411
+bleuComparer : 0.0
+lsaComparer : 0.093908586
+                              
+Sentence 1:Consulate General of the Russian Federation Jobs in Syrian Aleppo suspended.
+Sentence 2:The Russian Federation has suspended consular activities in Aleppo.
+------------------------------
+greedyComparerWNLin : 0.6363636
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.250275
+cmComparer : 0.67881465
+bleuComparer : 0.0
+lsaComparer : 0.1710358
+                              
+Sentence 1:Media: Authorities asked residents of Krymsk recover some compensation.
+Sentence 2:From Krymsk residents demanded to return part of the financial assistance.
+------------------------------
+greedyComparerWNLin : 0.56345266
+optimumComparerLSATasa : 0.33333334
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.57396764
+bleuComparer : 0.0
+lsaComparer : 0.46232378
+                              
+Sentence 1:Missing Elbrus climber found dead at an altitude of 5 km.
+Sentence 2:On Elbrus found dead climber missing in Moscow.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 0.033397775
+cmComparer : 0.7379662
+bleuComparer : 0.0
+lsaComparer : 0.97396463
+                              
+Sentence 1:RF sent for Russian citizens in Syria two aircraft.
+Sentence 2:Ministry of Emergency Situations sends two aircraft for the export of Russian citizens from Syria.
+------------------------------
+greedyComparerWNLin : 0.56
+optimumComparerLSATasa : 0.53333336
+dependencyComparerWnLeskTanim : 0.15630274
+cmComparer : 0.78550166
+bleuComparer : 0.0
+lsaComparer : 0.56004894
+                              
+Sentence 1:Ethiopian Prime Minister headed the African Union.
+Sentence 2:Ethiopian Prime Minister headed the African Union.
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 6000.0
+cmComparer : 1.0
+bleuComparer : 1.0
+lsaComparer : 1.0
+                              
+Sentence 1:In the Alps crashed snowmobile with Russian tourists.
+Sentence 2:A group of tourists on a snowmobile crashed in the Alps.
+------------------------------
+greedyComparerWNLin : 0.7
+optimumComparerLSATasa : 0.8888889
+dependencyComparerWnLeskTanim : 0.5716326
+cmComparer : 0.80603695
+bleuComparer : 0.0
+lsaComparer : 1.0
+                              
+Sentence 1:Consul General of the Russian Federation called the Russians the names of those killed in the Alps.
+Sentence 2:The names of those killed in the Alps Russians.
+------------------------------
+greedyComparerWNLin : 0.7826087
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.35711735
+cmComparer : 0.7725374
+bleuComparer : 0.5143051
+lsaComparer : 0.4585758
+                              
+Sentence 1:French and Malian troops drove the Islamists from Timbuktu.
+Sentence 2:French and Malian troops entered Timbuktu.
+------------------------------
+greedyComparerWNLin : 0.7058824
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.71265906
+cmComparer : 0.73333335
+bleuComparer : 0.40065852
+lsaComparer : 0.72705597
+                              
+Sentence 1:Prince Harry has finished his military service in Afghanistan.
+Sentence 2:Britain's Prince Harry has completed serving in Afghanistan.
+------------------------------
+greedyComparerWNLin : 0.7
+optimumComparerLSATasa : 0.46153846
+dependencyComparerWnLeskTanim : 0.3752031
+cmComparer : 0.751408
+bleuComparer : 0.0
+lsaComparer : 0.55697614
+                              
+Sentence 1:United Russia has received more than 90% of the votes in the elections of the mayor of Kemerovo.
+Sentence 2:United Russia party won 90 percent of votes in the election of the mayor of Kemerovo.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.7368421
+dependencyComparerWnLeskTanim : 0.69240826
+cmComparer : 0.80257374
+bleuComparer : 0.37342784
+lsaComparer : 0.634837
+                              
+Sentence 1:In Mali, the state of emergency was extended for 3 months.
+Sentence 2:The Government of Mali extended for three months the state of emergency.
+------------------------------
+greedyComparerWNLin : 0.75
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.92872447
+cmComparer : 0.8278705
+bleuComparer : 0.2545094
+lsaComparer : 1.0
+                              
+Sentence 1:Gerard Depardieu arrived in Sochi for Russian passport.
+Sentence 2:Depardieu has arrived in Sochi for Russian passport.
+------------------------------
+greedyComparerWNLin : 0.8888889
+optimumComparerLSATasa : 0.90909094
+dependencyComparerWnLeskTanim : 1.2496876
+cmComparer : 0.8333333
+bleuComparer : 0.7506239
+lsaComparer : 1.0
+                              
+Sentence 1:Brazil mourns 233 fire victims in Kiss Club.
+Sentence 2:In Brazil, declared three days of mourning for the victims of the fire at the club.
+------------------------------
+greedyComparerWNLin : 0.5
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 0.025048748
+cmComparer : 0.5706633
+bleuComparer : 0.0
+lsaComparer : 0.080548234
+                              
+Sentence 1:Emergency mode is entered in Yakutia because of the invasion of wolves.
+Sentence 2:In Yakutia, imposed emergency mode due to wolves.
+------------------------------
+greedyComparerWNLin : 0.54545456
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.14284694
+cmComparer : 0.7100703
+bleuComparer : 0.0
+lsaComparer : 0.4416854
+                              
+Sentence 1:A citizen of Tajikistan in Moscow seized 13 kg. heroin.
+Sentence 2:In Moscow, Tajik seized 13 kilograms of heroin.
+------------------------------
+greedyComparerWNLin : 0.6
+optimumComparerLSATasa : 0.5
+dependencyComparerWnLeskTanim : 0.07691716
+cmComparer : 0.5105998
+bleuComparer : 0.0
+lsaComparer : 0.5342125
+                              
+Sentence 1:A criminal case on the construction of the road to the cottage-law Anatoly Serdyukov.
+Sentence 2:Upon construction of the road to the cottage-law Serdyukov sued.
+------------------------------
+greedyComparerWNLin : 0.6956522
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.4607028
+cmComparer : 0.7174752
+bleuComparer : 0.5168939
+lsaComparer : 0.99198455
+                              
+Sentence 1:Ministry of Education offers to pay adopters disabled 100 thousand. Rub.
+Sentence 2:Ministry of Education has offered to increase payments to the adoptive parents of persons with disabilities.
+------------------------------
+greedyComparerWNLin : 0.4094234
+optimumComparerLSATasa : 0.5882353
+dependencyComparerWnLeskTanim : 0.21879883
+cmComparer : 0.46776843
+bleuComparer : 0.0
+lsaComparer : 0.30570927
+                              
+Sentence 1:KAMAZ left without gas for more than 20 thousand. Man in Grozny.
+Sentence 2:In Grozny, "KamAZ" left more than 20 thousand people without gas.
+------------------------------
+greedyComparerWNLin : 0.72
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 1.6248438
+cmComparer : 0.735616
+bleuComparer : 0.27296308
+lsaComparer : 0.5234314
+                              
+Sentence 1:Hillary Clinton returns to work after an illness.
+Sentence 2:Hillary Clinton returned to work.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.85714287
+dependencyComparerWnLeskTanim : 1.3328891
+cmComparer : 0.9
+bleuComparer : 0.0
+lsaComparer : 0.19747026
+                              
+Sentence 1:The President has assigned the head of the FMS of ministerial rank.
+Sentence 2:The head of the Federal Migration Service became a federal minister.
+------------------------------
+greedyComparerWNLin : 0.45186776
+optimumComparerLSATasa : 0.16666667
+dependencyComparerWnLeskTanim : 0.16672222
+cmComparer : 0.49230134
+bleuComparer : 0.0
+lsaComparer : 0.94176155
+                              
+Sentence 1:In Kyrgyzstan, tightened punishment for bride kidnapping.
+Sentence 2:In Kyrgyzstan, the increased sentence for stealing brides.
+------------------------------
+greedyComparerWNLin : 0.57954645
+optimumComparerLSATasa : 0.4
+dependencyComparerWnLeskTanim : 0.09090082
+cmComparer : 0.5882741
+bleuComparer : 0.0
+lsaComparer : 0.06806102
+                              
+Sentence 1:In the Moscow subway will be stalls, stalinki.
+Sentence 2:In the Moscow subway kiosks will be in the style of Stalin's empire.
+------------------------------
+greedyComparerWNLin : 0.6956522
+optimumComparerLSATasa : 0.36363637
+dependencyComparerWnLeskTanim : 0.92858166
+cmComparer : 0.726829
+bleuComparer : 0.2640012
+lsaComparer : 0.11646436
+                              
+Sentence 1:Janitor shoveling broken jaw Moscow schoolchildren.
+Sentence 2:Moscow student janitor broke the jaw of thrown snow.
+------------------------------
+greedyComparerWNLin : 0.47058824
+optimumComparerLSATasa : 0.46153846
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.50162184
+bleuComparer : 0.0
+lsaComparer : 0.3323016
+                              
+Sentence 1:Barack Obama decided on the candidacy for the post of head of the CIA.
+Sentence 2:Obama found a candidate for the post of head of the CIA.
+------------------------------
+greedyComparerWNLin : 0.6956522
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 1.3334445
+cmComparer : 0.70278466
+bleuComparer : 0.61555845
+lsaComparer : 0.9491459
+                              
+Sentence 1:Fire in the colony in the Vologda region killed three prisoners.
+Sentence 2:Three prisoners died in a fire at the Vologda prison.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.23280288
+cmComparer : 0.5180177
+bleuComparer : 0.0
+lsaComparer : 0.38718632
+                              
+Sentence 1:A fire in a prison in Vologda reg .: have died.
+Sentence 2:Three prisoners died in a fire at the Vologda prison.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.3128359
+cmComparer : 0.63699394
+bleuComparer : 0.0
+lsaComparer : 0.56463087
+                              
+Sentence 1:Plane crash in Peru claimed the lives of seven people.
+Sentence 2:When a helicopter crash killed seven people in Peru.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.34259868
+cmComparer : 0.59512883
+bleuComparer : 0.0
+lsaComparer : 0.99789846
+                              
+Sentence 1:Renault will cut 7.5 thousand. Employees because of the crisis.
+Sentence 2:Renault will cut 7.5 thousand jobs in France.
+------------------------------
+greedyComparerWNLin : 0.8
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.59988004
+cmComparer : 0.8333333
+bleuComparer : 0.63120437
+lsaComparer : 0.9119038
+                              
+Sentence 1:"Dreamliner" worth $ 200 million on fire in the Boston airport.
+Sentence 2:The airport of Boston lit "Dreamliner".
+------------------------------
+greedyComparerWNLin : 0.6086956
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.07691716
+cmComparer : 0.6452361
+bleuComparer : 0.0
+lsaComparer : 0.22113697
+                              
+Sentence 1:Cycling can be excluded from the Olympic program.
+Sentence 2:Cycling facing exclusion from the Olympic Games.
+------------------------------
+greedyComparerWNLin : 0.6320484
+optimumComparerLSATasa : 0.44444445
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.7259736
+bleuComparer : 0.0
+lsaComparer : 0.1469138
+                              
+Sentence 1:Italian Generali double the share of "Ingosstrakh".
+Sentence 2:The Italians doubled their share of the "Ingosstrakh".
+------------------------------
+greedyComparerWNLin : 0.7
+optimumComparerLSATasa : 0.8888889
+dependencyComparerWnLeskTanim : 0.42851022
+cmComparer : 0.7114876
+bleuComparer : 0.3073232
+lsaComparer : 0.96575415
+                              
+Sentence 1:New York State has restricted trade in arms.
+Sentence 2:New York State has tightened the law on the control of arms trafficking.
+------------------------------
+greedyComparerWNLin : 0.6335795
+optimumComparerLSATasa : 0.4
+dependencyComparerWnLeskTanim : 0.3265984
+cmComparer : 0.80724794
+bleuComparer : 0.26353312
+lsaComparer : 0.23564959
+                              
+Sentence 1:In Chelyabinsk, a criminal libel case on F.Vyatkina.
+Sentence 2:Prosecuted for defaming the head of the Chelyabinsk regional court.
+------------------------------
+greedyComparerWNLin : 0.26751238
+optimumComparerLSATasa : 0.18181819
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.3258284
+bleuComparer : 0.0
+lsaComparer : 0.32370886
+                              
+Sentence 1:Unknown opened fire at the business school of Missouri.
+Sentence 2:In St. Louis, the offender opened fire at the business school.
+------------------------------
+greedyComparerWNLin : 0.6363636
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.62492186
+cmComparer : 0.6436022
+bleuComparer : 0.46640912
+lsaComparer : 0.9999984
+                              
+Sentence 1:A man and a woman died in a shooting at a college of Kentucky.
+Sentence 2:As a result of shooting at a college in Kentucky, killing two people.
+------------------------------
+greedyComparerWNLin : 0.61538464
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.31219062
+cmComparer : 0.54036146
+bleuComparer : 0.20149416
+lsaComparer : 0.23923983
+                              
+Sentence 1:He died the famous coach of the USSR national biathlon V.Ierusalimsky.
+Sentence 2:He died a former coach of the Soviet national team in biathlon.
+------------------------------
+greedyComparerWNLin : 0.64
+optimumComparerLSATasa : 0.53333336
+dependencyComparerWnLeskTanim : 0.33549282
+cmComparer : 0.5443433
+bleuComparer : 0.0
+lsaComparer : 0.86292875
+                              
+Sentence 1:Novokuznetsk third victim died in the explosion of the gas.
+Sentence 2:Novokuznetsk third victim died in the explosion of the gas.
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 9000.0
+cmComparer : 1.0
+bleuComparer : 1.0
+lsaComparer : 1.0
+                              
+Sentence 1:In Moscow, a car rammed stop: 4 people injured.
+Sentence 2:In Moscow, the car crashed into a stop.
+------------------------------
+greedyComparerWNLin : 0.72727275
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.5060861
+cmComparer : 0.7928626
+bleuComparer : 0.0
+lsaComparer : 0.4668715
+                              
+Sentence 1:Directors Guild of America announced the contenders for the award.
+Sentence 2:Directors Guild of America named contenders for the annual award.
+------------------------------
+greedyComparerWNLin : 0.9364385
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 3.249875
+cmComparer : 0.902665
+bleuComparer : 0.37817904
+lsaComparer : 0.34519503
+                              
+Sentence 1:Lithuania has frozen the accounts of Russian officials from the "Magnitsky list".
+Sentence 2:Lithuania froze associated with the case of Magnitsky bill.
+------------------------------
+greedyComparerWNLin : 0.47961476
+optimumComparerLSATasa : 0.33333334
+dependencyComparerWnLeskTanim : 0.1037083
+cmComparer : 0.7558689
+bleuComparer : 0.0
+lsaComparer : 0.17017409
+                              
+Sentence 1:In the "ER" decided on the amount of the fine for smoking.
+Sentence 2:MPs decided on the amount of the fine for smoking in public places.
+------------------------------
+greedyComparerWNLin : 0.7692308
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 1.1426939
+cmComparer : 0.7283886
+bleuComparer : 0.588725
+lsaComparer : 0.7135343
+                              
+Sentence 1:Apple will release the iPhone plastic for the poor.
+Sentence 2:Apple attributed the plan to release the plastic iPhone.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.08694443
+cmComparer : 0.7439082
+bleuComparer : 0.0
+lsaComparer : 0.31888416
+                              
+Sentence 1:Gas explosion in Krasnoyarsk: seven victims.
+Sentence 2:Seven people were injured in the explosion of gas in Krasnoyarsk.
+------------------------------
+greedyComparerWNLin : 0.6315789
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.22241972
+cmComparer : 0.5359699
+bleuComparer : 0.0
+lsaComparer : 0.3538536
+                              
+Sentence 1:Sergei Filin in the Bolshoi Theater found a temporary replacement.
+Sentence 2:At the Bolshoi Theatre found a temporary replacement Filin.
+------------------------------
+greedyComparerWNLin : 0.85714287
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 1.0001999
+cmComparer : 0.9285714
+bleuComparer : 0.31775567
+lsaComparer : 1.0
+                              
+Sentence 1:The case of an accident on Leninsky returned to the prosecutor.
+Sentence 2:The case of an accident on Leninsky Prospekt was returned to the prosecutor.
+------------------------------
+greedyComparerWNLin : 0.9166667
+optimumComparerLSATasa : 0.8888889
+dependencyComparerWnLeskTanim : 2.124719
+cmComparer : 0.87706935
+bleuComparer : 0.76710224
+lsaComparer : 1.0
+                              
+Sentence 1:In London, the helicopter collided with a construction crane and crashed.
+Sentence 2:In central London, the helicopter crashed into a crane.
+------------------------------
+greedyComparerWNLin : 0.75
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.7503749
+cmComparer : 0.83032113
+bleuComparer : 0.26210082
+lsaComparer : 0.20996945
+                              
+Sentence 1:Triple bombings in Iraq killed 17 people.
+Sentence 2:When the triple terrorist attack 17 people were killed in Iraq.
+------------------------------
+greedyComparerWNLin : 0.7
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 0.16665278
+cmComparer : 0.66419256
+bleuComparer : 0.0
+lsaComparer : 0.9996172
+                              
+Sentence 1:Russian passports will replace "plastic" with 2015.
+Sentence 2:Since 2015 the passport will replace plastic cards.
+------------------------------
+greedyComparerWNLin : 0.5635405
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.6002799
+cmComparer : 0.6693857
+bleuComparer : 0.0
+lsaComparer : 0.84850395
+                              
+Sentence 1:Syrian rebels will exchange 48 Iranians to 2 thousand. His associates.
+Sentence 2:Syrian rebels exchanged 48 Iranians on his associates in 2130.
+------------------------------
+greedyComparerWNLin : 0.47619048
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 0.44439507
+cmComparer : 0.731829
+bleuComparer : 0.0
+lsaComparer : 0.45251298
+                              
+Sentence 1:Queen of the Netherlands has decided to abdicate.
+Sentence 2:Dutch Queen abdicate.
+------------------------------
+greedyComparerWNLin : 0.46153846
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.54522735
+bleuComparer : 0.0
+lsaComparer : 0.0111984825
+                              
+Sentence 1:In the center of Moscow murdered crime boss Ded Hasan.
+Sentence 2:In Moscow, killed the mafia boss Ded Hasan.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 1.0072261
+cmComparer : 0.7950304
+bleuComparer : 0.28599644
+lsaComparer : 0.14540672
+                              
+Sentence 1:Somali militants decided to execute a French spy.
+Sentence 2:Somali militants sentenced to death captured the French agent.
+------------------------------
+greedyComparerWNLin : 0.65934575
+optimumComparerLSATasa : 0.46153846
+dependencyComparerWnLeskTanim : 0.23258659
+cmComparer : 0.7059531
+bleuComparer : 0.0
+lsaComparer : 0.27032965
+                              
+Sentence 1:Italian authorities have arrested the driver of a snowmobile that crashed in the Alps.
+Sentence 2:In Italy, arrested the driver crashed the snowmobile with the Russians.
+------------------------------
+greedyComparerWNLin : 0.56
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.17053689
+cmComparer : 0.6384693
+bleuComparer : 0.0
+lsaComparer : 0.99288726
+                              
+Sentence 1:Moscow authorities have agreed to the anti-fascist march.
+Sentence 2:The anti-fascist march in Moscow finally agreed.
+------------------------------
+greedyComparerWNLin : 0.7058824
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.22219753
+cmComparer : 0.7867129
+bleuComparer : 0.0
+lsaComparer : 0.6997092
+                              
+Sentence 1:The number of victims of the ferry accident in New York rose to 74.
+Sentence 2:The number of victims in the crash of the ferry has risen to 74 people.
+------------------------------
+greedyComparerWNLin : 0.76276565
+optimumComparerLSATasa : 0.5
+dependencyComparerWnLeskTanim : 0.30018
+cmComparer : 0.78964865
+bleuComparer : 0.2691496
+lsaComparer : 0.2911286
+                              
+Sentence 1:In Saratov brawler from the airplane Moscow - Hurghada opened a case.
+Sentence 2:In fact the riot on the plane from Moscow to Hurghada brought the case.
+------------------------------
+greedyComparerWNLin : 0.61538464
+optimumComparerLSATasa : 0.4
+dependencyComparerWnLeskTanim : 0.33001554
+cmComparer : 0.6483829
+bleuComparer : 0.0
+lsaComparer : 0.21762477
+                              
+Sentence 1:Opposite the Kremlin placed extremist banner.
+Sentence 2:Opposite the Kremlin hung extremist banner.
+------------------------------
+greedyComparerWNLin : 0.92123735
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 3702.021
+cmComparer : 0.88973224
+bleuComparer : 0.0
+lsaComparer : 0.29674646
+                              
+Sentence 1:Justice Ministry: Russia has paid 221 million rubles in the ECHR decisions.
+Sentence 2:Russia has paid 5.5 million euro for ECHR decisions.
+------------------------------
+greedyComparerWNLin : 0.5833333
+optimumComparerLSATasa : 0.625
+dependencyComparerWnLeskTanim : 0.44461727
+cmComparer : 0.6958395
+bleuComparer : 0.0
+lsaComparer : 0.99996024
+                              
+Sentence 1:Conviction for an explosion at Moscow's Manezh Square to cancel the sentence.
+Sentence 2:The Supreme Court overturned the conviction for the bombing on Moscow's Manezh Square.
+------------------------------
+greedyComparerWNLin : 0.5925926
+optimumComparerLSATasa : 0.5882353
+dependencyComparerWnLeskTanim : 0.34635797
+cmComparer : 0.80987185
+bleuComparer : 0.19685206
+lsaComparer : 0.037423816
+                              
+Sentence 1:In Southern Sudan, again shelled the Russian helicopter.
+Sentence 2:In Southern Sudan, the Russian helicopter fired again.
+------------------------------
+greedyComparerWNLin : 0.9
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 2.9433599
+cmComparer : 0.8333333
+bleuComparer : 0.40455335
+lsaComparer : 0.5370874
+                              
+Sentence 1:The singer Shakira and footballer Gerard Pique son.
+Sentence 2:Shakira gave birth to a son Piquet.
+------------------------------
+greedyComparerWNLin : 0.3529412
+optimumComparerLSATasa : 0.4
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.43572745
+bleuComparer : 0.0
+lsaComparer : 0.9403801
+                              
+Sentence 1:Marilyn Manson changed his mind to act in Russia.
+Sentence 2:Marilyn Manson has canceled a tour of Russia.
+------------------------------
+greedyComparerWNLin : 0.42105263
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.13644214
+cmComparer : 0.7310179
+bleuComparer : 0.0
+lsaComparer : 0.039433982
+                              
+Sentence 1:In Paris, was shot three Kurdish activists.
+Sentence 2:In Paris, shot three Kurdish activists.
+------------------------------
+greedyComparerWNLin : 0.9411765
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 4.995005
+cmComparer : 0.9166667
+bleuComparer : 0.6441954
+lsaComparer : 1.0
+                              
+Sentence 1:Defense Ministry employee died after interrogation in the case of "Oboronservis".
+Sentence 2:Defense Ministry employee died after interrogation in the case of "Oboronservis."
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 10000.0
+cmComparer : 1.0
+bleuComparer : 0.8715243
+lsaComparer : 1.0
+                              
+Sentence 1:By Alma-Ata plane crashed, killing 20 people.
+Sentence 2:In the plane crash in the Alma-Ata 20 people were killed.
+------------------------------
+greedyComparerWNLin : 0.5263158
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 0.12507291
+cmComparer : 0.7815003
+bleuComparer : 0.0
+lsaComparer : 0.99905014
+                              
+Sentence 1:the last member of the junta of "black colonels", died in Greece.
+Sentence 2:the last "Black Colonel" died in Greece.
+------------------------------
+greedyComparerWNLin : 0.75
+optimumComparerLSATasa : 0.8888889
+dependencyComparerWnLeskTanim : 0.2727025
+cmComparer : 0.7031391
+bleuComparer : 0.26566836
+lsaComparer : 0.401852
+                              
+Sentence 1:By beating the performance of the organizer "Lolita" in St. Petersburg sued.
+Sentence 2:In St. Petersburg, opened a case of beating the performance of the organizer "Lolita."
+------------------------------
+greedyComparerWNLin : 0.8
+optimumComparerLSATasa : 0.9230769
+dependencyComparerWnLeskTanim : 0.9375078
+cmComparer : 0.84747434
+bleuComparer : 0.49476147
+lsaComparer : 0.9899638
+                              
+Sentence 1:Prosecutor demands 10 years to designate the owner of "Lame Horse".
+Sentence 2:The prosecutor demanded 10 years for the owner of "Lame Horse".
+------------------------------
+greedyComparerWNLin : 0.8148148
+optimumComparerLSATasa : 0.9230769
+dependencyComparerWnLeskTanim : 0.49995
+cmComparer : 0.8114709
+bleuComparer : 0.56220084
+lsaComparer : 0.8933843
+                              
+Sentence 1:Russian daily obliged to pay 50 thousand. USD. For "list Schneerson."
+Sentence 2:Russia ordered to pay daily 50 thousand dollars for the library Schneerson.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.06666222
+cmComparer : 0.6038074
+bleuComparer : 0.0
+lsaComparer : 0.969159
+                              
+Sentence 1:With construction projects of the APEC summit stolen metal by almost 100 million rubles.
+Sentence 2:When construction of the bridge at the APEC summit stolen metal by 96 million.
+------------------------------
+greedyComparerWNLin : 0.6896552
+optimumComparerLSATasa : 0.7058824
+dependencyComparerWnLeskTanim : 0.113327816
+cmComparer : 0.68771845
+bleuComparer : 0.3850323
+lsaComparer : 0.98748106
+                              
+Sentence 1:Media: Explosion in Tel Aviv - an attempt elimination of crime boss.
+Sentence 2:Explosion in Tel Aviv, was an attack on the criminal "authority".
+------------------------------
+greedyComparerWNLin : 0.4827586
+optimumComparerLSATasa : 0.47954953
+dependencyComparerWnLeskTanim : 0.2917257
+cmComparer : 0.6640437
+bleuComparer : 0.18941016
+lsaComparer : 0.5828739
+                              
+Sentence 1:In Russia, can create a ministry for orphan works.
+Sentence 2:In the State Duma proposed the creation of the Office for orphan works.
+------------------------------
+greedyComparerWNLin : 0.5030834
+optimumComparerLSATasa : 0.54566437
+dependencyComparerWnLeskTanim : 0.1786301
+cmComparer : 0.67319185
+bleuComparer : 0.21803366
+lsaComparer : 0.42963386
+                              
+Sentence 1:TFR denied bond dead a top manager with the "Oboronservis" affair.
+Sentence 2:SC denied bond dead a top manager with the "Oboronservis" affair.
+------------------------------
+greedyComparerWNLin : 0.9285714
+optimumComparerLSATasa : 0.875
+dependencyComparerWnLeskTanim : 9501.0
+cmComparer : 0.8824492
+bleuComparer : 0.9193227
+lsaComparer : 1.0
+                              
+Sentence 1:Moscow will spend on road construction to 100 billion rubles.
+Sentence 2:Moscow will spend 100 billion rubles for the construction of roads.
+------------------------------
+greedyComparerWNLin : 0.6956522
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 0.7144694
+cmComparer : 1.0
+bleuComparer : 0.0
+lsaComparer : 0.6907935
+                              
+Sentence 1:Prosecutor General's Office asking to deprive the immunity of two deputies of the State Duma.
+Sentence 2:Prosecutor General's Office has asked to deprive the immunity of two deputies of the State Duma.
+------------------------------
+greedyComparerWNLin : 0.9032258
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 4.6651115
+cmComparer : 0.98183477
+bleuComparer : 0.8030294
+lsaComparer : 1.0
+                              
+Sentence 1:Case "Oboronservis": searches began in the "Red Star" ID.
+Sentence 2:As part of the case "Oboronservis" searched the ID "Red Star".
+------------------------------
+greedyComparerWNLin : 0.6923077
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 0.22180732
+cmComparer : 0.79776543
+bleuComparer : 0.25110203
+lsaComparer : 0.041355506
+                              
+Sentence 1:Named the nominees for the award "Oscar".
+Sentence 2:Announced nominees for the "Oscar".
+------------------------------
+greedyComparerWNLin : 0.8235294
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.74981254
+cmComparer : 0.5833333
+bleuComparer : 0.43995893
+lsaComparer : 0.24347194
+                              
+Sentence 1:The loss of $ 14 billion. Cost Rio Tinto led his place.
+Sentence 2:Rio Tinto has replaced the general director of the losses at $ 14 billion.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.5035244
+cmComparer : 0.6706506
+bleuComparer : 0.16694142
+lsaComparer : 0.6885553
+                              
+Sentence 1:Moody's downgraded the rating of Cyprus by three notches.
+Sentence 2:Moody's downgraded the rating of Cyprus by three points.
+------------------------------
+greedyComparerWNLin : 0.972909
+optimumComparerLSATasa : 0.90909094
+dependencyComparerWnLeskTanim : 8265.588
+cmComparer : 0.9503332
+bleuComparer : 0.8070557
+lsaComparer : 0.92540246
+                              
+Sentence 1:US Senate approves John Kerry Secretary of State.
+Sentence 2:Senate approves John Kerry as US Secretary of State.
+------------------------------
+greedyComparerWNLin : 0.94736844
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 1.5004998
+cmComparer : 1.0
+bleuComparer : 0.5779352
+lsaComparer : 1.0
+                              
+Sentence 1:SC began pre-investigation checks on R.Adagamova.
+Sentence 2:SC began pre-investigation checks accusations Adagamova.
+------------------------------
+greedyComparerWNLin : 0.8
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.21439794
+cmComparer : 0.8620823
+bleuComparer : 0.45002833
+lsaComparer : 0.99921787
+                              
+Sentence 1:Russia and Kazakhstan create a unified air defense system.
+Sentence 2:Russia and Kazakhstan agreed to create a unified air defense.
+------------------------------
+greedyComparerWNLin : 0.85714287
+optimumComparerLSATasa : 0.85714287
+dependencyComparerWnLeskTanim : 0.3335185
+cmComparer : 0.7655903
+bleuComparer : 0.51217604
+lsaComparer : 0.9960977
+                              
+Sentence 1:From exile militants in Algeria fled 30 foreign hostages.
+Sentence 2:From the Islamists in Algeria fled 30 hostages.
+------------------------------
+greedyComparerWNLin : 0.7368421
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.3332963
+cmComparer : 0.6857143
+bleuComparer : 0.34678096
+lsaComparer : 0.49649
+                              
+Sentence 1:Nikita Belykh appeared for questioning by the police.
+Sentence 2:Nikita Belykh appeared for questioning.
+------------------------------
+greedyComparerWNLin : 0.8
+optimumComparerLSATasa : 0.8888889
+dependencyComparerWnLeskTanim : 1.3328891
+cmComparer : 0.9
+bleuComparer : 0.63120437
+lsaComparer : 0.7617806
+                              
+Sentence 1:The Japanese economy cheer infusion of $ 116.8 billion.
+Sentence 2:Japan will spend 116 billion dollars to stimulate the economy.
+------------------------------
+greedyComparerWNLin : 0.3809524
+optimumComparerLSATasa : 0.30769232
+dependencyComparerWnLeskTanim : 0.033397775
+cmComparer : 0.36637348
+bleuComparer : 0.0
+lsaComparer : 0.82204676
+                              
+Sentence 1:Guard Justin Bieber said the singer beat him.
+Sentence 2:The security guard has accused the singer Justin Bieber in the beating.
+------------------------------
+greedyComparerWNLin : 0.6
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 0.14284694
+cmComparer : 0.7565688
+bleuComparer : 0.0
+lsaComparer : 0.40702534
+                              
+Sentence 1:Sheremetyevo priest detained with cocaine in his stomach.
+Sentence 2:In "Sheremetyevo" detained a Colombian priest with cocaine in his stomach.
+------------------------------
+greedyComparerWNLin : 0.8181818
+optimumComparerLSATasa : 0.90909094
+dependencyComparerWnLeskTanim : 0.7141837
+cmComparer : 0.9166667
+bleuComparer : 0.51863045
+lsaComparer : 1.0
+                              
+Sentence 1:Chief psychiatrist of the Russian Federation opposed the ban kurilok at work.
+Sentence 2:Chief psychiatrist of the Russian Federation called on to maintain the smoking room.
+------------------------------
+greedyComparerWNLin : 0.5933969
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.5000455
+cmComparer : 0.6336047
+bleuComparer : 0.39246324
+lsaComparer : 0.15447482
+                              
+Sentence 1:Gazprom will bring the "South Stream" to Croatia.
+Sentence 2:"Gazprom" has agreed to the construction of "South Stream" in Croatia.
+------------------------------
+greedyComparerWNLin : 0.72
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.06666222
+cmComparer : 0.815371
+bleuComparer : 0.25513804
+lsaComparer : 0.3857358
+                              
+Sentence 1:Russian opposition leader, who fled to the Netherlands, committed suicide.
+Sentence 2:He fled to the Netherlands opposition committed suicide.
+------------------------------
+greedyComparerWNLin : 0.7619048
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 0.16665278
+cmComparer : 0.8766077
+bleuComparer : 0.36775106
+lsaComparer : 0.78612965
+                              
+Sentence 1:Russia's foreign debt rose by $ 83.4 billion for 2012.
+Sentence 2:Russia's foreign debt increased by $ 83 billion a year.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.68753904
+cmComparer : 0.6883888
+bleuComparer : 0.2709199
+lsaComparer : 0.8022461
+                              
+Sentence 1:"Snow battle" in St. Petersburg once again banned.
+Sentence 2:In St. Petersburg, re-banned 'Snow battle ".
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.49991667
+cmComparer : 0.6857143
+bleuComparer : 0.0
+lsaComparer : 0.99541354
+                              
+Sentence 1:Russia filed Kazakhstan "space ultimatum" to $ 500 million.
+Sentence 2:Russia Kazakhstan filed an ultimatum to $ 500 million.
+------------------------------
+greedyComparerWNLin : 0.8181818
+optimumComparerLSATasa : 0.9230769
+dependencyComparerWnLeskTanim : 0.75004166
+cmComparer : 0.9581303
+bleuComparer : 0.41109988
+lsaComparer : 0.507713
+                              
+Sentence 1:In Benghazi, the consul fired at the car of Italy.
+Sentence 2:Machine Consul of Italy in Benghazi fired.
+------------------------------
+greedyComparerWNLin : 0.84210527
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.50262856
+cmComparer : 0.8
+bleuComparer : 0.0
+lsaComparer : 0.13447112
+                              
+Sentence 1:In Moscow, beaten correspondent PH "Kommersant".
+Sentence 2:In the center of Moscow, beaten by the correspondent of "Kommersant".
+------------------------------
+greedyComparerWNLin : 0.7826087
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.13644214
+cmComparer : 0.88267726
+bleuComparer : 0.32895944
+lsaComparer : 0.09915573
+                              
+Sentence 1:Moscow hosts "March against scoundrels".
+Sentence 2:In Moscow, began the "March against scoundrels".
+------------------------------
+greedyComparerWNLin : 0.7368421
+optimumComparerLSATasa : 0.85714287
+dependencyComparerWnLeskTanim : 0.3332778
+cmComparer : 0.7847872
+bleuComparer : 0.5934925
+lsaComparer : 0.2881104
+                              
+Sentence 1:Gérard Depardieu spoke out against Russian opposition.
+Sentence 2:Depardieu has criticized the Russian opposition.
+------------------------------
+greedyComparerWNLin : 0.53333336
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.11109877
+cmComparer : 0.6316363
+bleuComparer : 0.0
+lsaComparer : 0.39741156
+                              
+Sentence 1:Britain joined the French operation in Mali.
+Sentence 2:Britain joined the military operation in Mali.
+------------------------------
+greedyComparerWNLin : 0.875
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 5501.0
+cmComparer : 0.8
+bleuComparer : 0.5
+lsaComparer : 0.86402243
+                              
+Sentence 1:Stewardess crashed in Vnukovo Tu-204 was discharged from the hospital.
+Sentence 2:Stewardess crashed Tu-204 was discharged from the hospital.
+------------------------------
+greedyComparerWNLin : 0.9
+optimumComparerLSATasa : 0.90909094
+dependencyComparerWnLeskTanim : 1.4996251
+cmComparer : 0.9285714
+bleuComparer : 0.7174918
+lsaComparer : 1.0
+                              
+Sentence 1:Kazakhstanis jailed for obscene gesture to the VIP-tuple.
+Sentence 2:Kazakhstan citizens arrested for obscene gesture in the direction of VIP-tuple.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.5716209
+dependencyComparerWnLeskTanim : 0.33657277
+cmComparer : 0.5428493
+bleuComparer : 0.0
+lsaComparer : 0.2572599
+                              
+Sentence 1:In South Africa, 15 thousand. Crocodiles escaped from a farm.
+Sentence 2:From a South African farm escaped crocodiles 15 thousand.
+------------------------------
+greedyComparerWNLin : 0.47058824
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.09999
+cmComparer : 0.48502228
+bleuComparer : 0.0
+lsaComparer : 0.45787442
+                              
+Sentence 1:TFR interrogate the officials of Ministry of Transport in the case of the crash of Tu-204 at Vnukovo.
+Sentence 2:In the case of the crash of the Tu-204 questioned the Ministry of Transport employees.
+------------------------------
+greedyComparerWNLin : 0.77265227
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.5332978
+cmComparer : 0.84547985
+bleuComparer : 0.3766336
+lsaComparer : 0.33360106
+                              
+Sentence 1:Volgograd several days renamed Stalingrad.
+Sentence 2:Volgograd memorial days will Stalingrad.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.75
+dependencyComparerWnLeskTanim : 0.1666389
+cmComparer : 0.685824
+bleuComparer : 0.0
+lsaComparer : 0.99985987
+                              
+Sentence 1:The Chinese authorities have sentenced a Tibetan monk to death.
+Sentence 2:In China, a Tibetan monk sentenced to death.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.4999375
+cmComparer : 0.7069069
+bleuComparer : 0.0
+lsaComparer : 0.99504405
+                              
+Sentence 1:Moscow demanded from the Netherlands to investigate the death A.Dolmatova.
+Sentence 2:Russia demanded that the Dutch investigation Dolmatova death.
+------------------------------
+greedyComparerWNLin : 0.55894786
+optimumComparerLSATasa : 0.70926535
+dependencyComparerWnLeskTanim : 0.033397775
+cmComparer : 0.6163376
+bleuComparer : 0.0
+lsaComparer : 0.98347443
+                              
+Sentence 1:Opened a case on the fact of bribing a witness Yu.Budanova murder.
+Sentence 2:Prosecuted for bribing witnesses the murder of Budanov.
+------------------------------
+greedyComparerWNLin : 0.4325574
+optimumComparerLSATasa : 0.5
+dependencyComparerWnLeskTanim : 0.1390697
+cmComparer : 0.5143516
+bleuComparer : 0.0
+lsaComparer : 0.5565501
+                              
+Sentence 1:The State Duma Committee endorsed the penalties for a mate in the media.
+Sentence 2:Duma Committee approved the penalties for a mate in the media.
+------------------------------
+greedyComparerWNLin : 0.952824
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 4.0
+cmComparer : 0.97330725
+bleuComparer : 0.70708036
+lsaComparer : 0.8856823
+                              
+Sentence 1:Cambodian sailors withdrew a statement against S.Polonskogo.
+Sentence 2:Cambodian sailors withdrew the application for Polonsky.
+------------------------------
+greedyComparerWNLin : 0.5354526
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.6002799
+cmComparer : 0.6510803
+bleuComparer : 0.0
+lsaComparer : 0.602294
+                              
+Sentence 1:Hermitage increases the cost of tickets for the Russians.
+Sentence 2:Hermitage raise ticket prices for the Russians.
+------------------------------
+greedyComparerWNLin : 0.5882353
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.19998
+cmComparer : 0.9720688
+bleuComparer : 0.32165855
+lsaComparer : 0.64338344
+                              
+Sentence 1:Fitch: Gazprom Sales in Europe decreased due to the weak economy.
+Sentence 2:Fitch predicted "Gazprom" decline in sales in Europe.
+------------------------------
+greedyComparerWNLin : 0.5217391
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.06666222
+cmComparer : 0.6254937
+bleuComparer : 0.0
+lsaComparer : 0.25872117
+                              
+Sentence 1:Water from a broken pipeline flooded the Dmitrov highway.
+Sentence 2:Dmitrov highway in Moscow was flooded with water from a broken pipe.
+------------------------------
+greedyComparerWNLin : 0.77379954
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 0.22752477
+cmComparer : 0.8680094
+bleuComparer : 0.0
+lsaComparer : 0.3821423
+                              
+Sentence 1:In the Moscow subway passenger fell onto the tracks.
+Sentence 2:In the Moscow subway on the rails fallen man.
+------------------------------
+greedyComparerWNLin : 0.5555556
+optimumComparerLSATasa : 0.46250308
+dependencyComparerWnLeskTanim : 0.50006247
+cmComparer : 0.7648525
+bleuComparer : 0.29071537
+lsaComparer : 0.6767964
+                              
+Sentence 1:Four climbers died in Scotland due to an avalanche.
+Sentence 2:Four climbers died in the Highlands of Scotland.
+------------------------------
+greedyComparerWNLin : 0.6315789
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.5000714
+cmComparer : 0.74357224
+bleuComparer : 0.3105159
+lsaComparer : 0.99936235
+                              
+Sentence 1:Vladimir Sorokin nominated for "International Booker".
+Sentence 2:Vladimir Sorokin was nominated for the international "Booker".
+------------------------------
+greedyComparerWNLin : 0.9
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.49991667
+cmComparer : 0.73333335
+bleuComparer : 0.0
+lsaComparer : 0.5577984
+                              
+Sentence 1:Media: martial law was introduced in North Korea.
+Sentence 2:The DPRK introduced martial law.
+------------------------------
+greedyComparerWNLin : 0.5
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.11109877
+cmComparer : 0.645329
+bleuComparer : 0.0
+lsaComparer : 1.0
+                              
+Sentence 1:"Kaspersky Lab" has opened an international spy network.
+Sentence 2:"Kaspersky Lab" has opened an international spy network.
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 7000.0
+cmComparer : 1.0
+bleuComparer : 1.0
+lsaComparer : 1.0
+                              
+Sentence 1:Staff at the Karelian museum "Kizhi" protested against the new leadership.
+Sentence 2:Employees "Kizhi" museum opposed the appointment of a new director.
+------------------------------
+greedyComparerWNLin : 0.5672459
+optimumComparerLSATasa : 0.47463524
+dependencyComparerWnLeskTanim : 0.06814304
+cmComparer : 0.6713947
+bleuComparer : 0.0
+lsaComparer : 0.7235098
+                              
+Sentence 1:Author laws on "foreign agents" and rallies lost his post in the ONF.
+Sentence 2:Author laws on rallies and "foreign agents" lost his post in the ONF.
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 4.998501
+cmComparer : 1.0
+bleuComparer : 0.6336107
+lsaComparer : 1.0
+                              
+Sentence 1:In Chuvashia, an explosion destroyed the house.
+Sentence 2:In Chuvashia, a gas explosion destroyed a three-storey residential building.
+------------------------------
+greedyComparerWNLin : 0.6906484
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.8029917
+cmComparer : 0.78810257
+bleuComparer : 0.0
+lsaComparer : 0.14128026
+                              
+Sentence 1:In France, the court ordered Twitter to disclose details of anti-Semites.
+Sentence 2:A French court has ordered Twitter to disclose details of anti-Semites.
+------------------------------
+greedyComparerWNLin : 0.72
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 1.8747813
+cmComparer : 0.85282606
+bleuComparer : 0.60381985
+lsaComparer : 1.0
+                              
+Sentence 1:In Primorye schoolgirl snow extinguished the eternal flame.
+Sentence 2:Schoolgirls in the Primorsky Territory extinguished the eternal flame snowballs.
+------------------------------
+greedyComparerWNLin : 0.6775054
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.035783157
+cmComparer : 0.70089185
+bleuComparer : 0.2818413
+lsaComparer : 0.24135524
+                              
+Sentence 1:From the rubble struck home in Chuvashia everyone recovered.
+Sentence 2:Rescuers recovered all the people from the ruins of houses in Chuvashia.
+------------------------------
+greedyComparerWNLin : 0.54545456
+optimumComparerLSATasa : 0.36363637
+dependencyComparerWnLeskTanim : 0.19236982
+cmComparer : 0.5911453
+bleuComparer : 0.0
+lsaComparer : 0.17670223
+                              
+Sentence 1:Muscovites will be able to book a place on the Internet to the cemetery.
+Sentence 2:Muscovites allowed to book a place in the cemetery on the internet.
+------------------------------
+greedyComparerWNLin : 0.8
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.650035
+cmComparer : 0.83449775
+bleuComparer : 0.25567278
+lsaComparer : 0.7142869
+                              
+Sentence 1:Fire in the "Moscow City" is completely eliminated.
+Sentence 2:Fire in the "Moscow City" is extinguished.
+------------------------------
+greedyComparerWNLin : 0.95238096
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 4.997003
+cmComparer : 0.9166667
+bleuComparer : 0.74073654
+lsaComparer : 0.03435068
+                              
+Sentence 1:Russian arms shipments exceeded plan abroad.
+Sentence 2:Russia exceeded the plan to export arms.
+------------------------------
+greedyComparerWNLin : 0.53333336
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.11109877
+cmComparer : 0.59337664
+bleuComparer : 0.0
+lsaComparer : 0.997076
+                              
+Sentence 1:Greek police stormed the Athens Metro.
+Sentence 2:Greek police stormed the metro in Athens.
+------------------------------
+greedyComparerWNLin : 0.93333334
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 1.3328891
+cmComparer : 1.0
+bleuComparer : 0.41879854
+lsaComparer : 0.99969125
+                              
+Sentence 1:In Moscow, it will be possible to book a place in the cemetery over the internet.
+Sentence 2:Muscovites allowed to book a place in the cemetery on the internet.
+------------------------------
+greedyComparerWNLin : 0.64285713
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 1.0001249
+cmComparer : 0.7191963
+bleuComparer : 0.49023223
+lsaComparer : 0.99172354
+                              
+Sentence 1:All interchange at Ring Road will be reconstructed in 2013.
+Sentence 2:In 2013, the completed reconstruction of interchanges at the Moscow Ring Road.
+------------------------------
+greedyComparerWNLin : 0.56458557
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 0.33330557
+cmComparer : 0.72848666
+bleuComparer : 0.0
+lsaComparer : 0.35042804
+                              
+Sentence 1:Russian machine builders refused to state aid.
+Sentence 2:Machine builders refused subsidies.
+------------------------------
+greedyComparerWNLin : 0.61538464
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.39992002
+cmComparer : 0.83470005
+bleuComparer : 0.0
+lsaComparer : 0.422098
+                              
+Sentence 1:"United Russia" has retained the title of the most consistent party.
+Sentence 2:The title of the richest party retained the "United Russia".
+------------------------------
+greedyComparerWNLin : 0.8333333
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 0.55549383
+cmComparer : 0.7683925
+bleuComparer : 0.31452486
+lsaComparer : 0.998715
+                              
+Sentence 1:US Senate allowed to exceed the limit state borrowing.
+Sentence 2:The US Senate has allowed the White House to exceed the ceiling of borrowing.
+------------------------------
+greedyComparerWNLin : 0.6956522
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.55571604
+cmComparer : 0.8201763
+bleuComparer : 0.0
+lsaComparer : 0.90208447
+                              
+Sentence 1:At the headquarters of the oil company's explosion took place in Mexico City.
+Sentence 2:The Mexican oil company building, an explosion occurred.
+------------------------------
+greedyComparerWNLin : 0.45989
+optimumComparerLSATasa : 0.46153846
+dependencyComparerWnLeskTanim : 0.027831787
+cmComparer : 0.58222467
+bleuComparer : 0.0
+lsaComparer : 0.8992096
+                              
+Sentence 1:Detained suspect in the assassination attempt on presidential candidate in Armenia.
+Sentence 2:In Armenia arrested a suspect in the assassination of a presidential candidate.
+------------------------------
+greedyComparerWNLin : 0.72727275
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 0.44946477
+cmComparer : 0.77380955
+bleuComparer : 0.25902215
+lsaComparer : 0.96185845
+                              
+Sentence 1:The Committee on Transport of the Government of St. Petersburg were searched.
+Sentence 2:FSB searched the Committee on Transport of St. Petersburg.
+------------------------------
+greedyComparerWNLin : 0.85714287
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 0.55549383
+cmComparer : 0.8145011
+bleuComparer : 0.35118678
+lsaComparer : 1.0
+                              
+Sentence 1:The prosecutor's office of St. Petersburg ordered "VKontakte" block group childfree.
+Sentence 2:"VKontakte" blocked group "childfree" at the request of prosecutors.
+------------------------------
+greedyComparerWNLin : 0.61954033
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.4486627
+cmComparer : 0.63963777
+bleuComparer : 0.0
+lsaComparer : 0.28171265
+                              
+Sentence 1:Leads nominees Award for the most ridiculous title of the book.
+Sentence 2:Announced nominees for the most stupid title of the book.
+------------------------------
+greedyComparerWNLin : 0.7619048
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 1.20016
+cmComparer : 0.64611375
+bleuComparer : 0.45997667
+lsaComparer : 0.99946314
+                              
+Sentence 1:By Oleg Mitvol came from searches.
+Sentence 2:By Mitvol came from searches.
+------------------------------
+greedyComparerWNLin : 0.9230769
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.99966675
+cmComparer : 0.875
+bleuComparer : 0.7193648
+lsaComparer : 1.0
+                              
+Sentence 1:Khabarovsk officially received the title of "City of Military Glory."
+Sentence 2:Khabarovsk became a city of military glory.
+------------------------------
+greedyComparerWNLin : 0.6556638
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.18180165
+cmComparer : 0.67613566
+bleuComparer : 0.0
+lsaComparer : 0.13608035
+                              
+Sentence 1:Chief of Staff of the Southern Military District was accused of abuse of power.
+Sentence 2:Chief of Staff of the Southern Military District was accused of abuse of power.
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 13000.0
+cmComparer : 1.0
+bleuComparer : 1.0
+lsaComparer : 1.0
+                              
+Sentence 1:Sberbank refuses to accept American Express checks.
+Sentence 2:Sberbank refuses American Express checks.
+------------------------------
+greedyComparerWNLin : 0.85714287
+optimumComparerLSATasa : 0.90909094
+dependencyComparerWnLeskTanim : 0.74981254
+cmComparer : 0.9839821
+bleuComparer : 0.5077044
+lsaComparer : 0.84729725
+                              
+Sentence 1:Former keyboardist "Tender May" killed in the suburbs.
+Sentence 2:In the Moscow region killed keyboardist "Tender May".
+------------------------------
+greedyComparerWNLin : 0.8181818
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.19998
+cmComparer : 0.80049384
+bleuComparer : 0.3945881
+lsaComparer : 0.5341679
+                              
+Sentence 1:The damage caused by a meteorite exceeded 1 billion rubles.
+Sentence 2:Damage from the Chelyabinsk meteorite exceeds one billion rubles.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.27808022
+cmComparer : 0.71428573
+bleuComparer : 0.0
+lsaComparer : 0.38747713
+                              
+Sentence 1:Act "rubber flats" adopted by the deputies in the first reading.
+Sentence 2:The State Duma adopted in the first reading a law on "rubber flats".
+------------------------------
+greedyComparerWNLin : 0.71428573
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.72025794
+bleuComparer : 0.3498693
+lsaComparer : 0.5280271
+                              
+Sentence 1:In front of the US Embassy in Ankara explosion.
+Sentence 2:The US Embassy in Ankara explosion occurred.
+------------------------------
+greedyComparerWNLin : 0.8235294
+optimumComparerLSATasa : 0.75
+dependencyComparerWnLeskTanim : 1.2496876
+cmComparer : 0.82394785
+bleuComparer : 0.47610795
+lsaComparer : 0.65665454
+                              
+Sentence 1:In Italy, the elections are held in the parliament.
+Sentence 2:In Italy, began the parliamentary elections.
+------------------------------
+greedyComparerWNLin : 0.7058824
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.22219753
+cmComparer : 0.5680438
+bleuComparer : 0.0
+lsaComparer : 0.31470108
+                              
+Sentence 1:The Pope made a last sermon.
+Sentence 2:Benedict XVI gave a sermon last Sunday.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.4598614
+dependencyComparerWnLeskTanim : 0.50029993
+cmComparer : 0.63927823
+bleuComparer : 0.0
+lsaComparer : 1.0
+                              
+Sentence 1:Gennady Zyuganov, the leader of the Communist Party re-elected.
+Sentence 2:Gennady Zyuganov, the Communist Party was re-elected chairman of the Central Committee.
+------------------------------
+greedyComparerWNLin : 0.84636474
+optimumComparerLSATasa : 0.7934699
+dependencyComparerWnLeskTanim : 0.71524566
+cmComparer : 0.69301754
+bleuComparer : 0.34124112
+lsaComparer : 0.583175
+                              
+Sentence 1:Raul Castro re-elected chairman of the State Council of Cuba.
+Sentence 2:Raul Castro re-elected as head of Cuba.
+------------------------------
+greedyComparerWNLin : 0.7413961
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.5043237
+cmComparer : 0.8782251
+bleuComparer : 0.0
+lsaComparer : 0.058098152
+                              
+Sentence 1:G20 Finance decided to abandon the currency wars.
+Sentence 2:G20 has refused to currency wars.
+------------------------------
+greedyComparerWNLin : 0.625
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.09999
+cmComparer : 0.72603935
+bleuComparer : 0.0
+lsaComparer : 0.49986103
+                              
+Sentence 1:In the Chelyabinsk region have completed the search for meteorite fragments.
+Sentence 2:The search for the meteorite in Chelyabinsk completed.
+------------------------------
+greedyComparerWNLin : 0.84210527
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.22734296
+cmComparer : 0.8451081
+bleuComparer : 0.0
+lsaComparer : 0.50072205
+                              
+Sentence 1:Pirates released the ship captured in the Gulf of Guinea.
+Sentence 2:Pirates have freed the captured ship off the coast of Cameroon.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.5820135
+dependencyComparerWnLeskTanim : 0.10005999
+cmComparer : 0.67532915
+bleuComparer : 0.0
+lsaComparer : 0.8921838
+                              
+Sentence 1:In New York, because of bad weather canceled all flights.
+Sentence 2:Because of the snow storm in New York City canceled all flights.
+------------------------------
+greedyComparerWNLin : 0.78870803
+optimumComparerLSATasa : 0.6608865
+dependencyComparerWnLeskTanim : 0.62517184
+cmComparer : 0.83246166
+bleuComparer : 0.250518
+lsaComparer : 0.5203292
+                              
+Sentence 1:In Libya arrested 4 suspects in the spread of Christianity.
+Sentence 2:Libyan authorities arrested the suspects in the spread of Christianity.
+------------------------------
+greedyComparerWNLin : 0.8
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.9186287
+cmComparer : 0.6990567
+bleuComparer : 0.5900469
+lsaComparer : 0.9917919
+                              
+Sentence 1:The living room of Kiev yard there was a fire.
+Sentence 2:In Kiev, there was a fire in the arcade.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.3889568
+cmComparer : 0.8435443
+bleuComparer : 0.2596536
+lsaComparer : 0.06959378
+                              
+Sentence 1:In the north-west of Moscow, a man was shot with a machine gun.
+Sentence 2:In Moscow, a man was shot dead with a machine gun.
+------------------------------
+greedyComparerWNLin : 0.84615386
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 2.124719
+cmComparer : 0.85714287
+bleuComparer : 0.6339536
+lsaComparer : 0.89960086
+                              
+Sentence 1:Victor Yushchenko was expelled from the "Our Ukraine" party.
+Sentence 2:Kiev organization of "Our Ukraine" Yushchenko expelled from the party.
+------------------------------
+greedyComparerWNLin : 0.8
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.06666222
+cmComparer : 0.73614895
+bleuComparer : 0.33543628
+lsaComparer : 0.98714733
+                              
+Sentence 1:Sergei Udaltsov was put under house arrest.
+Sentence 2:Court authorized house arrest Udaltsov.
+------------------------------
+greedyComparerWNLin : 0.62350464
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.124984376
+cmComparer : 0.72605634
+bleuComparer : 0.0
+lsaComparer : 0.9998793
+                              
+Sentence 1:The lawyer said the beating Yu.Budanova witness in the case.
+Sentence 2:Protection of the accused in the murder of Budanov said beating the witness.
+------------------------------
+greedyComparerWNLin : 0.47058824
+optimumComparerLSATasa : 0.32888293
+dependencyComparerWnLeskTanim : 0.1443762
+cmComparer : 0.34509394
+bleuComparer : 0.0
+lsaComparer : 0.8418923
+                              
+Sentence 1:In Armenia, the presidential elections are held today.
+Sentence 2:Presidential elections started in Armenia.
+------------------------------
+greedyComparerWNLin : 0.625
+optimumComparerLSATasa : 0.75
+dependencyComparerWnLeskTanim : 0.28567347
+cmComparer : 0.42532283
+bleuComparer : 0.0
+lsaComparer : 0.1163526
+                              
+Sentence 1:Four schools in Moscow evacuated because of a bomb messages.
+Sentence 2:Four Moscow schools were evacuated because of the bomb messages.
+------------------------------
+greedyComparerWNLin : 0.8181818
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 0.9166806
+cmComparer : 0.9285714
+bleuComparer : 0.0
+lsaComparer : 1.0
+                              
+Sentence 1:Russia set a historic record in the number of billionaires.
+Sentence 2:The number of dollar billionaires in Russia has reached a record.
+------------------------------
+greedyComparerWNLin : 0.7826087
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.3636033
+cmComparer : 0.7365437
+bleuComparer : 0.0
+lsaComparer : 0.40037206
+                              
+Sentence 1:Ministry of Defense announced a moratorium on the sale of their property.
+Sentence 2:Ministry of Defence introduced a moratorium on the sale of their property.
+------------------------------
+greedyComparerWNLin : 0.9575103
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 9503.0
+cmComparer : 0.9150207
+bleuComparer : 0.7611606
+lsaComparer : 0.9643124
+                              
+Sentence 1:Director of the US Secret Service, resigned.
+Sentence 2:The head of the US Secret Service, resigned.
+------------------------------
+greedyComparerWNLin : 0.9916442
+optimumComparerLSATasa : 0.75
+dependencyComparerWnLeskTanim : 5.144202
+cmComparer : 0.98495966
+bleuComparer : 0.81158787
+lsaComparer : 0.0712588
+                              
+Sentence 1:Iran revealed the fighter's own production.
+Sentence 2:Iran presented a fighter of its own production.
+------------------------------
+greedyComparerWNLin : 0.6833613
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.56802565
+cmComparer : 0.9617142
+bleuComparer : 0.0
+lsaComparer : 0.993163
+                              
+Sentence 1:France's parliament has approved same-sex marriage.
+Sentence 2:The French parliament has recognized same-sex marriages legal.
+------------------------------
+greedyComparerWNLin : 0.55999714
+optimumComparerLSATasa : 0.5
+dependencyComparerWnLeskTanim : 0.28595915
+cmComparer : 0.7366629
+bleuComparer : 0.0
+lsaComparer : 0.82074535
+                              
+Sentence 1:opposition leader Alexander Dolmatov's body delivered to Russia.
+Sentence 2:Alexander Dolmatov's body taken to Moscow.
+------------------------------
+greedyComparerWNLin : 0.7701347
+optimumComparerLSATasa : 0.70926535
+dependencyComparerWnLeskTanim : 2.2503748
+cmComparer : 0.74057347
+bleuComparer : 0.33665916
+lsaComparer : 0.9930305
+                              
+Sentence 1:Ben Affleck won the Directors Guild of America awards.
+Sentence 2:The main award received a Directors Guild of America, Ben Affleck.
+------------------------------
+greedyComparerWNLin : 0.7483112
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.4434521
+cmComparer : 0.88467586
+bleuComparer : 0.2818394
+lsaComparer : 0.0584719
+                              
+Sentence 1:SC has completed the investigation into the collapse of "Bulgaria".
+Sentence 2:SC concluded the crash "Bulgaria" investigation.
+------------------------------
+greedyComparerWNLin : 0.7619048
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.08332639
+cmComparer : 0.8930536
+bleuComparer : 0.0
+lsaComparer : 0.65964395
+                              
+Sentence 1:US offered Russia relations back "to normal".
+Sentence 2:US offered Russia to normalize relations.
+------------------------------
+greedyComparerWNLin : 0.7058824
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 0.11109877
+cmComparer : 0.73333335
+bleuComparer : 0.0
+lsaComparer : 0.7673978
+                              
+Sentence 1:Administration of Magadan Region dismissed.
+Sentence 2:Administration of Magadan Region dismissed.
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 4000.0
+cmComparer : 1.0
+bleuComparer : 1.0
+lsaComparer : 1.0
+                              
+Sentence 1:Disney "Ralph" is recognized as the best animated film of the year.
+Sentence 2:The best animated film of the year recognized Disney "Ralph."
+------------------------------
+greedyComparerWNLin : 0.9230769
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 0.74990624
+cmComparer : 0.9769216
+bleuComparer : 0.48170054
+lsaComparer : 1.0
+                              
+Sentence 1:Parisian returned to the right to wear pants.
+Sentence 2:Parisian allowed to wear pants.
+------------------------------
+greedyComparerWNLin : 0.7829914
+optimumComparerLSATasa : 0.8515757
+dependencyComparerWnLeskTanim : 0.5943379
+cmComparer : 0.79634744
+bleuComparer : 0.4264417
+lsaComparer : 0.7804605
+                              
+Sentence 1:Lexus Arkhangelsk Governor had an accident on the opposite line.
+Sentence 2:"Lexus" Arkhangelsk governor got in an accident.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.22241972
+cmComparer : 0.87921745
+bleuComparer : 0.0
+lsaComparer : 0.10825672
+                              
+Sentence 1:Captive in Syria Russians were released in exchange for militants.
+Sentence 2:Russian hostages in Syria exchanged for guerrillas.
+------------------------------
+greedyComparerWNLin : 0.44444445
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.13644214
+cmComparer : 0.3129362
+bleuComparer : 0.0
+lsaComparer : 0.34591693
+                              
+Sentence 1:"Visit" with an ax judge defender Pussy Riot declared insane.
+Sentence 2:Attacked the judge advocate of Pussy Riot declared insane.
+------------------------------
+greedyComparerWNLin : 0.5217391
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.22734296
+cmComparer : 0.76597697
+bleuComparer : 0.356899
+lsaComparer : 0.99727196
+                              
+Sentence 1:The court reduced the sentence convicted for undermining the "Nevsky Express".
+Sentence 2:The Supreme Court reduced the sentence Squad "Nevsky Express".
+------------------------------
+greedyComparerWNLin : 0.7826087
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 0.35194567
+cmComparer : 0.74712276
+bleuComparer : 0.4014381
+lsaComparer : 0.842581
+                              
+Sentence 1:MP from the Communist Party asked to remove his immunity.
+Sentence 2:Communist asked to remove his immunity.
+------------------------------
+greedyComparerWNLin : 0.7777778
+optimumComparerLSATasa : 0.75
+dependencyComparerWnLeskTanim : 0.6665556
+cmComparer : 0.63247293
+bleuComparer : 0.66038734
+lsaComparer : 1.0
+                              
+Sentence 1:SC started the case of the death in the US 9-year-old Anton Fomin.
+Sentence 2:SC filed a case of death in the US 9-year-old Anton Fomin.
+------------------------------
+greedyComparerWNLin : 0.9050797
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 9.129614
+cmComparer : 0.914187
+bleuComparer : 0.60102105
+lsaComparer : 0.30241296
+                              
+Sentence 1:In the elections in Armenia by a wide margin wins the incumbent president.
+Sentence 2:The current president is leading in the elections in Armenia.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.5
+dependencyComparerWnLeskTanim : 0.6111543
+cmComparer : 0.47072366
+bleuComparer : 0.22820169
+lsaComparer : 0.8781479
+                              
+Sentence 1:Kirov MPs will raise the question of no confidence in the Governor N.Belyh.
+Sentence 2:Kirov MPs will raise the question of no confidence in White.
+------------------------------
+greedyComparerWNLin : 0.84615386
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 3.1659446
+cmComparer : 0.7645241
+bleuComparer : 0.7339517
+lsaComparer : 1.0
+                              
+Sentence 1:Died former head of Gazprom Rem Vyakhirev.
+Sentence 2:Died former head of "Gazprom" Vyakhirev.
+------------------------------
+greedyComparerWNLin : 0.8235294
+optimumComparerLSATasa : 0.90909094
+dependencyComparerWnLeskTanim : 4.995005
+cmComparer : 0.9166667
+bleuComparer : 0.39809048
+lsaComparer : 1.0
+                              
+Sentence 1:Rosturizm: It was not on the fallen in Egypt balloon Russians.
+Sentence 2:At crashed in Egypt balloon was not the Russians.
+------------------------------
+greedyComparerWNLin : 0.76604676
+optimumComparerLSATasa : 0.75342065
+dependencyComparerWnLeskTanim : 0.06255859
+cmComparer : 0.8990951
+bleuComparer : 0.0
+lsaComparer : 0.899804
+                              
+Sentence 1:Police detained the deputy director Vyacheslav Zaitsev Fashion House.
+Sentence 2:Police detained the deputy director Zaitsev Fashion House.
+------------------------------
+greedyComparerWNLin : 0.94736844
+optimumComparerLSATasa : 0.93333334
+dependencyComparerWnLeskTanim : 0.3332963
+cmComparer : 0.9375
+bleuComparer : 0.7028557
+lsaComparer : 1.0
+                              
+Sentence 1:For the "Resorts of the North Caucasus" took General Prosecutor's Office and the FSB.
+Sentence 2:Prosecutor General's office began checking "Resorts of the North Caucasus."
+------------------------------
+greedyComparerWNLin : 0.82057184
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 0.32147703
+cmComparer : 0.8142968
+bleuComparer : 0.3575086
+lsaComparer : NaN
+                              
+Sentence 1:US asked to immediately cancel the Russian ban on imports of meat.
+Sentence 2:The United States urged Russia to immediately lift the ban on imports of meat.
+------------------------------
+greedyComparerWNLin : 0.7728316
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.93718326
+cmComparer : 0.67440933
+bleuComparer : 0.40792304
+lsaComparer : 0.954567
+                              
+Sentence 1:Media: For evacuation of Russians to the shores of Syria, sent the ships.
+Sentence 2:By the shores of Syria, sent ships to evacuate Russians.
+------------------------------
+greedyComparerWNLin : 0.7692308
+optimumComparerLSATasa : 0.9230769
+dependencyComparerWnLeskTanim : 0.19998667
+cmComparer : 0.8137468
+bleuComparer : 0.40820396
+lsaComparer : 0.9999593
+                              
+Sentence 1:"Rosneft" will increase the supply of Russian oil to China.
+Sentence 2:"Rosneft" has agreed with China to increase oil supplies.
+------------------------------
+greedyComparerWNLin : 0.64
+optimumComparerLSATasa : 0.8333333
+dependencyComparerWnLeskTanim : 0.06666222
+cmComparer : 0.8145321
+bleuComparer : 0.0
+lsaComparer : 0.955415
+                              
+Sentence 1:In Moscow, a drunken police officer rammed 7 cars.
+Sentence 2:Drunk police officer rammed in Moscow seven cars.
+------------------------------
+greedyComparerWNLin : 0.7
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 0.5714898
+cmComparer : 0.7311983
+bleuComparer : 0.0
+lsaComparer : 0.9633787
+                              
+Sentence 1:North Korea officially confirmed the success of the nuclear tests.
+Sentence 2:North Korea announced a successful nuclear test.
+------------------------------
+greedyComparerWNLin : 0.48259327
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 0.27785802
+cmComparer : 0.6870239
+bleuComparer : 0.0
+lsaComparer : 0.8443123
+                              
+Sentence 1:In Komi, declared three days of mourning for the victims of the explosion at the mine.
+Sentence 2:In Komi mourning for those killed in the explosion of the miners.
+------------------------------
+greedyComparerWNLin : 0.61538464
+optimumComparerLSATasa : 0.5
+dependencyComparerWnLeskTanim : 0.10319872
+cmComparer : 0.6075201
+bleuComparer : 0.0
+lsaComparer : 0.20238951
+                              
+Sentence 1:In Komi, declared three days of mourning for the dead miners.
+Sentence 2:In Komi mourning for those killed in the explosion of the miners.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 0.088288926
+cmComparer : 0.608963
+bleuComparer : 0.0
+lsaComparer : 0.28288564
+                              
+Sentence 1:SK check what happened at the prison highlighted bracelets 1 billion rubles.
+Sentence 2:SC began searching allocated to prison bracelets billion.
+------------------------------
+greedyComparerWNLin : 0.39127904
+optimumComparerLSATasa : 0.4
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.52843684
+bleuComparer : 0.0
+lsaComparer : 0.4185458
+                              
+Sentence 1:In the Moscow office of "Rusal" came with a search warrant.
+Sentence 2:The "Rusal" office in Moscow came with a search warrant.
+------------------------------
+greedyComparerWNLin : 0.962963
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 1.29994
+cmComparer : 1.0
+bleuComparer : 0.48880336
+lsaComparer : 1.0
+                              
+Sentence 1:Head of the Italian partner, "Sukhoi" was arrested for corruption.
+Sentence 2:Head of the Italian partner, "Sukhoi" was arrested for taking bribes.
+------------------------------
+greedyComparerWNLin : 0.8965517
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 2.6657782
+cmComparer : 0.87970483
+bleuComparer : 0.82361126
+lsaComparer : 0.46666384
+                              
+Sentence 1:In Chop Gennady Gudkov selected license.
+Sentence 2:CHOP Gudkov was deprived of the license.
+------------------------------
+greedyComparerWNLin : 0.53333336
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.4242811
+bleuComparer : 0.0
+lsaComparer : 0.7297013
+                              
+Sentence 1:The World Bank has lowered the forecast on the growth of the Russian economy.
+Sentence 2:The World Bank has lowered the forecast on the growth of the Russian economy.
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 13000.0
+cmComparer : 1.0
+bleuComparer : 1.0
+lsaComparer : 1.0
+                              
+Sentence 1:The ashes of King of Cambodia N.Sianuka betrayed waters of the Mekong River.
+Sentence 2:The ashes of the former King of Cambodia was buried in the Mekong River.
+------------------------------
+greedyComparerWNLin : 0.7106723
+optimumComparerLSATasa : 0.625
+dependencyComparerWnLeskTanim : 0.70013
+cmComparer : 0.703146
+bleuComparer : 0.31437755
+lsaComparer : 0.3744786
+                              
+Sentence 1:Benedict XVI will be honored by Pope.
+Sentence 2:Benedict XVI after the abdication will receive the title of "honorary pontiff."
+------------------------------
+greedyComparerWNLin : 0.36363637
+optimumComparerLSATasa : 0.36363637
+dependencyComparerWnLeskTanim : 0.06666222
+cmComparer : 0.63006943
+bleuComparer : 0.0
+lsaComparer : 0.24560393
+                              
+Sentence 1:Railways has resumed selling tickets to Ukraine.
+Sentence 2:Railways resumed selling tickets to Ukraine.
+------------------------------
+greedyComparerWNLin : 0.93333334
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 4.995005
+cmComparer : 0.9760253
+bleuComparer : 0.7740016
+lsaComparer : 1.0
+                              
+Sentence 1:Ministry of Health: For federal judges in St. Petersburg to build a new clinic.
+Sentence 2:For higher courts in St. Petersburg to build a special hospital.
+------------------------------
+greedyComparerWNLin : 0.630556
+optimumComparerLSATasa : 0.42857143
+dependencyComparerWnLeskTanim : 0.40932643
+cmComparer : 0.56335443
+bleuComparer : 0.38605547
+lsaComparer : 0.3007285
+                              
+Sentence 1:Tunisian Prime Minister resigned.
+Sentence 2:Tunisian Prime Minister resigned.
+------------------------------
+greedyComparerWNLin : 1.0
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 3000.0
+cmComparer : 1.0
+bleuComparer : 1.0
+lsaComparer : 1.0
+                              
+Sentence 1:In St. Petersburg, there was a mass brawl 15 detainees.
+Sentence 2:In St. Petersburg detained 15 participants of the mass brawl.
+------------------------------
+greedyComparerWNLin : 0.6086956
+optimumComparerLSATasa : 0.7692308
+dependencyComparerWnLeskTanim : 0.37545305
+cmComparer : 0.68155736
+bleuComparer : 0.0
+lsaComparer : 0.99942404
+                              
+Sentence 1:Died "father" garage rock Reg Presley of The Troggs.
+Sentence 2:He died singer of The Troggs Reg Presley.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.07691716
+cmComparer : 0.747775
+bleuComparer : 0.0
+lsaComparer : 0.30087307
+                              
+Sentence 1:In Moscow, a squad to combat illegal migration.
+Sentence 2:In Moscow, created the People's patrol to combat illegal migrants.
+------------------------------
+greedyComparerWNLin : 0.6636294
+optimumComparerLSATasa : 0.46153846
+dependencyComparerWnLeskTanim : 0.15383431
+cmComparer : 0.6866891
+bleuComparer : 0.0
+lsaComparer : 0.62784576
+                              
+Sentence 1:New uniforms upset Russian soldiers.
+Sentence 2:Soldiers have criticized the new military uniforms.
+------------------------------
+greedyComparerWNLin : 0.5714286
+optimumComparerLSATasa : 0.5
+dependencyComparerWnLeskTanim : 0.0
+cmComparer : 0.19832607
+bleuComparer : 0.0
+lsaComparer : 0.5767774
+                              
+Sentence 1:The authorities in Bulgaria organized a terrorist attack in Burgas, "Hezbollah".
+Sentence 2:Bulgaria has accused "Hezbollah" in the organization of the terrorist attack in Burgas.
+------------------------------
+greedyComparerWNLin : 0.71428573
+optimumComparerLSATasa : 0.85714287
+dependencyComparerWnLeskTanim : 0.15630274
+cmComparer : 0.86484283
+bleuComparer : 0.25110203
+lsaComparer : 0.8658325
+                              
+Sentence 1:In Cairo, attacked the president of Iran.
+Sentence 2:On Ahmadinejad attacked in Cairo.
+------------------------------
+greedyComparerWNLin : 0.53333336
+optimumComparerLSATasa : 0.5714286
+dependencyComparerWnLeskTanim : 0.3332778
+cmComparer : 0.5833333
+bleuComparer : 0.0
+lsaComparer : 0.3730512
+                              
+Sentence 1:The blame for the crash of AN-28 Kamchatka put on pilots.
+Sentence 2:The crash of the An-28 pilots charged in Kamchatka.
+------------------------------
+greedyComparerWNLin : 0.7
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 0.2083993
+cmComparer : 0.63664615
+bleuComparer : 0.0
+lsaComparer : 0.39780387
+                              
+Sentence 1:In Moscow, armed men kidnapped the patient Institute of Psychiatry.
+Sentence 2:Armed men abducted the patient from a mental hospital in Moscow.
+------------------------------
+greedyComparerWNLin : 0.5833333
+optimumComparerLSATasa : 0.33333334
+dependencyComparerWnLeskTanim : 0.05882007
+cmComparer : 0.443316
+bleuComparer : 0.0
+lsaComparer : 0.85933644
+                              
+Sentence 1:At the close of the Baikal Pulp and Paper Mill will take several years.
+Sentence 2:Authorities shut down the Baikal Pulp and Paper Mill for several years.
+------------------------------
+greedyComparerWNLin : 0.6666667
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.24998437
+cmComparer : 0.82439786
+bleuComparer : 0.44827285
+lsaComparer : 0.20584497
+                              
+Sentence 1:The Baikal Pulp and Paper Mill will be closed gradually.
+Sentence 2:Authorities shut down the Baikal Pulp and Paper Mill for several years.
+------------------------------
+greedyComparerWNLin : 0.5833333
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.49995
+cmComparer : 0.6831028
+bleuComparer : 0.334935
+lsaComparer : 0.7115503
+                              
+Sentence 1:Domodedovo to build a Russian analog of Cambridge.
+Sentence 2:At Domodedovo create an analogue of Cambridge.
+------------------------------
+greedyComparerWNLin : 0.66994625
+optimumComparerLSATasa : 0.6666667
+dependencyComparerWnLeskTanim : 0.6030317
+cmComparer : 0.8312723
+bleuComparer : 0.34057683
+lsaComparer : 0.2207915
+                              
+Sentence 1:At the airport of Kiev detained former Prime Minister of Tajikistan.
+Sentence 2:Former Prime Minister of Tajikistan were detained in Kiev airport.
+------------------------------
+greedyComparerWNLin : 0.8181818
+optimumComparerLSATasa : 1.0
+dependencyComparerWnLeskTanim : 0.50005555
+cmComparer : 0.8035714
+bleuComparer : 0.26556766
+lsaComparer : 1.0
+                              
+Sentence 1:Traffic police thought to increase the fines for seat belt.
+Sentence 2:The traffic police are thinking about increasing the penalty for unfastened belt.
+------------------------------
+greedyComparerWNLin : 0.5217391
+optimumComparerLSATasa : 0.61538464
+dependencyComparerWnLeskTanim : 0.1786301
+cmComparer : 0.7239479
+bleuComparer : 0.0
+lsaComparer : 0.732727
+                              
+Sentence 1:Law enforcers have opened a criminal case on "Zenit-Arena".
+Sentence 2:In connection with the construction of the stadium "Zenith" a criminal case.
+------------------------------
+greedyComparerWNLin : 0.4905086
+optimumComparerLSATasa : 0.22222222
+dependencyComparerWnLeskTanim : 0.13332444
+cmComparer : 0.4547022
+bleuComparer : 0.0
+lsaComparer : 0.5209088
+                              
+Sentence 1:Two metropolitan police inflicted damage to the state by 3 billion rubles.
+Sentence 2:Two police officers accused of inflicting damage on three billion rubles.
+------------------------------
+greedyComparerWNLin : 0.48
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 0.3184256
+cmComparer : 0.7161757
+bleuComparer : 0.0
+lsaComparer : 0.9597503
+                              
+Sentence 1:Russia and China will sign a gas contract until the end of the year.
+Sentence 2:"Gazprom" and China will sign an agreement on gas supplies until the end of the year.
+------------------------------
+greedyComparerWNLin : 0.7474893
+optimumComparerLSATasa : 0.54545456
+dependencyComparerWnLeskTanim : 1.5004166
+cmComparer : 0.8685214
+bleuComparer : 0.51590025
+lsaComparer : 0.9522178
+                              
+Sentence 1:In Moscow the ceremony of farewell to Oscar Feltsman.
+Sentence 2:In Moscow, we said goodbye to composer Oscar Feltsman.
+------------------------------
+greedyComparerWNLin : 0.6611158
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.29997
+cmComparer : 0.7417726
+bleuComparer : 0.0
+lsaComparer : 0.16326566
+                              
+Sentence 1:Russian shadow economy estimated at 46% of GDP annually.
+Sentence 2:Russian shadow economy estimated at 46 percent of GDP.
+------------------------------
+greedyComparerWNLin : 0.85714287
+optimumComparerLSATasa : 0.8
+dependencyComparerWnLeskTanim : 6.4965034
+cmComparer : 0.81110317
+bleuComparer : 0.566816
+lsaComparer : 0.7440653
+                              
+Sentence 1:In Russia, we found horsemeat sausages from Europe.
+Sentence 2:Rosselkhoznadzor found in Russia with the European horsemeat sausage.
+------------------------------
+greedyComparerWNLin : 0.5
+optimumComparerLSATasa : 0.72727275
+dependencyComparerWnLeskTanim : 0.5000714
+cmComparer : 0.74679863
+bleuComparer : 0.0
+lsaComparer : 0.107810356
+                              
+Sentence 1:SC confirmed the information about the new detainee on the "swamp case."
+Sentence 2:SC confirmed the detention of the new helper "swamp case."
+------------------------------
+greedyComparerWNLin : 0.72
+optimumComparerLSATasa : 0.6
+dependencyComparerWnLeskTanim : 0.30036995
+cmComparer : 0.80564886
+bleuComparer : 0.39330682
+lsaComparer : 0.050677635
+                              
+Sentence 1:On Karachaevsk mayor brought the case for non-target spending 20 million rubles.
+Sentence 2:On Karachaevsk mayor brought the case of embezzlement of 20 million.
+------------------------------
+greedyComparerWNLin : 0.75
+optimumComparerLSATasa : 0.71428573
+dependencyComparerWnLeskTanim : 0.6665926
+cmComparer : 0.7887288
+bleuComparer : 0.46204647
+lsaComparer : 0.99634707
+                              
