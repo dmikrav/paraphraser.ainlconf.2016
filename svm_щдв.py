@@ -3,65 +3,16 @@ import os.path
 from sklearn.svm import SVC
 from sklearn import ensemble
 from sklearn import cross_validation
-import sklearn
 from sklearn import metrics
 import json
 from pprint import pprint
 import random
-import numpy as np
-import hashlib
-from numpy import linalg as la
-
-# return the ROOT token
-def loadroot(sen):
-   for token in sen["sentences"][0]["basic-dependencies"]:
-   	if (token["dep"] == "ROOT"):
-		return sen["sentences"][0]["tokens"][int(token["dependent"])-1]
-
-# input: two strings
-# output: the cosine distance between them
-def rootdist(string1, string2):
-    str1md5 = hashlib.md5(string1).hexdigest()
-    str2md5 = hashlib.md5(string2).hexdigest()
-	  
-    if (not os.path.exists("./json/"+str1md5+".json")):
-	raise ValueError("file not found: "+string1)
-
-    if (not os.path.exists("./json/"+str2md5+".json")):
-        raise ValueError("file not found: "+string2)
-
-    with open("./json/"+str1md5+".json") as data_file:
-  	sen = json.load(data_file)
-	root1 = loadroot(sen)
-    with open("./json/"+str2md5+".json") as data_file:
-	sen = json.load(data_file)
-        root2 = loadroot(sen)
-    return dist(root1["lemma"], root2["lemma"])
-
-def load_embeddings(fname):
-    f = (line.split(" ",1)[1] for line in file(fname))
-    vecs = np.loadtxt(f)
-    words = [line.split(" ",1)[0] for line in file(fname)]
-    return words,vecs
-
-def dist(word1, word2):
-    word1 = str(word1).lower()
-    word2 = str(word2).lower()
-    if (word1 in words and word2 in words):
-    	return np.dot(vecs[words.index(word1)], vecs[words.index(word2)])
-    else:
-	return 0
 
 def square(list):
     return [i ** 2 for i in list]
 
 # clf = ensemble.RandomForestClassifier(n_estimators=20, max_features="auto")
-clf = SVC(C=50.0, kernel='rbf')
-#words,vecs = load_embeddings("./bow10.words")
-
-#norms = la.norm(vecs, axis=1)
-#nvecs = vecs / norms[:,np.newaxis]
-#vecs = nvecs
+clf = SVC(C=20.0, kernel='rbf')
 
 with open('dataset.json') as data_file:    
   data = json.load(data_file)
@@ -86,16 +37,12 @@ print len(dataset_filtered)
 
 #train = [a["translations"]["google"]["features"].values()+square(a["translations"]["google"]["features"].values()) for a in dataset_filtered]
 #train = [a["translations"]["google"]["features"].values() for a in dataset_filtered]
-train = [a["translations"]["google"]["features"].values()+a["translations"]["yandex"]["features"].values() for a in dataset_filtered]
-#train = [a["translations"]["google"]["features"].values()+a["translations"]["yandex"]["features"].values()+[rootdist(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1])] for a in dataset_filtered]
-#train = [a["translations"]["yandex"]["features"].values() for a in dataset_filtered]
-
-#print train
-
+#train = [a["translations"]["google"]["features"].values()+a["translations"]["yandex"]["features"].values() for a in dataset_filtered]
+train = [a["translations"]["yandex"]["features"].values() for a in dataset_filtered]
 classes = [a["class"] for a in dataset_filtered]
 
 #scores = cross_validation.cross_val_score(clf, train_float[0] + train_float[1], classes[0] + classes[1], cv=10)
-predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes, cv=5, verbose=3)
+predicted = cross_validation.cross_val_predict(clf, train, classes, cv=5, verbose=3)
 
 print "Accuracy:", metrics.accuracy_score(classes, predicted) 
 print "micro-F1:", metrics.f1_score(classes, predicted, average='micro', pos_label=None) 
