@@ -13,11 +13,11 @@ import hashlib
 from numpy import linalg as la
 
 sys.path.append(os.path.abspath("./utils"))
-from extract_ner_person_and_organization import output_ner as ner
+from extract_ner_person_and_organization import get_ner_score as get_ner_score
 
+#print hashlib.md5(" In Kazakhstan there are no such problems, but in Russia.").hexdigest()
+#sys.exit(0)
 #print  ner("Returning from Syria Russians are concerned about employment in their homeland.", "Emergencies Ministry aircraft will take out the Russians from Syria destroyed. ")
-
-sys.exit(0)
 
 # return the ROOT token
 def loadroot(sen):
@@ -62,8 +62,8 @@ def dist(word1, word2):
 def square(list):
     return [i ** 2 for i in list]
 
-# clf = ensemble.RandomForestClassifier(n_estimators=20, max_features="auto")
-clf = SVC(C=50.0, kernel='rbf')
+#clf = ensemble.RandomForestClassifier(n_estimators=20, max_features="auto")
+clf = SVC(C=100.0, kernel='rbf')
 #words,vecs = load_embeddings("./bow10.words")
 
 #norms = la.norm(vecs, axis=1)
@@ -93,11 +93,15 @@ print len(dataset_filtered)
 
 #train = [a["translations"]["google"]["features"].values()+square(a["translations"]["google"]["features"].values()) for a in dataset_filtered]
 #train = [a["translations"]["google"]["features"].values() for a in dataset_filtered]
-train = [a["translations"]["google"]["features"].values()+a["translations"]["yandex"]["features"].values() for a in dataset_filtered]
+train = [
+        a["translations"]["google"]["features"].values()
+        +a["translations"]["yandex"]["features"].values()
+        +get_ner_score(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1])
+        # get_ner_score(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1])
+
+for a in dataset_filtered]
 #train = [a["translations"]["google"]["features"].values()+a["translations"]["yandex"]["features"].values()+[rootdist(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1])] for a in dataset_filtered]
 #train = [a["translations"]["yandex"]["features"].values() for a in dataset_filtered]
-
-#print train
 
 classes = [a["class"] for a in dataset_filtered]
 
