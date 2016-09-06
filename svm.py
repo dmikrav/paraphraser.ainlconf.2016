@@ -12,6 +12,13 @@ import numpy as np
 import hashlib
 from numpy import linalg as la
 
+sys.path.append(os.path.abspath("./utils"))
+from extract_ner_person_and_organization import output_ner as ner
+
+#print  ner("Returning from Syria Russians are concerned about employment in their homeland.", "Emergencies Ministry aircraft will take out the Russians from Syria destroyed. ")
+
+sys.exit(0)
+
 # return the ROOT token
 def loadroot(sen):
    for token in sen["sentences"][0]["basic-dependencies"]:
