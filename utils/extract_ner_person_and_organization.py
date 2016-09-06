@@ -1,7 +1,11 @@
 import hashlib
 import json, sys
 import os, os.path
+import inspect, os
 
+from get_json_by_string import get_json
+
+localdir =  os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))) # script directory
 
 def process_sentence(data):
   #l = [a for a in ss['sentences'][0]['tokens'] if 'normalizedNER' in a]
@@ -13,51 +17,28 @@ def process_sentence(data):
   for i in tmp:
     if not i[0] in d:
       d[i[0]] = []
+    
+    if i[1] not in d[i[0]]:   
       d[i[0]].append(i[1])
-    else:
-      d[i[0]].append(i[1])
+	
+    d[i[0]].sort()
   return d
     
 
 def output_ner(string1, string2):
-  #dir_path_to_ner = "write/here/the/path/"
-  #dir_path_to_ner = "../intermediate_data/json"
-  dir_path_to_ner = "/home/user/000/json"
-  str1md5 = hashlib.md5(string1).hexdigest()
-  str2md5 = hashlib.md5(string2).hexdigest()
-  filename_INput = [dir_path_to_ner + "/" + str1md5+".json", dir_path_to_ner + "/" + str2md5 + ".json"]
-  flag = False
-  if (not os.path.exists(filename_INput[0])):
-    print "file not found: "+string1 + " ;  " + str1md5  
-    flag = True     
-  #  raise ValueError("file not found: "+string1)
-  if (not os.path.exists(filename_INput[1])):
-    print "file not found: "+string2 + " ;  " + str2md5       
-    flag = True
-  if flag:
-    return
-  #  raise ValueError("file not found: "+string2)
-  #hash_table = [[], []]
-  res = ['', '']
+  res = ["", ""]
+  jsons = [get_json(string1), get_json(string2)]
   for i in range(2):
-    js = open(filename_INput[i])
-    data = json.load(js);
-    js.close()
-    s = process_sentence(data)
+    s = process_sentence(jsons[i])
     res[i] = s
   return res[0], res[1]
 
+#print __dir__
+#print os.path.abspath(os.path.dirname(__file__))
+
 # usage:
 # output_ner("First sentence content", "Second sentence content")
-s0, s1 = output_ner("Returning from Syria Russians are concerned about employment in their homeland.", "Emergencies Ministry aircraft will take out the Russians from Syria destroyed. ")
-print s0
-print s1
-s0, s1 = output_ner("In Saratov brawler from the airplane Moscow - Hurghada opened a case.", "Saratov rowdy refuses to return home from Egypt. ")
-print s0
-print s1
-s0, s1 = output_ner("Court of St. Petersburg on the left then the case of the death of a teenager in police custody.", "London Hyde Park - this is not a place for meetings, but primarily park. ")
-print s0
-print s1
-s0, s1 = output_ner("OPEC has cut oil production by 1 million barrels a day.", "Obama has extended the powers of NASA's cooperation with Russia.")
-print s0
-print s1
+print output_ner("Returning from Syria Russians are concerned about employment in their homeland.", "Emergencies Ministry aircraft will take out the Russians from Syria destroyed. ")
+print output_ner("In Saratov brawler from the airplane Moscow - Hurghada opened a case.", "Saratov rowdy refuses to return home from Egypt. ")
+print  output_ner("Court of St. Petersburg on the left then the case of the death of a teenager in police custody.", "London Hyde Park - this is not a place for meetings, but primarily park. ")
+print output_ner("OPEC has cut oil production by 1 million barrels a day.", "Obama has extended the powers of NASA's cooperation with Russia.")
