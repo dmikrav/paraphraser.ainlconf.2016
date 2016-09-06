@@ -49,10 +49,34 @@ def get_similarity_score(json1, json2):
       for x2 in vals2:
         if x1 == x2:
           identical_quantity += 1
+    # res_dict[key] = float(identical_quantity*1.0)
     res_dict[key] = float(identical_quantity*1.0/values_quantity)
+
   return res_dict
 
+def convert_to_list(score):
+  print score
+  score_list = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  params = {"DURATION": 0, "ORGANIZATION": 1, "LOCATION": 2, "NUMBER": 3, "PERSON": 4, "ORDINAL": 5, "PERCENT": 6, "MONEY":7, "DATE":8, "TIME":9, "SET":10}
 
+  for k,v in score.items():
+    if v==0: 
+      v = -1
+    score_list[params[str(k)]] = v
+
+  summm = 0
+  for a in score_list:
+    summm += a
+
+  score_list.append(summm)  
+  print score_list
+  return score_list
+
+def get_ner_score(str1, str2):
+  ner1,ner2 = output_ner(str1, str2)
+  print ner1
+  print ner2
+  return convert_to_list(get_similarity_score(ner1, ner2))
 #print __dir__
 #print os.path.abspath(os.path.dirname(__file__))
 
@@ -68,5 +92,8 @@ a = [["Returning from Syria Russians are concerned about employment in their hom
 for i in a:
   res1, res2 = output_ner(i[0], i[1])
   print res1, "\n", res2
-  print get_similarity_score(res1, res2), "\n" + "*" * 80
+  print convert_to_list(get_similarity_score(res1, res2)), "\n" + "*" * 80
 
+
+
+# print convert_to_list(get_similarity_score({"loc":["paris", "moscow", "berlin"], "per":["dima"]}, {"loc":["paris", "berlin", "chita"], "per":["dima", "egor"]}))
