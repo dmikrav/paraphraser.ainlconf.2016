@@ -9,7 +9,10 @@ _.each(data, function(record, key, list){
 	_.each(record["translations"], function(value, engine, list){
 		_.each(value["pair"], function(sen, key, list){
 
-    		var filename = new Buffer(sen).toString('base64')
+		if (sen.index(":")!=-1)
+			console.log(sen)    		
+
+		var filename = new Buffer(sen).toString('base64')
     		fs.writeFileSync(dir+filename, sen, 'utf-8')
     		list.push(dir+filename)
 			
