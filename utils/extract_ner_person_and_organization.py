@@ -27,6 +27,8 @@ def process_sentence(data):
 def output_ner(string1, string2):
   res = ["", ""]
   jsons = [get_json(string1), get_json(string2)]
+  if jsons[0] == None or jsons[1] == None:
+    return {}, {}
   for i in range(2):
     s = process_sentence(jsons[i])
     res[i] = s
@@ -55,7 +57,7 @@ def get_similarity_score(json1, json2):
   return res_dict
 
 def convert_to_list(score):
-  print score
+  #print score
   score_list = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   params = {"DURATION": 0, "ORGANIZATION": 1, "LOCATION": 2, "NUMBER": 3, "PERSON": 4, "ORDINAL": 5, "PERCENT": 6, "MONEY":7, "DATE":8, "TIME":9, "SET":10}
 
@@ -69,19 +71,20 @@ def convert_to_list(score):
     summm += a
 
   score_list.append(summm)  
-  print score_list
+  #print score_list
   return score_list
 
 def get_ner_score(str1, str2):
   ner1,ner2 = output_ner(str1, str2)
-  print ner1
-  print ner2
+  #print ner1
+  #print ner2
   return convert_to_list(get_similarity_score(ner1, ner2))
 #print __dir__
 #print os.path.abspath(os.path.dirname(__file__))
 
 # usage:
 # output_ner("First sentence content", "Second sentence content")
+'''
 a = [["Returning from Syria Russians are concerned about employment in their homeland.", "Emergencies Ministry aircraft will take out the Russians from Syria destroyed. "],
 
 ["In Saratov brawler from the airplane Moscow - Hurghada opened a case.", "Saratov rowdy refuses to return home from Egypt. "],
@@ -89,11 +92,12 @@ a = [["Returning from Syria Russians are concerned about employment in their hom
 ["Court of St. Petersburg on the left then the case of the death of a teenager in police custody.", "London Hyde Park - this is not a place for meetings, but primarily park. "],
 
 ["OPEC has cut oil production by 1 million barrels a day.", "Obama has extended the powers of NASA's cooperation with Russia."]]
-for i in a:
-  res1, res2 = output_ner(i[0], i[1])
-  print res1, "\n", res2
-  print convert_to_list(get_similarity_score(res1, res2)), "\n" + "*" * 80
+#for i in a:
+#  res1, res2 = output_ner(i[0], i[1])
+#  print res1, "\n", res2
+#  print convert_to_list(get_similarity_score(res1, res2)), "\n" + "*" * 80
 
 
 
 # print convert_to_list(get_similarity_score({"loc":["paris", "moscow", "berlin"], "per":["dima"]}, {"loc":["paris", "berlin", "chita"], "per":["dima", "egor"]}))
+'''

@@ -10,7 +10,8 @@ def get_json(string):
     strmd5 = hashlib.md5(string).hexdigest()
 
     if (not os.path.exists(localdir+"/../json/"+strmd5+".json")):
-        raise ValueError("file not found: '"+string+"'")
+        #raise ValueError("file not found: '"+string+"'")
+        return None
 
     with open(localdir+"/../json/"+strmd5+".json") as data_file:
         return json.load(data_file)
