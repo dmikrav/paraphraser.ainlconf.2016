@@ -1,3 +1,8 @@
+dataset_copy.json
+*.bk
 ./json
 /json/*
 *.pyc
+possible_trash/*
+utils/antonyms/en/*
+backup_data/json_old/*

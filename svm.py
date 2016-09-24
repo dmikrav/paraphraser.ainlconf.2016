@@ -14,13 +14,20 @@ from numpy import linalg as la
 from nltk.corpus import wordnet as wn
 from nltk.corpus import wordnet_ic
 from nltk.corpus import genesis
-
+import urllib2
+from nltk.stem.wordnet import WordNetLemmatizer
+import nltk
+import re
+from nltk.stem.lancaster import LancasterStemmer
+stemmer = LancasterStemmer()
 brown_ic = wordnet_ic.ic('ic-brown.dat')
 semcor_ic = wordnet_ic.ic('ic-semcor.dat')
 genesis_ic = wn.ic(genesis, False, 0.0)
 
 sys.path.append(os.path.abspath("./utils"))
 from extract_ner_person_and_organization import get_ner_score as get_ner_score
+
+#print antonym_get_page.compute_opposite_list_flag(['rose', 'fall'])
 
 class Logger(object):
     def __init__(self, filename="Default.log"):
@@ -89,7 +96,7 @@ def get_word_net_similarity(root):
   #print "@@", root[0], root[1]
   try: 
     if root == None or len(root) != 6:
-      return [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      return [0.12, 1.4, 0.2] #, 0.0, 0.0] #, 0.0, 0.0, 0.0]
     flag = False
     if len(wn.synsets(root[0])) == 0 or not is_there_part_of_speech('v', wn.synsets(root[0])):
       #print root[0]+';   ', root[4], '   ', root[2] 
@@ -101,7 +108,7 @@ def get_word_net_similarity(root):
       flag = True
     if flag:
       #print "-" * 80
-      return [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
+      return [0.12, 1.4, 0.2] #, 0.5, 0.5] #, 0.5, 0.5, 0.5]
     
 
     #print wn.synsets(root[0])
@@ -110,16 +117,16 @@ def get_word_net_similarity(root):
     s_2 = get_first_synset_part_of_speech('v', wn.synsets(root[1]))
     res = [s_1.path_similarity(s_2),
            s_1.lch_similarity(s_2),
-           s_1.wup_similarity(s_2),
-           s_1.res_similarity(s_2, brown_ic),
-           s_1.res_similarity(s_2, genesis_ic),
-           s_1.jcn_similarity(s_2, brown_ic),
-           s_1.jcn_similarity(s_2, genesis_ic),
-           s_1.lin_similarity(s_2, semcor_ic)
+           s_1.wup_similarity(s_2)
+           #s_1.res_similarity(s_2, brown_ic),
+           #s_1.res_similarity(s_2, genesis_ic)
+           #s_1.jcn_similarity(s_2, brown_ic),
+           #s_1.jcn_similarity(s_2, genesis_ic),
+           #s_1.lin_similarity(s_2, semcor_ic)
      ]
   except:
     #print len(root), root
-    res = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
+    res = [0.12, 1.4, 0.2] #, 0.5, 0.5] #, 0.5, 0.5, 0.5]
   return res
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 def is_there_part_of_speech(part_of_speech, synsets):
@@ -171,7 +178,7 @@ with open('dataset.json') as data_file:
   
 data_copy = list(data)
 N = len(data_copy)
-print "N:",N
+print "N:", N
 
 for task_no in range(1):
 
@@ -179,16 +186,13 @@ for task_no in range(1):
 
 
   random.shuffle(data_copy)
-  print len(data_copy)
+  #print len(data_copy)
 
-  print "NON-paraphrase"
-  print len([a for a in data_copy if a["class"] == "NON-paraphrase"])
+  print "NON-paraphrase", len([a for a in data_copy if a["class"] == "NON-paraphrase"])
 
-  print "Precise-paraphrase"
-  print len([a for a in data_copy if a["class"] == "Precise-paraphrase"])
+  print "Precise-paraphrase", len([a for a in data_copy if a["class"] == "Precise-paraphrase"])
 
-  print "Near-paraphrase"
-  print len([a for a in data_copy if a["class"] == "Near-paraphrase"])
+  print "Near-paraphrase", len([a for a in data_copy if a["class"] == "Near-paraphrase"])
 
   
   for a in data_copy:
@@ -201,7 +205,7 @@ for task_no in range(1):
   #dataset_filtered = [a for a in data_copy if (a["class"] == "NON-paraphrase" or a["class"] == "Precise-paraphrase" or (a["class"] == "Near-paraphrase"))] # and a["class"] = "Precise-paraphrase")]
   
   dataset_filtered = data_copy
-  print '\n', len(dataset_filtered), '\n'
+  print len(dataset_filtered)
 
   #train = [a["translations"]["google"]["features"].values()+square(a["translations"]["google"]["features"].values()) for a in dataset_filtered]
   #train = [a["translations"]["google"]["features"].values() for a in dataset_filtered]
@@ -215,7 +219,11 @@ for task_no in range(1):
         + get_ner_score(a["translations"]["yandex"]["pair"][0], 
                         a["translations"]["yandex"]["pair"][1])
         
+        + get_word_net_similarity(roots(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1]))
+
         + get_word_net_similarity(roots(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1]))
+        
+        # + [a["translations"]["yandex"]["antonym_bit"]]
         # get_ner_score(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1])
   for a in dataset_filtered]
   #print train
