@@ -1,4 +1,4 @@
-f = open("11.txt")
+f = open("data/11.txt")
 data = f.read()
 f.close()
 listt = data.split(" ")
