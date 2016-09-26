@@ -21,7 +21,7 @@ while True:
     break
   text = (text[:posA] + 
          tags_output[0] + '\n' +
-         tags_output[1] + '"' + new_sentences[i*3].replace('\n', '') + '"' + '\n' + 
+         tags_output[1] + '"' + new_sentences[i*3].replace('\n', '') + '",' + '\n' + 
          tags_output[1] + '"' + new_sentences[i*3+1].replace('\n', '') + '"' + '\n' +
          tags_output[2] + '\n' +
          text[posA:])
