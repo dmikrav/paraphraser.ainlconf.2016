@@ -185,7 +185,7 @@ for task_no in range(1):
   classes_ids = [[], []]
 
 
-  random.shuffle(data_copy)
+  #random.shuffle(data_copy)
   #print len(data_copy)
 
   print "NON-paraphrase", len([a for a in data_copy if a["class"] == "NON-paraphrase"])
