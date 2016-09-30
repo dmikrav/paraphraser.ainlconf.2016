@@ -304,16 +304,16 @@ if task_no == 1:
   
   google_translated = [a["translations"]["google"]["pair"] for a in dataset_filtered]
   """
-    '''
-  for i in range(len(predicted)):
-    if predicted[i] != classes[i]:
-      print "=" * 80
-      print "predicted:" , predicted[i] , ";  actual:" , classes[i] 
-      print "-" * 80
-      print(dataset_filtered[i]["id"])
-      print(dataset_filtered[i]["source"][0].encode('utf8'))
-      print(dataset_filtered[i]["source"][1].encode('utf8'))
-      pprint(dataset_filtered[i]["translations"]["google"]) 
-      pprint(dataset_filtered[i]["translations"]["yandex"])
-      print "\n"
-  '''
+    
+    for i in range(len(predicted)):
+      if predicted[i] != classes[i] and classes[i] == classes_names[2]:
+        print "=" * 80
+        print "predicted:" , predicted[i] , ";  actual:" , classes[i] 
+        print "-" * 80
+        print(dataset_filtered_task_1[i]["id"])
+        print(dataset_filtered_task_1[i]["source"][0].encode('utf8'))
+        print(dataset_filtered_task_1[i]["source"][1].encode('utf8'))
+        pprint(dataset_filtered_task_1[i]["translations"]["google"]) 
+        pprint(dataset_filtered_task_1[i]["translations"]["yandex"])
+        print "\n"
+  
