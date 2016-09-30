@@ -53,7 +53,9 @@ def get_similarity_score(json1, json2):
           identical_quantity += 1
     # res_dict[key] = float(identical_quantity*1.0)
     res_dict[key] = float(identical_quantity*1.0/values_quantity)
-
+    # res_dict[key] = identical_quantity
+    if res_dict[key] == 0:
+      res_dict[key] = -values_quantity
   return res_dict
 
 def convert_to_list(score):
@@ -72,13 +74,20 @@ def convert_to_list(score):
 
   score_list.append(summm)  
   #print score_list
-  return score_list
+  return score_list[:-1]
 
 def get_ner_score(str1, str2):
   ner1,ner2 = output_ner(str1, str2)
   #print ner1
   #print ner2
   return convert_to_list(get_similarity_score(ner1, ner2))
+
+def get_ner_score_dummy_test(str1, str2):
+  ner1,ner2 = output_ner(str1, str2)
+  #print ner1
+  #print ner2
+  return get_similarity_score(ner1, ner2)
+
 #print __dir__
 #print os.path.abspath(os.path.dirname(__file__))
 
@@ -92,6 +101,12 @@ a = [["Returning from Syria Russians are concerned about employment in their hom
 ["Court of St. Petersburg on the left then the case of the death of a teenager in police custody.", "London Hyde Park - this is not a place for meetings, but primarily park. "],
 
 ["OPEC has cut oil production by 1 million barrels a day.", "Obama has extended the powers of NASA's cooperation with Russia."]]
+'''
+#print get_ner_score("OPEC has cut oil production by 1 million barrels a day.", "Obama has extended the powers of NASA's cooperation with Russia.")
+
+#print get_ner_score_dummy_test("OPEC has cut oil production by 1 million barrels a day.", "Obama has extended the powers of NASA's cooperation with Russia.")
+#print get_ner_score("OPEC has cut oil production by 1 million barrels a day.", "Obama has extended the powers of NASA's cooperation with Russia.")
+'''
 #for i in a:
 #  res1, res2 = output_ner(i[0], i[1])
 #  print res1, "\n", res2
@@ -101,3 +116,5 @@ a = [["Returning from Syria Russians are concerned about employment in their hom
 
 # print convert_to_list(get_similarity_score({"loc":["paris", "moscow", "berlin"], "per":["dima"]}, {"loc":["paris", "berlin", "chita"], "per":["dima", "egor"]}))
 '''
+
+
