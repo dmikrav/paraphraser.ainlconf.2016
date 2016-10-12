@@ -370,7 +370,7 @@ if task_no == 2:
       jtest[i]['predicted_class_task_2'] = predicted[i]
 
     f = open("test_with_predictions_task_2.json", "w+")
-    f.write(json.dumps(jtest, sort_keys=True, indent=1, separators=(',', ': '), ensure_ascii=False))
+    f.write(json.dumps(jtest, indent=1, separators=(',', ': '), ensure_ascii=False, sort_keys=True))
     f.close()
   elif sett == "dataset":
     predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes_dataset, cv=5, verbose=3)
@@ -554,7 +554,7 @@ if task_no == 1:
         jtest[i]['predicted_class_task_1'] = predicted[i]
 
       f = open("test_with_predictions_task_1.json", "w+")
-      f.write(json.dumps(jtest, sort_keys=True, indent=1, separators=(',', ': '), ensure_ascii=False))
+      f.write(json.dumps(jtest, indent=1, separators=(',', ': '), ensure_ascii=False), sort_keys=True)
       f.close()
     
     ts = time.time()
