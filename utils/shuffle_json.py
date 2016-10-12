@@ -21,7 +21,8 @@ print "NON-paraphrase", len([a for a in data_copy if a["class"] == "NON-paraphra
 print "Precise-paraphrase", len([a for a in data_copy if a["class"] == "Precise-paraphrase"])
 print "Near-paraphrase", len([a for a in data_copy if a["class"] == "Near-paraphrase"])
 '''
-shuffle(data_copy)
+for i in range(3):
+  shuffle(data_copy)
 
 print json.dumps(data_copy, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False).encode('utf8')
 

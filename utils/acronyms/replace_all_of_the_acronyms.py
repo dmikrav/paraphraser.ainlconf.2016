@@ -104,14 +104,17 @@ def replace_acronyms(sentence):
     res += a + " "
   return res[:]
   
-
-with open('../../dataset.json') as data_file:    
+sys.stderr.write("ver.1\n")
+with open('../../test.json') as data_file:    
   data = json.load(data_file)
 data_copy = list(data)
 N = len(data_copy)
 print "N:", N
 sources = [a["source"] for a in data_copy]
+cnt = 0
 for pair in sources:
+  sys.stderr.write(str(cnt)+"\n")
+  cnt += 1
   for i in range(2):
     pair[i] = replace_acronyms(pair[i])
     print unicode(pair[i])

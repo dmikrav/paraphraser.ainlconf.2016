@@ -1,5 +1,16 @@
+sys.path.append(os.path.abspath("./utils"))
+from extract_ner_person_and_organization import get_ner_score as get_ner_score
 import datetime
 import time
+import sklearn.ensemble 
+# -*- coding: utf-8 -*-
+# encoding=utf8  
+import sys, json, re
+reload(sys)  
+sys.setdefaultencoding('utf8')
+sm = difflib.SequenceMatcher(None)
+
+
 ts = time.time()
 st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
 print st
@@ -139,181 +150,427 @@ def dist(word1, word2):
 def square(list):
   return [i ** 2 for i in list]
 
+def self_print_line(x):
+  f = open("svm_code_only.py")
+  lines = f.readlines()
+  f.close()
+  print lines[x].replace("\n", "")
+
+def get_libdiff_score(listt):
+  #print "|" + str(listt) + "|"
+  sm.set_seq2(listt[0])
+  sm.set_seq1(listt[1])
+  return sm.ratio()
+
+import nltk
+def only_verbs(text):
+  tokens = nltk.word_tokenize(text)
+  pos_tagged_tokens = nltk.pos_tag(tokens)
+  #print pos_tagged_tokens
+  res = " "
+  for x in pos_tagged_tokens:
+    if 'v' == x[1].lower()[0:1]:
+      res += x[0] + " "
+  return res
+
 #clf = ensemble.RandomForestClassifier(n_estimators=20, max_features="auto")
-clf = SVC(C=100.0, kernel='rbf')
-#words,vecs = load_embeddings("./bow10.words")
-
-#norms = la.norm(vecs, axis=1)
-#nvecs = vecs / norms[:,np.newaxis]
-#vecs = nvecs
-
+#clf = SVC(C=100.0, kernel='rbf')
+#clf = sklearn.ensemble.GradientBoostingRegressor(n_estimators=10, max_depth=1, learning_rate=1.0)
+clf = sklearn.ensemble.GradientBoostingClassifier(n_estimators=100, max_depth=3)
+#print self_print_line(160)
 classes_names = ["NON-paraphrase", "Near-paraphrase", "Precise-paraphrase"]
 
 with open('dataset.json') as data_file:    
   data = json.load(data_file)
-  
+with open('test.json') as data_file:    
+  jtest = json.load(data_file)  
+
+jtest_copy_task_1 = list(jtest)
+jtest_filtered_task_1 = jtest_copy_task_1
+jtest_copy_task_2 = list(jtest)
+jtest_filtered_task_2 = jtest_copy_task_2 
+
+
 data_copy_task_1 = list(data)
 data_copy_task_2 = data_copy_task_1
 dataset_filtered_task_1 = data_copy_task_1
 dataset_filtered_task_2 = data_copy_task_2
+#import random
+#random.shuffle(dataset_filtered_task_1)
+#random.shuffle(dataset_filtered_task_2)
 
-#for task_no in range(1):
-
-task_no = 1
+# [running settings]
+sett = "dataset"
+#sett = "test"
+task_no = 2
+verbose = True
+print "sett =", sett, ";   task_no =", task_no
 if task_no == 2:
   classes_ids = [[], []]
-  #random.shuffle(data_copy)
-  #print len(data_copy)
-  #print "NON-paraphrase", len([a for a in data_copy if a["class"] == "NON-paraphrase"])
-  #print "Precise-paraphrase", len([a for a in data_copy if a["class"] == "Precise-paraphrase"])
-  #print "Near-paraphrase", len([a for a in data_copy if a["class"] == "Near-paraphrase"])
-  
   for a in data_copy_task_2:
-    #a["backup_class"] = a["class"]
     if a["class"] == classes_names[2]:
       a["class"] = classes_names[1]
-  
-  # filter new paraphrases
-  #dataset_filtered = [a for a in data_copy if (a["class"] == "NON-paraphrase" or a["class"] == "Precise-paraphrase")]
-  #dataset_filtered = [a for a in data_copy if (a["class"] == "NON-paraphrase" or a["class"] == "Precise-paraphrase" or (a["class"] == "Near-paraphrase"))] # and a["class"] = "Precise-paraphrase")]
-  #print len(dataset_filtered)
-
-  #train = [a["translations"]["google"]["features"].values()+square(a["translations"]["google"]["features"].values()) for a in dataset_filtered]
-  #train = [a["translations"]["google"]["features"].values() for a in dataset_filtered]
-  #for yy in range(6):
-  #  sys.stdout = Logger("0_a_" + str(yy) + ".txt")
-  #yy = 5
+  print "ver 1, task 2"
   train = [
-          a["translations"]["google"]["features"].values()
-        + a["translations"]["yandex"]["features"].values()
-         
-        + get_ner_score(a["translations"]["yandex"]["pair"][0], 
-                        a["translations"]["yandex"]["pair"][1])
-        
-        + get_word_net_similarity(roots(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1]))
+          a["translations"]["google"]["dkpro"].values()[0:3] 
+        + a["translations"]["google"]["dkpro"].values()[4:9]
+        + a["translations"]["google"]["dkpro"].values()[10:15]
 
-        + get_word_net_similarity(roots(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1]))
+        + a["translations"]["microsoft"]["dkpro"].values()[0:3] 
+        + a["translations"]["microsoft"]["dkpro"].values()[4:9]
+        + a["translations"]["microsoft"]["dkpro"].values()[10:15]
+
+        + a["translations"]["yandex"]["dkpro"].values()[0:3] 
+        + a["translations"]["yandex"]["dkpro"].values()[4:9]
+        + a["translations"]["yandex"]["dkpro"].values()[10:15]
+
+        
+        + a["translations"]["google"]["semilar"].values()
+        + a["translations"]["microsoft"]["semilar"].values()
+        + a["translations"]["yandex"]["semilar"].values()      
+
+        + a["translations"]["google"]["difflib"]
+        + a["translations"]["microsoft"]["difflib"]
+        + a["translations"]["yandex"]["difflib"]
+
+        + a["translations"]["google"]["nltk_wordnet"]
+        + a["translations"]["microsoft"]["nltk_wordnet"]
+        + a["translations"]["yandex"]["nltk_wordnet"]
+
         + [a["translations"]["google"]["swoogle"]]
+        + [a["translations"]["microsoft"]["swoogle"]]
         + [a["translations"]["yandex"]["swoogle"]]
+
+
+
+        + a["translations"]["google"]["blue_metrics"].values()[:-4]
+        + a["translations"]["microsoft"]["blue_metrics"].values()[:-4]
+        + a["translations"]["yandex"]["blue_metrics"].values()[:-4]
+
+        + a["blue_metrics"].values()[:-4]
+
+
+
+        #+ a["translations"]["google"]["handy_ner"].values()
+        #+ a["translations"]["microsoft"]["handy_ner"].values()
+        #+ a["translations"]["yandex"]["handy_ner"].values()  
+
+        #+ a["translations"]["google"]["word_embedding"].values()
+        #+ a["translations"]["microsoft"]["word_embedding"].values()
+        #+ a["translations"]["yandex"]["word_embedding"].values()
+        
+        
+        ##  a["translations"]["google"]["features"].values()
+        ##+ a["translations"]["yandex"]["features"].values()
+         
+        ##+ get_ner_score(a["translations"]["yandex"]["pair"][0], 
+        ##                a["translations"]["yandex"]["pair"][1])
+        
+        ##+ get_word_net_similarity(roots(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1]))
+
+        ##+ get_word_net_similarity(roots(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1]))
+        ##+ [a["translations"]["google"]["swoogle"]]
+        ##+ [a["translations"]["yandex"]["swoogle"]]
         
         # + [a["translations"]["yandex"]["antonym_bit"]]
         # get_ner_score(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1])
+      
   for a in dataset_filtered_task_2]
-  #print train
-  #train = [a["translations"]["google"]["features"].values()+a["translations"]["yandex"]["features"].values()+[rootdist(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1])] for a in dataset_filtered]
-  #train = [a["translations"]["yandex"]["features"].values() for a in dataset_filtered]
 
-  classes = [a["class"] for a in dataset_filtered_task_2]
+  jtest_data = [
+          a["translations"]["google"]["dkpro"].values()[0:3] 
+        + a["translations"]["google"]["dkpro"].values()[4:9]
+        + a["translations"]["google"]["dkpro"].values()[10:15]
 
-  #scores = cross_validation.cross_val_score(clf, train_float[0] + train_float[1], classes[0] + classes[1], cv=10)
-  predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes, cv=5, verbose=3)
+        + a["translations"]["microsoft"]["dkpro"].values()[0:3] 
+        + a["translations"]["microsoft"]["dkpro"].values()[4:9]
+        + a["translations"]["microsoft"]["dkpro"].values()[10:15]
 
-  print "Accuracy:", metrics.accuracy_score(classes, predicted) 
-  print "micro-F1:", metrics.f1_score(classes, predicted, average='micro', pos_label=None) 
-  print "macro-F1:", metrics.f1_score(classes, predicted, average='macro', pos_label=None) 
-  print metrics.confusion_matrix(classes, predicted)
+        + a["translations"]["yandex"]["dkpro"].values()[0:3] 
+        + a["translations"]["yandex"]["dkpro"].values()[4:9]
+        + a["translations"]["yandex"]["dkpro"].values()[10:15]
 
-  '''
-  if task_no == 1:
-    confusion_matrix = metrics.confusion_matrix(classes, predicted)
-    print confusion_matrix
-    non_paraphrases_wrong_count = confusion_matrix[0][1] + confusion_matrix[1][0]
-    print non_paraphrases_wrong_count
-    non_paraphrases_correct_count = confusion_matrix[0][0]
-    print non_paraphrases_correct_count
-  
-  for x in range(N):
-    if predicted[x] == classes_names[0]:
-      classes_ids[0].append(dataset_filtered[x]['id'])
-    if predicted[x] == classes_names[1]:
-      classes_ids[1].append(dataset_filtered[x]['id'])
+        
+        + a["translations"]["google"]["semilar"].values()
+        + a["translations"]["microsoft"]["semilar"].values()
+        + a["translations"]["yandex"]["semilar"].values()
+
+        + a["translations"]["google"]["difflib"]
+        + a["translations"]["microsoft"]["difflib"]
+        + a["translations"]["yandex"]["difflib"]
+
+        + a["translations"]["google"]["nltk_wordnet"]
+        + a["translations"]["microsoft"]["nltk_wordnet"]
+        + a["translations"]["yandex"]["nltk_wordnet"]
+
+        + [a["translations"]["google"]["swoogle"]]
+        + [a["translations"]["microsoft"]["swoogle"]]
+        + [a["translations"]["yandex"]["swoogle"]]
+
+
+        #+ a["translations"]["google"]["blue_metrics"].values()[:-4]
+        #+ a["translations"]["microsoft"]["blue_metrics"].values()[:-4]
+        #+ a["translations"]["yandex"]["blue_metrics"].values()[:-4]
+
+        #+ a["blue_metrics"].values()[:-4]
+
+
+        #+ [a["translations"]["google"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+        #+ [a["translations"]["microsoft"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+        #+ [a["translations"]["yandex"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+
+        #+ a["translations"]["google"]["handy_ner"].values()
+        #+ a["translations"]["microsoft"]["handy_ner"].values()
+        #+ a["translations"]["yandex"]["handy_ner"].values()
+
+        #+ [a["translations"]["google"]["word_embedding"]['dot_extrema']]
+        #+ [a["translations"]["microsoft"]["word_embedding"]['dot_extrema']]
+        #+ [a["translations"]["yandex"]["word_embedding"]['dot_extrema']]
+        
+        ##  a["translations"]["google"]["features"].values()
+        ##+ a["translations"]["yandex"]["features"].values()
+         
+        ##+ get_ner_score(a["translations"]["yandex"]["pair"][0], 
+        ##                a["translations"]["yandex"]["pair"][1])
+        
+        ##+ get_word_net_similarity(roots(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1]))
+
+        ##+ get_word_net_similarity(roots(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1]))
+        ##+ [a["translations"]["google"]["swoogle"]]
+        ##+ [a["translations"]["yandex"]["swoogle"]]
+        
+        # + [a["translations"]["yandex"]["antonym_bit"]]
+        # get_ner_score(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1])
+      
+       for a in jtest_copy_task_2]
+
+  classes_dataset = [a["class"] for a in dataset_filtered_task_2]
+  if sett == "test":
+    clf.fit(train, classes_dataset)
+    predicted = clf.predict(jtest_data)
     
-  '''
-  """
-  for x in range(7227):
-    for y in range(3):
-      if predicted[x] == classes_names[y]:
-        classes_ids[y].append(dataset_filtered[x]['id'])
-  """
+    for i in range(len(predicted)):    
+      jtest[i]['predicted_class_task_2'] = predicted[i]
+
+    f = open("test_with_predictions_task_2.json", "w+")
+    f.write(json.dumps(jtest, sort_keys=True, indent=1, separators=(',', ': '), ensure_ascii=False))
+    f.close()
+  elif sett == "dataset":
+    predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes_dataset, cv=5, verbose=3)
+
+    print "Accuracy:", metrics.accuracy_score(classes_dataset, predicted) 
+    print "micro-F1:", metrics.f1_score(classes_dataset, predicted, average='micro', pos_label=None) 
+    print "macro-F1:", metrics.f1_score(classes_dataset, predicted, average='macro', pos_label=None) 
+    print metrics.confusion_matrix(classes_dataset, predicted)
+  
   ts = time.time()
   st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
   print st
+'''
+f = open("rrr.txt")
+rrr = int(f.read())
+f.close()
+f = open("rrr.txt", "w+")
+f.write(str(rrr+1))
+f.close()
+print "      [ rrr =", rrr, " ]"
+'''
 if task_no == 1:
-    '''
-    relevant_ids = classes_ids[1]
-    data_task_no_1 = []
-    for a in dataset_filtered:
-      a['class'] = a['backup_class']
-    data_task_no_1 = [a for a in dataset_filtered_task_1 if a['id'] in relevant_ids and a['class'] != classes_names[0]]
-      #if a['id'] in relevant_ids and a['class'] != classes_names[0]:
-      #  data_task_no_1 += a 
-    #print data_task_no_1
-      #[a for a in dataset_filtered if a['id'] in relevant_ids]
-    '''
-    classes = [a["class"] for a in dataset_filtered_task_1]
-    train = [
-          a["translations"]["google"]["features"].values()
-        + a["translations"]["yandex"]["features"].values()
-         
-        + get_ner_score(a["translations"]["yandex"]["pair"][0], 
-                        a["translations"]["yandex"]["pair"][1])
-        
-        + get_word_net_similarity(roots(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1]))
 
-        + get_word_net_similarity(roots(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1]))
+    classes_dataset = [a["class"] for a in dataset_filtered_task_1]
+  #if sett == "dataset":  
+    print "ver 1, task 1"
+    train = [
+          a["translations"]["google"]["dkpro"].values()[0:3] 
+        + a["translations"]["google"]["dkpro"].values()[4:9]
+        + a["translations"]["google"]["dkpro"].values()[10:15]
+
+        + a["translations"]["microsoft"]["dkpro"].values()[0:3] 
+        + a["translations"]["microsoft"]["dkpro"].values()[4:9]
+        + a["translations"]["microsoft"]["dkpro"].values()[10:15]
+
+        + a["translations"]["yandex"]["dkpro"].values()[0:3] 
+        + a["translations"]["yandex"]["dkpro"].values()[4:9]
+        + a["translations"]["yandex"]["dkpro"].values()[10:15]
+
+
+        + a["translations"]["google"]["semilar"].values()
+        + a["translations"]["microsoft"]["semilar"].values()
+        + a["translations"]["yandex"]["semilar"].values()
+
+        + a["translations"]["google"]["difflib"]
+        + a["translations"]["microsoft"]["difflib"]
+        + a["translations"]["yandex"]["difflib"]
+
+        + a["translations"]["google"]["nltk_wordnet"]
+        + a["translations"]["microsoft"]["nltk_wordnet"]
+        + a["translations"]["yandex"]["nltk_wordnet"]
+
         + [a["translations"]["google"]["swoogle"]]
+        + [a["translations"]["microsoft"]["swoogle"]]
         + [a["translations"]["yandex"]["swoogle"]]
+
+
+        #+ a["translations"]["google"]["blue_metrics"].values()[:-4]
+        #+ a["translations"]["microsoft"]["blue_metrics"].values()[:-4]
+        #+ a["translations"]["yandex"]["blue_metrics"].values()[:-4]
+
+        #+ a["blue_metrics"].values()[:-4]
+
+
+        #+ [get_libdiff_score([only_verbs(a["translations"]["google"]['pair'][0]), 
+        #                      only_verbs(a["translations"]["google"]['pair'][1])])]
+        #+ [get_libdiff_score([only_verbs(a["translations"]["microsoft"]['pair'][0]), 
+        #                      only_verbs(a["translations"]["microsoft"]['pair'][1])])]
+        #+ [get_libdiff_score([only_verbs(a["translations"]["yandex"]['pair'][0]), 
+        #                      only_verbs(a["translations"]["yandex"]['pair'][1])])]
+
+
+        #+ [a["translations"]["google"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+        #+ [a["translations"]["microsoft"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+        #+ [a["translations"]["yandex"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+
+        #+ a["translations"]["google"]["handy_ner"].values()
+        #+ a["translations"]["microsoft"]["handy_ner"].values()
+        #+ a["translations"]["yandex"]["handy_ner"].values()
+
+        #+ [a["translations"]["google"]["word_embedding"]['dot_extrema']]
+        #+ [a["translations"]["microsoft"]["word_embedding"]['dot_extrema']]
+        #+ [a["translations"]["yandex"]["word_embedding"]['dot_extrema']]
+        
+        ##  a["translations"]["google"]["features"].values()
+        ##+ a["translations"]["yandex"]["features"].values()
+         
+        ##+ get_ner_score(a["translations"]["yandex"]["pair"][0], 
+        ##                a["translations"]["yandex"]["pair"][1])
+        
+        ##+ get_word_net_similarity(roots(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1]))
+
+        ##+ get_word_net_similarity(roots(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1]))
+        ##+ [a["translations"]["google"]["swoogle"]]
+        ##+ [a["translations"]["yandex"]["swoogle"]]
         
         # + [a["translations"]["yandex"]["antonym_bit"]]
         # get_ner_score(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1])
-    for a in dataset_filtered_task_1]
+      
+       for a in dataset_filtered_task_1]
+    
+    jtest_data = [
+          a["translations"]["google"]["dkpro"].values()[0:3] 
+        + a["translations"]["google"]["dkpro"].values()[4:9]
+        + a["translations"]["google"]["dkpro"].values()[10:15]
 
-    predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes, cv=5, verbose=3)
-    '''
-    non_paraphrases_correct_list = [classes_names[0]] * non_paraphrases_correct_count
-    non_paraphrases_wrong_list   = [classes_names[1]] * non_paraphrases_wrong_count
-    non_paraphrases_wrong_list_wrongly_put = [classes_names[0]] * non_paraphrases_wrong_count
-    predicted = np.append(predicted, non_paraphrases_correct_list)
-    classes += non_paraphrases_correct_list 
-    predicted = np.append(predicted, non_paraphrases_wrong_list)
-    classes += non_paraphrases_wrong_list_wrongly_put
-    '''
+        + a["translations"]["microsoft"]["dkpro"].values()[0:3] 
+        + a["translations"]["microsoft"]["dkpro"].values()[4:9]
+        + a["translations"]["microsoft"]["dkpro"].values()[10:15]
 
-    print "Accuracy:", metrics.accuracy_score(classes, predicted) 
-    print "micro-F1:", metrics.f1_score(classes, predicted, average='micro', pos_label=None) 
-    print "macro-F1:", metrics.f1_score(classes, predicted, average='macro', pos_label=None) 
+        + a["translations"]["yandex"]["dkpro"].values()[0:3] 
+        + a["translations"]["yandex"]["dkpro"].values()[4:9]
+        + a["translations"]["yandex"]["dkpro"].values()[10:15]
 
-    print metrics.confusion_matrix(classes, predicted)
+        
+        + a["translations"]["google"]["semilar"].values()
+        + a["translations"]["microsoft"]["semilar"].values()
+        + a["translations"]["yandex"]["semilar"].values()
 
+        + a["translations"]["google"]["difflib"]
+        + a["translations"]["microsoft"]["difflib"]
+        + a["translations"]["yandex"]["difflib"]
+
+        + a["translations"]["google"]["nltk_wordnet"]
+        + a["translations"]["microsoft"]["nltk_wordnet"]
+        + a["translations"]["yandex"]["nltk_wordnet"]
+
+        + [a["translations"]["google"]["swoogle"]]
+        + [a["translations"]["microsoft"]["swoogle"]]
+        + [a["translations"]["yandex"]["swoogle"]]
+
+        #+ a["blue_metrics"].values()[:-4]
+
+        #+ [get_libdiff_score([only_verbs(a["translations"]["google"]['pair'][0]), 
+        #                      only_verbs(a["translations"]["google"]['pair'][1])])]
+        #+ [get_libdiff_score([only_verbs(a["translations"]["microsoft"]['pair'][0]), 
+        #                      only_verbs(a["translations"]["microsoft"]['pair'][1])])]
+        #+ [get_libdiff_score([only_verbs(a["translations"]["yandex"]['pair'][0]), 
+        #                      only_verbs(a["translations"]["yandex"]['pair'][1])])]
+
+
+
+        #+ [a["translations"]["google"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+        #+ [a["translations"]["microsoft"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+        #+ [a["translations"]["yandex"]["handy_ner"]["the_same_proper_nouns_percentage"]]
+
+        #+ a["translations"]["google"]["handy_ner"].values()
+        #+ a["translations"]["microsoft"]["handy_ner"].values()
+        #+ a["translations"]["yandex"]["handy_ner"].values()
+
+        #+ [a["translations"]["google"]["word_embedding"]['dot_extrema']]
+        #+ [a["translations"]["microsoft"]["word_embedding"]['dot_extrema']]
+        #+ [a["translations"]["yandex"]["word_embedding"]['dot_extrema']]
+        
+        ##  a["translations"]["google"]["features"].values()
+        ##+ a["translations"]["yandex"]["features"].values()
+         
+        ##+ get_ner_score(a["translations"]["yandex"]["pair"][0], 
+        ##                a["translations"]["yandex"]["pair"][1])
+        
+        ##+ get_word_net_similarity(roots(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1]))
+
+        ##+ get_word_net_similarity(roots(a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pair"][1]))
+        ##+ [a["translations"]["google"]["swoogle"]]
+        ##+ [a["translations"]["yandex"]["swoogle"]]
+        
+        # + [a["translations"]["yandex"]["antonym_bit"]]
+        # get_ner_score(a["translations"]["google"]["pair"][0], a["translations"]["google"]["pair"][1])
+      
+    for a in jtest_copy_task_1]
+    
+    if sett == "dataset":   
+      predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes_dataset, cv=5, verbose=3)
+      print "Accuracy:", metrics.accuracy_score(classes_dataset, predicted) 
+      print "micro-F1:", metrics.f1_score(classes_dataset, predicted, average='micro', pos_label=None) 
+      print "macro-F1:", metrics.f1_score(classes_dataset, predicted, average='macro', pos_label=None) 
+
+      print metrics.confusion_matrix(classes_dataset, predicted)
+
+    elif sett == "test":
+      clf.fit(train, classes_dataset)
+      predicted = clf.predict(jtest_data)
+    
+      for i in range(len(predicted)):    
+        jtest[i]['predicted_class_task_1'] = predicted[i]
+
+      f = open("test_with_predictions_task_1.json", "w+")
+      f.write(json.dumps(jtest, sort_keys=True, indent=1, separators=(',', ': '), ensure_ascii=False))
+      f.close()
+    
     ts = time.time()
     st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
     print st
-    
-    #predicted += 
-    #np.concatenate(predicted, charar)
-    #np.concatenate(classes, charar)
-    #predicted.append(classes_names[0])#.concatenate(charar)
-    #classes.append(classes_names[0])#.concatenate(charar)
-  
-    """ 
-  print "Accuracy:", metrics.accuracy_score(classes, predicted) 
-  print "micro-F1:", metrics.f1_score(classes, predicted, average='micro', pos_label=None) 
-  print "macro-F1:", metrics.f1_score(classes, predicted, average='macro', pos_label=None) 
 
-  print metrics.confusion_matrix(classes, predicted)
-  
-  google_translated = [a["translations"]["google"]["pair"] for a in dataset_filtered]
-  """
-    
-    for i in range(len(predicted)):
-      if predicted[i] != classes[i] and classes[i] == classes_names[2]:
-        print "=" * 80
-        print "predicted:" , predicted[i] , ";  actual:" , classes[i] 
-        print "-" * 80
-        print(dataset_filtered_task_1[i]["id"])
-        print(dataset_filtered_task_1[i]["source"][0].encode('utf8'))
-        print(dataset_filtered_task_1[i]["source"][1].encode('utf8'))
-        pprint(dataset_filtered_task_1[i]["translations"]["google"]) 
-        pprint(dataset_filtered_task_1[i]["translations"]["yandex"])
-        print "\n"
+   
+    if verbose and sett == "dataset" and False:
+      for i in range(len(predicted)):
+        if predicted[i] != classes_dataset[i] and classes_dataset[i] == classes_names[2]:
+          print "=" * 80
+          print "predicted:" , predicted[i] , ";  actual:" , classes_dataset[i] 
+          print "-" * 80
+          print(dataset_filtered_task_1[i]["id"])
+          print(dataset_filtered_task_1[i]["source"][0].encode('utf8'))
+          print(dataset_filtered_task_1[i]["source"][1].encode('utf8'))
+
+          pprint(dataset_filtered_task_1[i]["translations"]["google"]['pair'][0]) 
+          pprint(dataset_filtered_task_1[i]["translations"]["google"]['pair'][1])
+
+          pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["google"]['pair'][0])) 
+          pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["google"]['pair'][1]))
+
+          pprint(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][0]) 
+          pprint(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][1])
+
+          pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][0])) 
+          pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][1]))
+
+
+          print "\n"
   

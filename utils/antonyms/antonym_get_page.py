@@ -63,8 +63,8 @@ def compute_opposite_list_flag(sentences):
         u1 = en.verb.infinitive(u1)
       if compute_opposite_flag([u0, u1]) == 1:
         #print "@@:", u0, u1
-        return 1
-  return 0
+        return 1, u0, u1
+  return 0, '', ''
   
  
 def get_lemma(word, part_of_speech): 
@@ -124,7 +124,7 @@ def get_uncommon_words(sentences):
 
 
 
-with open('../dataset.json') as data_file:    
+with open('../../dataset.json.bk') as data_file:    
   data = json.load(data_file)
   
 data_copy = list(data)
@@ -133,11 +133,17 @@ lst = [[a["translations"]["yandex"]["pair"][0], a["translations"]["yandex"]["pai
 res = ""
 
 
+listt = [u'0002589', u'0002590', u'0002658', u'0002669', u'0002699', u'0002729', u'0002730', u'0002737', u'0002740', u'0002805', u'0002852', u'0002899', u'0002947', u'0002966', u'0003003', u'0003061', u'0003083', u'0003097', u'0003247', u'0003275', u'0003283', u'0003311', u'0003397', u'0003484', u'0003854', u'0003877', u'0003887', u'0003903', u'0003911', u'0003939', u'0003946', u'0003954', u'0003957', u'0003986', u'0004029', u'0004037', u'0004043', u'0004121', u'0004123', u'0004166', u'0004176', u'0004179', u'0004192', u'0004231', u'0004232', u'0004347', u'0004381', u'0004434', u'0004451', u'0004460', u'0004490', u'0004516', u'0004517', u'0004591', u'0004637', u'0004647', u'0004661', u'0004671', u'0004704', u'0004707', u'0004730', u'0004739', u'0004758', u'0004775', u'0004796', u'0004817', u'0004821', u'0004869', u'0004911', u'0004951', u'0004957', u'0004976', u'0004977', u'0004978', u'0005028', u'0005032', u'0005185', u'0005200', u'0005282', u'0005284', u'0005348', u'0005413', u'0005456', u'0005457', u'0005485', u'0005526', u'0005602', u'0005655', u'0005716', u'0005718', u'0005759', u'0005785', u'0005823', u'0005834', u'0005853', u'0005897', u'0005954', u'0006029', u'0006036', u'0006046', u'0006153', u'0006234', u'0006313', u'0006401', u'0006427', u'0006578', u'0006660', u'0006739', u'0006801', u'0006813', u'0006909', u'0006959', u'0007125', u'0007167']
+listt_res = []
+for x in listt:
+  listt_res.append(int(x)-1)
+
 for i in range(7227):
-  print i
-  f = open('antonym_bit.txt', 'a+')
-  f.write(str(i)+" "+str(compute_opposite_list_flag(lst[i])) + "\n")
-  f.close()
+  if i in listt_res:
+    print i
+    f = open('antonym_bit.txt', 'a+')
+    f.write(str(i)+" "+str(compute_opposite_list_flag(lst[i])) + "\n" + lst[i][0] + "\n" + lst[i][1] + "\n\n")
+    f.close()
 
 
 """

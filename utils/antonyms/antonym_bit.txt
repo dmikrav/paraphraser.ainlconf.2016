@@ -1,0 +1,140 @@
+2588 (1, 'avoid', 'allow')
+To avoid the fiscal cliff : the U.S. Senate supported the tax increase.
+The U.S. Senate will not allow the fiscal cliff .
+
+2589 (1, 'prevent', 'allow')
+ The fiscal cliff in the USA temporarily prevented.
+The U.S. Senate will not allow the fiscal cliff .
+
+2657 (1, 'fly', 'land')
+The first Il-476 has flown for testing to the military.
+First Il-476 landed in Zhukovsky.
+
+2668 (1, u'child', u'parent')
+The child of Prince William will be born in July.
+Prince William and Kate Middleton will become parents in July.
+
+2698 (1, 'increase', 'leak')
+ Rosneft will increase oil supplies to China.
+ Rosneft is leaking to China.
+
+2728 (1, 'receive', 'give')
+ Rosneft without tenders received another dozen parcel shelf.
+Medvedev has given "Rosneft" 12 blocks of the shelf.
+
+2729 (1, 'police', u'thief')
+Media: the Kidnappers of the Deputy from Vladivostok surrendered to the police.
+In Vladivostok have detained thieves of the Deputy.
+
+2736 (0, '', '')
+Armenian thief in law in the United States received 3 years in prison for an insurance Scam.
+A US court has sent to prison the Armenian "thief in law".
+
+2739 (0, '', '')
+Cyprus held a presidential election.
+Cyprus announced the results of the first round of presidential elections.
+
+2804 (0, '', '')
+Pussy Riot lost to Barack Obama the prestigious award of the NME magazine.
+Pussy Riot gave NME award to Barack Obama.
+
+2851 (1, 'decide', u'plant')
+The Russian government decided to close the Baikal pulp and paper mill.
+Baykal get rid of the plant.
+
+2898 (0, '', '')
+During the construction of Zenit-Arena killed a worker, there is a check.
+The construction of the stadium "Zenith" has lost work.
+
+2946 (0, '', '')
+Cypriots can exhale: the authorities have abandoned the idea of tax on deposits.
+Cyprus has finally refused to impose a tax on deposits.
+
+2965 (1, 'continue', 'resign')
+Theater revolution continues: retired rector of the School-Studio MXAT.
+The rector of the School-Studio of the Moscow art theatre has resigned.
+
+3002 (0, '', '')
+The defendant in the "pipe business" was placed under house arrest.
+The pipe involved in the case switched to home mode.
+
+3060 (1, 'deliver', 'detain')
+In Apraksin yard again was a RAID, the police delivered about 100 people.
+In Apraksin yard detained nearly 100 people.
+
+3082 (1, 'receive', 'offer')
+In Moscow, you may receive the two-story railroad.
+In Moscow offered to build a two-story railroad.
+
+3096 (1, 'decide', 'postpone')
+The United States decided not to provoke the DPRK's launch of ballistic missiles.
+The U.S. has postponed a ballistic missile test because of North Korea.
+
+3246 (1, 'check', 'begin')
+The audit chamber will check all the private pension funds.
+Accounts chamber begins inspection of private pension funds.
+
+3274 (1, u'defense', u'attack')
+Russian space defense Troops were raised on alarm.
+Russian troops were on the alert to repel space attacks.
+
+3282 (1, 'refuse', u'court')
+For refusing to undergo the medical examination Vitas deprived of the rights to 1,5 years.
+The court denied the artist's right.
+
+3310 (1, 'face', u'duck')
+Two trams in Brussels has faced due weft: 14 victims.
+The ducks became the reason of collision of trams in Brussels.
+
+3396 (0, '', '')
+ Miss world will lose their bikini for conservative Muslims.
+Beauty contest "Miss world" refused to defile in a bikini.
+
+3483 (0, '', '')
+This holiday is not deep enough: MPs want to postpone the Day of Russia.
+Deputies have suggested to transfer Day of Russia.
+
+3853 (1, 'bring', 'refuse')
+The investigation did not bring a case about the death of bomber Nevsky Express .
+SK refused to initiate proceedings on the death of bomber "Nevsky Express".
+
+3876 (0, '', '')
+Apple and Google have overtaken Coca-Cola in the ranking of the most expensive brands.
+Coca-Cola lost to Apple's supremacy in the ranking of the most expensive brands.
+
+3886 (0, '', '')
+The Chinese will put the truth in social networks.
+China will put lies on the Internet.
+
+3902 (1, 'check', u'Employee')
+The Central apparatus of the TFR came to check on the case about the bribe.
+Employee of the Central apparatus of the TFR was suspected of receiving a bribe.
+
+3910 (0, '', '')
+Russian national team on beach soccer left in a playoffs of the world Cup.
+Team Russia came in the 1/2 final of the world Cup.
+
+3938 (0, '', '')
+The Supreme arbitration court has left without workers.
+Seven judges of the Supreme arbitration court resigned.
+
+3945 (1, 'increase', 'jump')
+Radiation levels in groundwater under Fukushima increased 6.5 thousand times.
+The level of radiation in groundwater at Fukushima has jumped thousands of times.
+
+3953 (0, '', '')
+The leadership of the just Russia adds powers.
+Mironov proposed to reduce the management "Fair Russia".
+
+3956 (1, 'work', u'party')
+The Chechen branch of the LDPR has stopped working.
+The Chechen branch of the liberal democratic party disbanded due to a "fascist ideology" of Zhirinovsky.
+
+3985 (0, '', '')
+The Bank Oleg Tinkov will hold IPO in London.
+The Bank Tinkov announced the IPO.
+
+4028 (1, u'police', u'thug')
+The status of victims of the pogroms in Biryulyovo riot police has deteriorated.
+70 thugs from Biryulevo brought administrative proceedings.
+
