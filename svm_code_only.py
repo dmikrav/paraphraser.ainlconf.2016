@@ -199,12 +199,26 @@ dataset_filtered_task_2 = data_copy_task_2
 #random.shuffle(dataset_filtered_task_1)
 #random.shuffle(dataset_filtered_task_2)
 
-# [running settings]
+#   ....  [running settings]   ....
 sett = "dataset"
 #sett = "test"
 task_no = 2
 verbose = True
 print "sett =", sett, ";   task_no =", task_no
+#   ....  [end of running settings]   ....
+
+'''
+#   .... [these lines of code is for testing specifical metric]  ....
+f = open("rrr.txt")
+rrr = int(f.read())
+f.close()
+f = open("rrr.txt", "w+")
+f.write(str(rrr+1))
+f.close()
+print "      [ rrr =", rrr, " ]"
+#   .... [end of these lines of code]  ....
+'''
+
 if task_no == 2:
   classes_ids = [[], []]
   for a in data_copy_task_2:
@@ -212,6 +226,9 @@ if task_no == 2:
       a["class"] = classes_names[1]
   print "ver 1, task 2"
   train = [
+        # testing specifical metric:
+        # [a["blue_metrics"].values()[rrr]]
+    
           a["translations"]["google"]["dkpro"].values()[0:3] 
         + a["translations"]["google"]["dkpro"].values()[4:9]
         + a["translations"]["google"]["dkpro"].values()[10:15]
@@ -243,11 +260,11 @@ if task_no == 2:
 
 
 
-        + a["translations"]["google"]["blue_metrics"].values()[:-4]
-        + a["translations"]["microsoft"]["blue_metrics"].values()[:-4]
-        + a["translations"]["yandex"]["blue_metrics"].values()[:-4]
+        #+ a["translations"]["google"]["blue_metrics"].values()[:-4]
+        #+ a["translations"]["microsoft"]["blue_metrics"].values()[:-4]
+        #+ a["translations"]["yandex"]["blue_metrics"].values()[:-4]
 
-        + a["blue_metrics"].values()[:-4]
+        #+ a["blue_metrics"].values()[:-4]
 
 
 
@@ -366,21 +383,17 @@ if task_no == 2:
   ts = time.time()
   st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
   print st
-'''
-f = open("rrr.txt")
-rrr = int(f.read())
-f.close()
-f = open("rrr.txt", "w+")
-f.write(str(rrr+1))
-f.close()
-print "      [ rrr =", rrr, " ]"
-'''
+
 if task_no == 1:
 
     classes_dataset = [a["class"] for a in dataset_filtered_task_1]
   #if sett == "dataset":  
     print "ver 1, task 1"
     train = [
+        # testing specifical metric:
+        # [a["blue_metrics"].values()[rrr]]
+        
+        
           a["translations"]["google"]["dkpro"].values()[0:3] 
         + a["translations"]["google"]["dkpro"].values()[4:9]
         + a["translations"]["google"]["dkpro"].values()[10:15]
@@ -410,12 +423,12 @@ if task_no == 1:
         + [a["translations"]["microsoft"]["swoogle"]]
         + [a["translations"]["yandex"]["swoogle"]]
 
+        + a["blue_metrics"].values()[:-4]
+        
 
         #+ a["translations"]["google"]["blue_metrics"].values()[:-4]
         #+ a["translations"]["microsoft"]["blue_metrics"].values()[:-4]
         #+ a["translations"]["yandex"]["blue_metrics"].values()[:-4]
-
-        #+ a["blue_metrics"].values()[:-4]
 
 
         #+ [get_libdiff_score([only_verbs(a["translations"]["google"]['pair'][0]), 
@@ -485,7 +498,7 @@ if task_no == 1:
         + [a["translations"]["microsoft"]["swoogle"]]
         + [a["translations"]["yandex"]["swoogle"]]
 
-        #+ a["blue_metrics"].values()[:-4]
+        + a["blue_metrics"].values()[:-4]
 
         #+ [get_libdiff_score([only_verbs(a["translations"]["google"]['pair'][0]), 
         #                      only_verbs(a["translations"]["google"]['pair'][1])])]

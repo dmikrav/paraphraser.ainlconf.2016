@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF8'?>
 <data>
   <team>MLforNLP</team>
-  <run no="3" type="Standard"/>
+  <run no="7" type="Standard"/>
   <task>2</task>
   <response>
     <paraphrase>
@@ -1898,7 +1898,7 @@
       <value name="id_2">34924</value>
       <value name="text_1">Пожарные потушили загоревшийся после жесткой посадки самолет Ан-2</value>
       <value name="text_2">Под Азовом совершил аварийную посадку самолет Ан-2</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25741</value>
@@ -10930,7 +10930,7 @@
       <value name="id_2">36725</value>
       <value name="text_1">Путин подписал закон о нежелательных иностранных организациях</value>
       <value name="text_2">Путин разрешил закрывать нежелательные организации</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27215</value>

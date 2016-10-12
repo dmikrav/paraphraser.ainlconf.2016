@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF8'?>
 <data>
   <team>MLforNLP</team>
-  <run no="5" type="Standard"/>
+  <run no="7" type="Standard"/>
   <task>1</task>
   <response>
     <paraphrase>
@@ -314,7 +314,7 @@
       <value name="id_2">34630</value>
       <value name="text_1">Александр Некрасов назначен на пост главы МЧС Хакасии</value>
       <value name="text_2">Путин назначил нового главу управления МЧС по Москве</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25511</value>
@@ -346,7 +346,7 @@
       <value name="id_2">34639</value>
       <value name="text_1">Apple получила патент на социальную сеть</value>
       <value name="text_2">Apple получила патент на собственную соцсеть</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25518</value>
@@ -386,7 +386,7 @@
       <value name="id_2">34651</value>
       <value name="text_1">Николич: Сербия не говорила о нежелании строить "Турецкий поток"</value>
       <value name="text_2">Президент Сербии опроверг свои слова об отказе строить «Турецкий поток»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25523</value>
@@ -538,7 +538,7 @@
       <value name="id_2">34676</value>
       <value name="text_1">Легкомоторный самолет упал в штате Вашингтон, 2 человека погибли</value>
       <value name="text_2">В США 4 человека погибли при крушении легкомоторного самолета</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25543</value>
@@ -570,7 +570,7 @@
       <value name="id_2">34681</value>
       <value name="text_1">Путеводитель по Дню Победы: как провести 9 мая в Москве</value>
       <value name="text_2">В Москве ограничат движение в связи с Днем Победы</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25547</value>
@@ -674,7 +674,7 @@
       <value name="id_2">34702</value>
       <value name="text_1">Принц Чарльз надеется, что внучка будет заботиться о нем в старости</value>
       <value name="text_2">Принц Чарльз выразил надежду на заботу со стороны внучки в старости</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25563</value>
@@ -746,7 +746,7 @@
       <value name="id_2">34718</value>
       <value name="text_1">Российские самолеты пролетели над Бишкеком в ходе парада Победы</value>
       <value name="text_2">Самолеты ВВС России приняли участие в Параде Победы в Бишкеке</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25574</value>
@@ -834,7 +834,7 @@
       <value name="id_2">34734</value>
       <value name="text_1">Крупный пожар вспыхнул на складе на северо-востоке Москвы</value>
       <value name="text_2">Пожар на северо-востоке Москвы удалось локализовать</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25588</value>
@@ -874,7 +874,7 @@
       <value name="id_2">34743</value>
       <value name="text_1">Хоккеисты сборной России возложили цветы к мемориалу в Чехии</value>
       <value name="text_2">Российские хоккеисты возложили цветы к мемориалу в Чехии</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25593</value>
@@ -898,7 +898,7 @@
       <value name="id_2">34747</value>
       <value name="text_1">Юбилейный парад Победы начался на Красной площади</value>
       <value name="text_2">Европейские СМИ высоко оценили Парад Победы на Красной площади</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25597</value>
@@ -914,7 +914,7 @@
       <value name="id_2">34750</value>
       <value name="text_1">Греф: Сбербанк с 15 мая снизит ставки по кредитам и депозитам</value>
       <value name="text_2">Сбербанк снизит ставки по кредитам и депозитам с 15 мая</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25599</value>
@@ -930,7 +930,7 @@
       <value name="id_2">34753</value>
       <value name="text_1">Порошенко заявил, что УПА стала "другим фронтом" борьбы с фашизмом</value>
       <value name="text_2">Порошенко назвал УПА «другим фронтом» борьбы с фашизмом</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25601</value>
@@ -962,7 +962,7 @@
       <value name="id_2">34756</value>
       <value name="text_1">Военный парад в честь 70-летия Победы начался в Минске</value>
       <value name="text_2">Стивен Сигал посетил военный парад в честь 70-летия Победы в Москве</value>
-      <value name="class">-1</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25605</value>
@@ -1018,7 +1018,7 @@
       <value name="id_2">34764</value>
       <value name="text_1">Москаль: праздничные мероприятия проходят без инцидентов</value>
       <value name="text_2">Праздничные мероприятия в Донецке прошли без происшествий</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25612</value>
@@ -1042,7 +1042,7 @@
       <value name="id_2">34770</value>
       <value name="text_1">Сбербанк снизит ставки по кредитам и депозитам с 15 мая</value>
       <value name="text_2">Сбербанк c 15 мая снизит ставки по кредитам и депозитам</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25615</value>
@@ -1562,7 +1562,7 @@
       <value name="id_2">34857</value>
       <value name="text_1">В праздновании Дня Победы приняли участие более 12 млн россиян</value>
       <value name="text_2">В акции «Бессмертный полк» участвовали 12 миллионов россиян</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25687</value>
@@ -1714,7 +1714,7 @@
       <value name="id_2">34878</value>
       <value name="text_1">Крупный пожар вспыхнул на складе на северо-востоке Москвы</value>
       <value name="text_2">Крупный пожар в административном здании в центре Москвы потушен</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25710</value>
@@ -1810,7 +1810,7 @@
       <value name="id_2">34904</value>
       <value name="text_1">Пушков сравнил Обаму с призраком из другого мира</value>
       <value name="text_2">Пушков сравнил Обаму с призраком</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25726</value>
@@ -1858,7 +1858,7 @@
       <value name="id_2">34914</value>
       <value name="text_1">Меркель приехала в Москву</value>
       <value name="text_2">Ангела Меркель прибыла в Москву</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25734</value>
@@ -1898,7 +1898,7 @@
       <value name="id_2">34924</value>
       <value name="text_1">Пожарные потушили загоревшийся после жесткой посадки самолет Ан-2</value>
       <value name="text_2">Под Азовом совершил аварийную посадку самолет Ан-2</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25741</value>
@@ -1906,7 +1906,7 @@
       <value name="id_2">34926</value>
       <value name="text_1">Самолет Lufthansa вернулся в аэропорт Стамбула из-за угрозы взрыва</value>
       <value name="text_2">Самолет Lufthansa вернулся в Стамбул из-за угрозы теракта</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25742</value>
@@ -1922,7 +1922,7 @@
       <value name="id_2">34928</value>
       <value name="text_1">Глава МВД Украины обозвал идиотом депутата за георгиевскую ленточку</value>
       <value name="text_2">В МВД Украины решили законодательно запретить ношение георгиевских ленточек</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25744</value>
@@ -1954,7 +1954,7 @@
       <value name="id_2">34936</value>
       <value name="text_1">Путин: Германия стала первой жертвой нацистского режима</value>
       <value name="text_2">Путин назвал Германию первой жертвой нацистского режима</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25748</value>
@@ -2002,7 +2002,7 @@
       <value name="id_2">34949</value>
       <value name="text_1">Путин призвал Киев снять экономическую блокаду Донбасса</value>
       <value name="text_2">Пушилин: Киеву стоит снять блокаду Донбасса, а не предлагать гумпомощь</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25757</value>
@@ -2034,7 +2034,7 @@
       <value name="id_2">34955</value>
       <value name="text_1">СМИ: не меньше пяти человек погибли при стрельбе в Швейцарии</value>
       <value name="text_2">Пять человек погибли в результате ДТП в Болгарии</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25761</value>
@@ -2106,7 +2106,7 @@
       <value name="id_2">34968</value>
       <value name="text_1">У памятника Воинам Освободителям 9 мая отметили 220 тысяч жителей Риги</value>
       <value name="text_2">В Риге юбилей Победы отметили более 220 тысяч человек</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25771</value>
@@ -2210,7 +2210,7 @@
       <value name="id_2">34986</value>
       <value name="text_1">Российские спасатели собираются 11 мая вернуться в Россию из Непала</value>
       <value name="text_2">Спасатели МЧС России вылетели из Непала в Москву</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25784</value>
@@ -2234,7 +2234,7 @@
       <value name="id_2">34993</value>
       <value name="text_1">Не менее 400 мигрантов спасены у берегов Индонезии с дрейфующей лодки</value>
       <value name="text_2">У берегов Индонезии с дрейфующей лодки спасены сотни мигрантов </value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25787</value>
@@ -2330,7 +2330,7 @@
       <value name="id_2">35017</value>
       <value name="text_1">Марокканский истребитель F-16 из состава ВВС коалиции пропал в Йемене</value>
       <value name="text_2">Хуситы в Йемене заявили о сбитом истребители марроканских ВВС</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25803</value>
@@ -2362,7 +2362,7 @@
       <value name="id_2">35024</value>
       <value name="text_1">Шойгу: Минобороны России удовлетворено совместными учениями с Китаем</value>
       <value name="text_2">ВМФ России и Китая проведут несколько совместных учений в 2015 году</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25808</value>
@@ -2370,7 +2370,7 @@
       <value name="id_2">35026</value>
       <value name="text_1">Пушилин: альтернатива соблюдению "Минска-2" - срыв мирного процесса</value>
       <value name="text_2">Пушилин: Альтернатива "Минска-2" - срыв мирного процесса</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25809</value>
@@ -2410,7 +2410,7 @@
       <value name="id_2">35036</value>
       <value name="text_1">Сотрудники ОБСЕ попали под обстрел украинских военных под Луганском</value>
       <value name="text_2">Украинский солдат обстрелял членов миссии ОБСЕ</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25815</value>
@@ -2570,7 +2570,7 @@
       <value name="id_2">35072</value>
       <value name="text_1">Картина Пикассо стала самым дорогим произведением в мире</value>
       <value name="text_2">Самой дорогой скульптурой в мире стал "Указующий человек" Джакометти</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25838</value>
@@ -2586,7 +2586,7 @@
       <value name="id_2">35077</value>
       <value name="text_1">Лужков назвал свою ферму примером для российского правительства</value>
       <value name="text_2">Лужков назвал российскую экономику «антинародной»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25840</value>
@@ -2594,7 +2594,7 @@
       <value name="id_2">35077</value>
       <value name="text_1">Лужков считает, что экономика России "антинародна" и "нежизнеспособна"</value>
       <value name="text_2">Лужков назвал российскую экономику «антинародной»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25841</value>
@@ -2698,7 +2698,7 @@
       <value name="id_2">35097</value>
       <value name="text_1">СМИ: США и Японии должно быть стыдно, глядя на Россию и Китай</value>
       <value name="text_2">СМИ: США солгали о том, как был ликвидирован бен Ладен</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25857</value>
@@ -2730,7 +2730,7 @@
       <value name="id_2">35099</value>
       <value name="text_1">Путин встретится с Керри в Сочи во вторник</value>
       <value name="text_2">Песков анонсировал встречу Путина и Керри в Сочи</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25861</value>
@@ -2842,7 +2842,7 @@
       <value name="id_2">35109</value>
       <value name="text_1">В Непале произошло новое землетрясение магнитудой 7,0</value>
       <value name="text_2">В Непале произошло новое сильное землетрясения магнитудой 7,4</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25876</value>
@@ -2914,7 +2914,7 @@
       <value name="id_2">35125</value>
       <value name="text_1">СМИ: попавший в ДТП с туристами в Египте автобус принадлежал Blue Sky</value>
       <value name="text_2">СМИ сообщили о гибели россиянина в ДТП в Египте</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25886</value>
@@ -2986,7 +2986,7 @@
       <value name="id_2">35132</value>
       <value name="text_1">По меньшей мере четыре человека стали жертвами землетрясений в Непале</value>
       <value name="text_2">Жертвами нового землетрясения в Непале стали 26 человек</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25895</value>
@@ -3202,7 +3202,7 @@
       <value name="id_2">35171</value>
       <value name="text_1">Не менее 90 человек погибли в столице Йемена в результате авиаударов</value>
       <value name="text_2">СМИ: 90 человек погибли в Йемене из-за авиаударов</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25926</value>
@@ -3210,7 +3210,7 @@
       <value name="id_2">35174</value>
       <value name="text_1">Владимир Путин встретится в Сочи с Джоном Керри</value>
       <value name="text_2">Путин проводит в Сочи встречу с Керри и Лавровым</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25927</value>
@@ -3354,7 +3354,7 @@
       <value name="id_2">35191</value>
       <value name="text_1">Россия была права: разговоры о сланцевом газе в Европе оказались пустышкой</value>
       <value name="text_2">Bloomberg: Россия была права, сланцевая революция в Европе - пустышка</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25948</value>
@@ -3378,7 +3378,7 @@
       <value name="id_2">35196</value>
       <value name="text_1">Порошенко попросил главу Facebook открыть на Украине представительство</value>
       <value name="text_2">Порошенко попросил Цукерберга открыть офис Facebook на Украине</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25951</value>
@@ -3410,7 +3410,7 @@
       <value name="id_2">35204</value>
       <value name="text_1">Боевые корабли России и КНР отправились на учение в Средиземное море</value>
       <value name="text_2">Корабли ВМФ России и Китая отправились на учения в Средиземном море </value>
-      <value name="class">-1</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25956</value>
@@ -3538,7 +3538,7 @@
       <value name="id_2">35222</value>
       <value name="text_1">Порошенко попросил главу Facebook открыть на Украине представительство</value>
       <value name="text_2">Порошенко попросил Цукерберга открыть офис Facebook на Украине</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25972</value>
@@ -3594,7 +3594,7 @@
       <value name="id_2">35229</value>
       <value name="text_1">В Сочи началась встреча Путина и Керри </value>
       <value name="text_2">Встреча Путина с Керри продолжалась четыре часа</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25979</value>
@@ -3626,7 +3626,7 @@
       <value name="id_2">35229</value>
       <value name="text_1">Путин проводит в Сочи встречу с Керри и Лавровым</value>
       <value name="text_2">Встреча Путина с Керри продолжалась четыре часа</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">25983</value>
@@ -3850,7 +3850,7 @@
       <value name="id_2">35267</value>
       <value name="text_1">Белый дом: США и Куба проведут новый раунд переговоров в конце мая</value>
       <value name="text_2">США и Куба до конца мая проведут новый раунд переговоров</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26013</value>
@@ -3858,7 +3858,7 @@
       <value name="id_2">35269</value>
       <value name="text_1">Глава МИД Канады: Оттава не признает вхождение Крыма в состав России</value>
       <value name="text_2">Глава МИД Турции осудил действия России на Украине и в Крыму</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26014</value>
@@ -3962,7 +3962,7 @@
       <value name="id_2">35286</value>
       <value name="text_1">В результате стрельбы в военном лагере в Южной Корее погиб мужчина</value>
       <value name="text_2">Число погибших при стрельбе в военном лагере в Сеуле возросло до двух</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26027</value>
@@ -3970,7 +3970,7 @@
       <value name="id_2">35288</value>
       <value name="text_1">Взрывы в Багдаде унесли жизни 15 человек</value>
       <value name="text_2">Новое землетрясение в Непале унесло жизни 65 человек</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26028</value>
@@ -4002,7 +4002,7 @@
       <value name="id_2">35288</value>
       <value name="text_1">Аэропорт в столице Непала закрыт в связи с новым землетрясением</value>
       <value name="text_2">Новое землетрясение в Непале унесло жизни 65 человек</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26032</value>
@@ -4042,7 +4042,7 @@
       <value name="id_2">35291</value>
       <value name="text_1">Не менее пяти человек погибло при крушении поезда под Филадельфией</value>
       <value name="text_2">Жертвами крушения пассажирского поезда в США стали не менее пяти человек</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26037</value>
@@ -4074,7 +4074,7 @@
       <value name="id_2">35292</value>
       <value name="text_1">Два человека погибли в Индии в результате землетрясений в Непале</value>
       <value name="text_2">В результате стрельбы в военном лагере в Сеуле погибли два человека</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26041</value>
@@ -4082,7 +4082,7 @@
       <value name="id_2">35295</value>
       <value name="text_1">Банк России отозвал лицензию у екатеринбургского "Плато-банка"</value>
       <value name="text_2">ЦБ отозвал лицензию у екатеринбургского «Плато-банка»</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26042</value>
@@ -4202,7 +4202,7 @@
       <value name="id_2">35318</value>
       <value name="text_1">СМИ: более 40 человек погибли при обстреле автобуса в Пакистане</value>
       <value name="text_2">В Пакистане при обстреле автобуса погибли 40 человек</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26060</value>
@@ -4210,7 +4210,7 @@
       <value name="id_2">35321</value>
       <value name="text_1">РКК "Энергия": запуск экспедиции на МКС переносится на конец июля</value>
       <value name="text_2">Новая экспедиция на МКС отправится 24 июля</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26061</value>
@@ -4258,7 +4258,7 @@
       <value name="id_2">35329</value>
       <value name="text_1">Глава МИД Украины обсудил с Керри итоги его переговоров в Сочи</value>
       <value name="text_2">Глава МИД Украины рассказал о теме переговоров с госсекретарем США</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26069</value>
@@ -4298,7 +4298,7 @@
       <value name="id_2">35340</value>
       <value name="text_1">Альфа-банк увидел в действиях создателя «Арматы» попытку давления на суд</value>
       <value name="text_2">Альфа-банк заявил о давлении «Уралвагонзавода» на суд</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26074</value>
@@ -4410,7 +4410,7 @@
       <value name="id_2">35357</value>
       <value name="text_1">Средневзвешенный курс доллара на ЕТС упал до 49,54 рубля</value>
       <value name="text_2">Курс доллара упал ниже 49 рублей</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26094</value>
@@ -4506,7 +4506,7 @@
       <value name="id_2">35374</value>
       <value name="text_1">Экс-президент Египта Хосни Мубарак вышел на свободу</value>
       <value name="text_2">Экс-президент Египта Хосни Мубарак останется в тюрьме</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26106</value>
@@ -4522,7 +4522,7 @@
       <value name="id_2">35375</value>
       <value name="text_1">Банк России отозвал лицензию у СтройКомБанка</value>
       <value name="text_2">ЦБ отозвал лицензию у банка, связанного с «Триколор ТВ»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26108</value>
@@ -4530,7 +4530,7 @@
       <value name="id_2">35375</value>
       <value name="text_1">Банк России отозвал лицензию у екатеринбургского "Плато-банка"</value>
       <value name="text_2">ЦБ отозвал лицензию у банка, связанного с «Триколор ТВ»</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26109</value>
@@ -4730,7 +4730,7 @@
       <value name="id_2">35425</value>
       <value name="text_1">PGNIG обратилась в Стокгольмский арбитраж по ценам на газ "Газпрома"</value>
       <value name="text_2">Польская PGNiG подала на «Газпром» в Стокгольмский арбитраж</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26141</value>
@@ -4746,7 +4746,7 @@
       <value name="id_2">35429</value>
       <value name="text_1">На лечение в Москву доставлены 18 тяжелобольных детей из Донбасса</value>
       <value name="text_2">Самолет МЧС России доставил на лечение в Москву детей из Донбасса</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26143</value>
@@ -4762,7 +4762,7 @@
       <value name="id_2">35431</value>
       <value name="text_1">На лечение в Москву доставлены 18 тяжелобольных детей из Донбасса</value>
       <value name="text_2">В Москву доставили 18 тяжелобольных детей из Донбасса</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26145</value>
@@ -4770,7 +4770,7 @@
       <value name="id_2">35431</value>
       <value name="text_1">На лечение в Москву доставлены 18 тяжелобольных детей из Донбасса</value>
       <value name="text_2">В Москву доставили 18 тяжелобольных детей из Донбасса</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26146</value>
@@ -4810,7 +4810,7 @@
       <value name="id_2">35439</value>
       <value name="text_1">Want China Times: на фоне угроз НАТО Россия и Китай формируют блок</value>
       <value name="text_2">Главком НАТО обвинил Россию в «безответственных» ядерных угрозах</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26152</value>
@@ -4890,7 +4890,7 @@
       <value name="id_2">35458</value>
       <value name="text_1">Землетрясение магнитудой 5,1 произошло на юге Филиппин</value>
       <value name="text_2">Землетрясение магнитудой 5,1 произошло на севере Филиппин</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26164</value>
@@ -4898,7 +4898,7 @@
       <value name="id_2">35461</value>
       <value name="text_1">Собак актера Джонни Деппа могут усыпить в Австралии</value>
       <value name="text_2">Власти Австралии пригрозили усыпить собак актера Джонни Деппа</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26166</value>
@@ -5026,7 +5026,7 @@
       <value name="id_2">35485</value>
       <value name="text_1">Биржевой курс доллара упал ниже 49 руб.</value>
       <value name="text_2">Курс доллара превысил 50 рублей</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26184</value>
@@ -5442,7 +5442,7 @@
       <value name="id_2">35567</value>
       <value name="text_1">Боевики ИГ обезглавили 10 человек неподалеку от развалин Пальмиры</value>
       <value name="text_2">Боевики "ИГ" обезглавили 10 пленников в Сирии</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26245</value>
@@ -5474,7 +5474,7 @@
       <value name="id_2">35578</value>
       <value name="text_1">В Петербурге задержали бывшего начальника МВД по СЗФО</value>
       <value name="text_2">Бывший начальник ГУ МВД по северо-западу России взят под стражу</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26254</value>
@@ -5490,7 +5490,7 @@
       <value name="id_2">35584</value>
       <value name="text_1">Десять человек погибли и 19 ранены в ДТП с автобусом в Мексике</value>
       <value name="text_2">В Мексике столкнулись автобус и грузовик: 10 погибших, 19 раненых</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26256</value>
@@ -5506,7 +5506,7 @@
       <value name="id_2">35588</value>
       <value name="text_1">В Росии планируют создать изолированную сеть связи для госорганов</value>
       <value name="text_2">В России создадут изолированную сеть связи для госслужащих</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26258</value>
@@ -5522,7 +5522,7 @@
       <value name="id_2">35592</value>
       <value name="text_1">Яромир Ягр вывел Чехию в полуфинал чемпионата мира по хоккею</value>
       <value name="text_2">Дубли Коваржа и Ягра вывели сборную Чехии в полуфинал ЧМ по хоккею</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26261</value>
@@ -5554,7 +5554,7 @@
       <value name="id_2">35600</value>
       <value name="text_1">Страны Персидского залива намерены при помощи США создать систему ПРО</value>
       <value name="text_2">В Персидском заливе с помощью США создадут региональную систему ПРО</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26265</value>
@@ -5658,7 +5658,7 @@
       <value name="id_2">35622</value>
       <value name="text_1">Скончался легенда блюза Би Би Кинг</value>
       <value name="text_2">Скончался знаменитый музыкант Би Би Кинг</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26285</value>
@@ -5674,7 +5674,7 @@
       <value name="id_2">35623</value>
       <value name="text_1">Саакашвили: Маккейн согласен на участие в совете реформ при Порошенко</value>
       <value name="text_2">Маккейн отказался войти в совет реформ при президенте Украины</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26287</value>
@@ -5810,7 +5810,7 @@
       <value name="id_2">35653</value>
       <value name="text_1">Правительство приняло решение об отмене экспортной пошлины на пшеницу</value>
       <value name="text_2">Правительство отменило экспортную пошлину на пшеницу</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26306</value>
@@ -5850,7 +5850,7 @@
       <value name="id_2">35662</value>
       <value name="text_1">Активист "Евромайдана" Костенко получил 4 года и 2 месяца колонии</value>
       <value name="text_2">Активист «Евромайдана» получил в Крыму 4 года и 2 месяца лишения свободы</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26311</value>
@@ -5898,7 +5898,7 @@
       <value name="id_2">35672</value>
       <value name="text_1">Кадыров напомнил о браке Пугачевой критикам свадьбы 17-летней чеченки</value>
       <value name="text_2">Правозащитница назвала дату свадьбы 17-летней чеченки</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26318</value>
@@ -6034,7 +6034,7 @@
       <value name="id_2">35697</value>
       <value name="text_1">Следствие по делу об убийстве Немцова возглавил новый следователь</value>
       <value name="text_2">Следователь по делу Немцова возглавит новую структуру в СКР</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26335</value>
@@ -6042,7 +6042,7 @@
       <value name="id_2">35699</value>
       <value name="text_1">Защита Васильевой обжаловала приговор</value>
       <value name="text_2">Защита Евгении Васильевой обжаловала приговор</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26337</value>
@@ -6178,7 +6178,7 @@
       <value name="id_2">35735</value>
       <value name="text_1">Депутат: взрыв у офиса партии "Свобода" произошел в Одессе</value>
       <value name="text_2">В Одессе возле офиса партии "Свобода" произошел взрыв</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26357</value>
@@ -6226,7 +6226,7 @@
       <value name="id_2">35746</value>
       <value name="text_1">Джохар Царнаев приговорен к смертной казни</value>
       <value name="text_2">Присяжные по делу Джохара Царнаева проголосовали за смертный приговор</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26366</value>
@@ -6290,7 +6290,7 @@
       <value name="id_2">35757</value>
       <value name="text_1">Центр управления полетами: орбиту полета МКС поднимут на 2,8 км</value>
       <value name="text_2">Высоту орбиты МКС увеличат на три километра</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26376</value>
@@ -6498,7 +6498,7 @@
       <value name="id_2">35805</value>
       <value name="text_1">Названа предварительная версия причин аварии «Протона-М»</value>
       <value name="text_2">Названы вероятные причины аварии «Протона-М»</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26416</value>
@@ -6562,7 +6562,7 @@
       <value name="id_2">35817</value>
       <value name="text_1">Суд в Каире вынесет приговор экс-президенту Египта Мухаммеду Мурси</value>
       <value name="text_2">Суд приговорил бывшего президента Египта Мурси к смерти</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26426</value>
@@ -6626,7 +6626,7 @@
       <value name="id_2">35833</value>
       <value name="text_1">Пентагон: спецназ США провел операцию на территории Сирии против ИГ</value>
       <value name="text_2">Спецназ США ликвидировал полевого командира "ИГ" в ходе рейда в Сирии</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26443</value>
@@ -6682,7 +6682,7 @@
       <value name="id_2">35852</value>
       <value name="text_1">СМИ: турецкий истребитель сбил сирийский самолет</value>
       <value name="text_2">Турецкий истребитель сбил в районе границы сирийский самолет</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26453</value>
@@ -6970,7 +6970,7 @@
       <value name="id_2">35917</value>
       <value name="text_1">Боевики "Талибана" взяли на себя ответственность за взрыв в Кабуле</value>
       <value name="text_2">Ответственность за взрыв в Кабуле взяло на себя движение "Талибан"</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26498</value>
@@ -6978,7 +6978,7 @@
       <value name="id_2">35919</value>
       <value name="text_1">Источник: Полонский депортирован в Россию по запросу Интерпола</value>
       <value name="text_2">На депортацию Полонского в Россию повлиял запрос Интерпола</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26499</value>
@@ -7114,7 +7114,7 @@
       <value name="id_2">35948</value>
       <value name="text_1">СМИ: Львовская опера возмущена массовым призывом артистов в армию</value>
       <value name="text_2">Ведущие артисты Львовской оперы получили повестки в армию</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26517</value>
@@ -7226,7 +7226,7 @@
       <value name="id_2">35975</value>
       <value name="text_1">Россия разгромила США и вышла в финал чемпионата мира по хоккею</value>
       <value name="text_2">Сборная США стала бронзовым призером чемпионата мира по хоккею</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26536</value>
@@ -7274,7 +7274,7 @@
       <value name="id_2">35987</value>
       <value name="text_1">ПСЖ в третий раз подряд стал чемпионом Франции</value>
       <value name="text_2">«Барселона» в 23-й раз стала чемпионом Испании</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26544</value>
@@ -7298,7 +7298,7 @@
       <value name="id_2">35995</value>
       <value name="text_1">Россия встречается с Канадой в финале чемпионата мира по хоккею</value>
       <value name="text_2">Хоккеисты сборной России не попали в символическую сборную чемпионата мира</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26549</value>
@@ -7362,7 +7362,7 @@
       <value name="id_2">36009</value>
       <value name="text_1">ЦУП приступил к повторной попытке коррекции орбиты МКС</value>
       <value name="text_2">Орбиту МКС удалось поднять со второй попытки</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26559</value>
@@ -7370,7 +7370,7 @@
       <value name="id_2">36009</value>
       <value name="text_1">Попытка коррекции орбиты полета МКС состоится в ночь на понедельник</value>
       <value name="text_2">Орбиту МКС удалось поднять со второй попытки</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26560</value>
@@ -7442,7 +7442,7 @@
       <value name="id_2">36029</value>
       <value name="text_1">Гудков: парламентского расследования убийства Немцова в РФ не будет</value>
       <value name="text_2">Гудков сообщил об отказе Думы расследовать убийство Немцова</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26574</value>
@@ -7514,7 +7514,7 @@
       <value name="id_2">36042</value>
       <value name="text_1">Канада разгромила сборную России в финале ЧМ по хоккею</value>
       <value name="text_2">Песков о финале ЧМ по хоккею: второе место для сборной - тоже почетно</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26583</value>
@@ -7546,7 +7546,7 @@
       <value name="id_2">36050</value>
       <value name="text_1">Песков: встречи представителей администрации с Нуланд не запланированы</value>
       <value name="text_2">Песков прокомментировал приезд Нуланд</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26587</value>
@@ -7610,7 +7610,7 @@
       <value name="id_2">36062</value>
       <value name="text_1">Боевой корабль ВМФ России "Пытливый" вышел в Средиземное море</value>
       <value name="text_2">Сторожевой корабль "Пытливый" отправился в Средиземное море</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26595</value>
@@ -7810,7 +7810,7 @@
       <value name="id_2">36105</value>
       <value name="text_1">В Великобритании медбрата признали виновным в убийстве пациентов</value>
       <value name="text_2">В Британии «одержимого дьяволом» медбрата признали виновным в убийстве пациентов</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26623</value>
@@ -7858,7 +7858,7 @@
       <value name="id_2">36113</value>
       <value name="text_1">Пушков: США плохо понимают, что их жесткости на всех не хватит,</value>
       <value name="text_2">Алексей Пушков: Жестокости США на всех не хватит</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26629</value>
@@ -7898,7 +7898,7 @@
       <value name="id_2">36121</value>
       <value name="text_1">Могерини: приоритет операции ЕС в Средиземноморье - спасение людей</value>
       <value name="text_2">ЕС принял решение об операции против контрабандистов в Средиземноморье</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26634</value>
@@ -7930,7 +7930,7 @@
       <value name="id_2">36129</value>
       <value name="text_1">"Роснефть" рассматривает привлечение до 10 триллионов рублей кредитов</value>
       <value name="text_2">«Роснефть» попросит акционеров одобрить займы почти в 10 трлн руб.</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26638</value>
@@ -7970,7 +7970,7 @@
       <value name="id_2">36137</value>
       <value name="text_1">Песков: Нуланд не встречалась с представителями Кремля</value>
       <value name="text_2">Кремлевские чиновники сегодня не встречались с Нуланд</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26643</value>
@@ -7994,7 +7994,7 @@
       <value name="id_2">36141</value>
       <value name="text_1">Путин и премьер Ирака обсудят торгово-инвестиционную сферу</value>
       <value name="text_2">Песков: Владимир Путин может обсудить ВТС с иракским премьером</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26646</value>
@@ -8002,7 +8002,7 @@
       <value name="id_2">36143</value>
       <value name="text_1">ООН: компании из РФ за 2014 год инвестировали за рубеж $56 миллиардов</value>
       <value name="text_2">Вопреки санкцим Россия инвестировала за рубеж 56 миллиардов долларов</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26647</value>
@@ -8194,7 +8194,7 @@
       <value name="id_2">36186</value>
       <value name="text_1">Сбербанк подал в арбитраж Москвы иск к "Мечелу"</value>
       <value name="text_2">Сбербанк и ВТБ подали новые иски к структурам «Мечела»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26676</value>
@@ -8322,7 +8322,7 @@
       <value name="id_2">36216</value>
       <value name="text_1">Лавров: РФ высоко ценит решения СЕ в отношении кризиса на Украине</value>
       <value name="text_2">Лавров: Мандат СЕ на расследование преступлений на Украине надо расширить</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26698</value>
@@ -8330,7 +8330,7 @@
       <value name="id_2">36220</value>
       <value name="text_1">Карасин: Россия и США договорились продолжать контакты по Украине</value>
       <value name="text_2">США и Россия придумали альтернативу «нормандской четверке» по Украине</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26699</value>
@@ -8442,7 +8442,7 @@
       <value name="id_2">36252</value>
       <value name="text_1">Представительство Евросоюза обстреляли в столице Бурунди</value>
       <value name="text_2">В Бурунди обстреляно представительство ЕС</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26716</value>
@@ -8522,7 +8522,7 @@
       <value name="id_2">36273</value>
       <value name="text_1">Дума приняла закон о "нежелательных" иностранных организациях в России</value>
       <value name="text_2">Путин рассмотрит закон о "нежелательных организациях"</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26732</value>
@@ -8546,7 +8546,7 @@
       <value name="id_2">36278</value>
       <value name="text_1">МИД: РФ рассчитывает на наказание в США нарушителей прав усыновленных</value>
       <value name="text_2">МИД РФ призвал США наказать всех нарушителей прав приемных детей из России</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26735</value>
@@ -8610,7 +8610,7 @@
       <value name="id_2">36293</value>
       <value name="text_1">Более 15 ливийских солдат получили ранения в боях в городе Бенгази</value>
       <value name="text_2">Более 15 ливийских солдат получили ранения в ходе боев в Бенгази</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26745</value>
@@ -8634,7 +8634,7 @@
       <value name="id_2">36295</value>
       <value name="text_1">СБ ООН: виновных в нападении на посольство РФ в Дамаске нужно наказать</value>
       <value name="text_2">Совбез ООН потребовал наказать виновных в обстреле посольства РФ в Дамаске</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26748</value>
@@ -8770,7 +8770,7 @@
       <value name="id_2">36322</value>
       <value name="text_1">Банк России с 20 мая отозвал лицензию у московского ПроБанка</value>
       <value name="text_2">ЦБ отозвал лицензии у двух московских банков</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26767</value>
@@ -8786,7 +8786,7 @@
       <value name="id_2">36325</value>
       <value name="text_1">Многоэтажное здание обрушилось в Китае, под завалами оказались люди</value>
       <value name="text_2">Девятиэтажное здание обрушилось в Китае, под завалами есть люди</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26769</value>
@@ -8874,7 +8874,7 @@
       <value name="id_2">36344</value>
       <value name="text_1">Хирург опроверг обвинения СБУ в "финансировании терроризма"</value>
       <value name="text_2">Байкер Хирург отверг обвинения в финансировании терроризма</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26780</value>
@@ -8946,7 +8946,7 @@
       <value name="id_2">36360</value>
       <value name="text_1">Россия и Бахрейн подписали договор о военно-техническом сотрудничестве</value>
       <value name="text_2">Украина решила прекратить военно-техническое сотрудничество с Россией</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26790</value>
@@ -8986,7 +8986,7 @@
       <value name="id_2">36370</value>
       <value name="text_1">СК: обыски в "Матросской тишине" связаны с делом о вымогательстве</value>
       <value name="text_2">Работников СИЗО "Матросская тишина" заподозрили в вымогательстве</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26797</value>
@@ -8994,7 +8994,7 @@
       <value name="id_2">36371</value>
       <value name="text_1">Работников СИЗО "Матросская тишина" заподозрили в вымогательстве</value>
       <value name="text_2">По делу о вымогательстве в «Матросской тишине» задержаны пять человек</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26798</value>
@@ -9242,7 +9242,7 @@
       <value name="id_2">36416</value>
       <value name="text_1">Турчинов заявил о возможности размещения элементов системы ПРО на Украине</value>
       <value name="text_2">США исключили размещение компонентов ПРО на Украине</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26849</value>
@@ -9266,7 +9266,7 @@
       <value name="id_2">36416</value>
       <value name="text_1">В ГД сочли спекулятивным заявление Турчинова о размещении ПРО США</value>
       <value name="text_2">США исключили размещение компонентов ПРО на Украине</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26854</value>
@@ -9322,7 +9322,7 @@
       <value name="id_2">36431</value>
       <value name="text_1">Ставка на падение: стоит ли держать деньги на рублевых вкладах</value>
       <value name="text_2">Сбербанк понизил ставки по рублевым вкладам</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26869</value>
@@ -9410,7 +9410,7 @@
       <value name="id_2">36448</value>
       <value name="text_1">СМИ: карикатуристу Charlie Hebdo запретили въезд в Никарагуа</value>
       <value name="text_2">Карикатуристу Charlie Hebdo отказали во въезде в Никарагуа</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26894</value>
@@ -9426,7 +9426,7 @@
       <value name="id_2">36450</value>
       <value name="text_1">Матвиенко поддерживает возможность переноса выборов в Госдуму</value>
       <value name="text_2">Нарышкин назвал «разумным» возможный перенос выборов в Госдуму</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26896</value>
@@ -9474,7 +9474,7 @@
       <value name="id_2">36459</value>
       <value name="text_1">Суд отменил пожизненные сроки членам банды «приморских партизан»</value>
       <value name="text_2">Членам банды «приморских партизан» отменили пожизненные сроки</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26903</value>
@@ -9514,7 +9514,7 @@
       <value name="id_2">36469</value>
       <value name="text_1">Пожар в вагоне электрички произошел на юго-востоке Москвы</value>
       <value name="text_2">Вагон электрички загорелся на юго-востоке Москвы</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26909</value>
@@ -9538,7 +9538,7 @@
       <value name="id_2">36475</value>
       <value name="text_1">Бывшего руководителя РКК «Энергия» отправили под домашний арест</value>
       <value name="text_2">Экс-главу РКК "Энергия" Лопоту заключили под домашний арест</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26916</value>
@@ -9554,7 +9554,7 @@
       <value name="id_2">36479</value>
       <value name="text_1">Московскую психбольницу оштрафовали за показ пациентам фильма «Молчание ягнят»</value>
       <value name="text_2">Московскую психбольницу оштрафовали за показ детям "Молчания ягнят"</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26919</value>
@@ -9682,7 +9682,7 @@
       <value name="id_2">36504</value>
       <value name="text_1">Киев официально не предупреждал Россию о возможном неплатеже по долгу</value>
       <value name="text_2">Силуанов: Украина не предупредила РФ о возможном неплатеже по долгу</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26938</value>
@@ -9698,7 +9698,7 @@
       <value name="id_2">36507</value>
       <value name="text_1">«Локомотив» стал обладателем Кубка России по футболу</value>
       <value name="text_2">ФЛ "Локомотив" стал обладателем Кубка России-2014/15</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26945</value>
@@ -9706,7 +9706,7 @@
       <value name="id_2">36509</value>
       <value name="text_1">Лавров и Керри обсудили конфликт на Украине после переговоров в Сочи</value>
       <value name="text_2">Лавров обсудил с Керри ситуацию в Сирии и Йемене</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26946</value>
@@ -9738,7 +9738,7 @@
       <value name="id_2">36513</value>
       <value name="text_1">Лавров и Керри обсудили запуск мирного процесса в Сирии и Йемене</value>
       <value name="text_2">Лавров и Керри по телефону обсудили конфликт на Украине</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26955</value>
@@ -9802,7 +9802,7 @@
       <value name="id_2">36523</value>
       <value name="text_1">Арестован первый фигурант дела о вымогательстве в «Матросской тишине»</value>
       <value name="text_2">Арестованы шестеро фигурантов дела о вымогательстве в «Матросской тишине»</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26963</value>
@@ -9858,7 +9858,7 @@
       <value name="id_2">36534</value>
       <value name="text_1">В деле об убийстве Немцова появился новый «Русик»</value>
       <value name="text_2">В деле об убийстве Немцова появился новый фигурант</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26977</value>
@@ -9890,7 +9890,7 @@
       <value name="id_2">36539</value>
       <value name="text_1">Маркин за 2014 год заработал чуть более 6,8 миллиона рублей</value>
       <value name="text_2">Набиуллина заработала за год почти 22 миллиона рублей</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26981</value>
@@ -9946,7 +9946,7 @@
       <value name="id_2">36551</value>
       <value name="text_1">Поездки японцев на Курилы возобновятся с конца мая</value>
       <value name="text_2">Поездки жителей Японии на Курилы возобновятся в конце мая</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">26989</value>
@@ -10026,7 +10026,7 @@
       <value name="id_2">36567</value>
       <value name="text_1">Арестованы земли, дом, машина и деньги главы петербургского метро</value>
       <value name="text_2">В Петербурге арестовали имущество и деньги начальника метро</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27011</value>
@@ -10130,7 +10130,7 @@
       <value name="id_2">36577</value>
       <value name="text_1">Концерн "Алмаз-Антей" обжаловал санкции, введенные против компании ЕС</value>
       <value name="text_2">«Алмаз-Антей» обжаловал введенные Евросоюзом санкции</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27026</value>
@@ -10178,7 +10178,7 @@
       <value name="id_2">36588</value>
       <value name="text_1">Минфин России подал иск к Потанину и дочерней структуре "Интерроса"</value>
       <value name="text_2">Минфин подал иск к Владимиру Потанину</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27036</value>
@@ -10194,7 +10194,7 @@
       <value name="id_2">36591</value>
       <value name="text_1">Минфин подал иск к Владимиру Потанину</value>
       <value name="text_2">Минфин подал иск к Потанину</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27038</value>
@@ -10218,7 +10218,7 @@
       <value name="id_2">36597</value>
       <value name="text_1">Замглавы Минфина РФ не ожидает резких скачков рубля</value>
       <value name="text_2">В Минфине сообщили об окончании скачков рубля</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27047</value>
@@ -10274,7 +10274,7 @@
       <value name="id_2">36604</value>
       <value name="text_1">Согласована итоговая декларация саммита "Восточного партнерства"</value>
       <value name="text_2">Фраза об «аннексии Крыма» осталась в декларации «Восточного партнерства»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27054</value>
@@ -10306,7 +10306,7 @@
       <value name="id_2">36611</value>
       <value name="text_1">СМИ: новый фигурант появился в деле об убийстве Немцова</value>
       <value name="text_2">Адвокат опроверг появление нового фигуранта в деле об убийстве Немцова</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27060</value>
@@ -10338,7 +10338,7 @@
       <value name="id_2">36614</value>
       <value name="text_1">В декларации "Восточного партнерства" призвали к выполнению Минска-2</value>
       <value name="text_2">Опубликована итоговая декларация саммита «Восточного партнерства»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27072</value>
@@ -10434,7 +10434,7 @@
       <value name="id_2">36625</value>
       <value name="text_1">Согласована итоговая декларация саммита "Восточного партнерства"</value>
       <value name="text_2">В декларации «Восточного партнерства» осталась фраза об «аннексии Крыма»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27119</value>
@@ -10442,7 +10442,7 @@
       <value name="id_2">36628</value>
       <value name="text_1">Депутатам разрешили обходиться без присяги на верность Родине</value>
       <value name="text_2">ГД не стала вводить обязательную присягу депутатов на верность Родине</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27121</value>
@@ -10482,7 +10482,7 @@
       <value name="id_2">36633</value>
       <value name="text_1">Госдума может лишить мандата осужденного депутата от КПРФ Ширшова</value>
       <value name="text_2">Госдума лишила мандата осужденного депутата от КПРФ</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27126</value>
@@ -10634,7 +10634,7 @@
       <value name="id_2">36658</value>
       <value name="text_1">Молния стала причиной пожара на западе Москвы</value>
       <value name="text_2">МЧС: удар молнии в газовый баллон стал причиной взрыва в Москве</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27156</value>
@@ -10722,7 +10722,7 @@
       <value name="id_2">36674</value>
       <value name="text_1">В Британии произошло землетрясение магнитудой 4,2</value>
       <value name="text_2">У Соломоновых островов произошло землетрясение магнитудой 6,9</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27172</value>
@@ -10786,7 +10786,7 @@
       <value name="id_2">36695</value>
       <value name="text_1">Школьник получил удар в Подмосковье током при попытке сделать фото</value>
       <value name="text_2">Школьник разбился в Подмосковье при попытке сделать фото</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27189</value>
@@ -10858,7 +10858,7 @@
       <value name="id_2">36711</value>
       <value name="text_1">Новак: Киев просит продлить скидку на газ за счет экспортной пошлины</value>
       <value name="text_2">Киев попросил о продлении скидки на российский газ до конца года</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27203</value>
@@ -10938,7 +10938,7 @@
       <value name="id_2">36725</value>
       <value name="text_1">Путин подписал закон о нежелательных неправительственных организациях</value>
       <value name="text_2">Путин разрешил закрывать нежелательные организации</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27216</value>
@@ -10954,7 +10954,7 @@
       <value name="id_2">36728</value>
       <value name="text_1">Полина Гагарина выступила в финале "Евровидения-2015"</value>
       <value name="text_2">Полина Гагарина выступила в финале «Евровидения»</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27218</value>
@@ -10970,7 +10970,7 @@
       <value name="id_2">36731</value>
       <value name="text_1">Финал конкурса "Евровидение". Онлайн-репортаж</value>
       <value name="text_2">Россия завоевала второе место на конкурсе «Евровидение»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27221</value>
@@ -11010,7 +11010,7 @@
       <value name="id_2">36741</value>
       <value name="text_1">В Йемене сбит истребитель Саудовской Аравии</value>
       <value name="text_2">СМИ: истребитель ВВС Саудовской Аравии сбит возле столицы Йемена</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27226</value>
@@ -11026,7 +11026,7 @@
       <value name="id_2">36742</value>
       <value name="text_1">Путин подписал закон о нежелательных неправительственных организациях</value>
       <value name="text_2">Госдеп раскритиковал российский закон о нежелательных организациях</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27228</value>
@@ -11074,7 +11074,7 @@
       <value name="id_2">36748</value>
       <value name="text_1">Путин подписал закон о нежелательных неправительственных организациях</value>
       <value name="text_2">Госдеп раскритиковал российский закон о нежелательных организациях</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27238</value>
@@ -11210,7 +11210,7 @@
       <value name="id_2">36768</value>
       <value name="text_1">Землетрясение магнитудой 5,2 произошло на востоке Индонезии</value>
       <value name="text_2">Землетрясение магнитудой 5,2 произошло в Индонезии</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27258</value>
@@ -11218,7 +11218,7 @@
       <value name="id_2">36769</value>
       <value name="text_1">Госдеп раскритиковал российский закон о нежелательных организациях</value>
       <value name="text_2">Алексеева раскритиковала закон о нежелательных организациях</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27260</value>
@@ -11226,7 +11226,7 @@
       <value name="id_2">36769</value>
       <value name="text_1">Путин подписал закон о нежелательных неправительственных организациях</value>
       <value name="text_2">Алексеева раскритиковала закон о нежелательных организациях</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27261</value>
@@ -11234,7 +11234,7 @@
       <value name="id_2">36769</value>
       <value name="text_1">Путин подписал закон о "нежелательных" иностранных организациях в РФ</value>
       <value name="text_2">Алексеева раскритиковала закон о нежелательных организациях</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27263</value>
@@ -11242,7 +11242,7 @@
       <value name="id_2">36773</value>
       <value name="text_1">Украинские "Тени" взяли на себя ответственность за убийство Мозгового</value>
       <value name="text_2">Убийство Мозгового в Донбассе взяли на себя партизаны группы «Тени»</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27264</value>
@@ -11250,7 +11250,7 @@
       <value name="id_2">36775</value>
       <value name="text_1">Нобелевский лауреат Джон Нэш погиб в автокатастрофе</value>
       <value name="text_2">Герой фильма "Игры разума" нобелевский лауреат Джон Нэш погиб в ДТП</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27265</value>
@@ -11258,7 +11258,7 @@
       <value name="id_2">36777</value>
       <value name="text_1">Греция не сможет выплатить долг МВФ в июне</value>
       <value name="text_2">Глава МВД Греции заявил об отсутствии средств на платеж МВФ в июне</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27266</value>
@@ -11338,7 +11338,7 @@
       <value name="id_2">36792</value>
       <value name="text_1">Водителя, сбившего байкера, не могут арестовать по состоянию здоровья</value>
       <value name="text_2">Решение об аресте сбившего байкера водителя BMW отложили</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27292</value>
@@ -11346,7 +11346,7 @@
       <value name="id_2">36794</value>
       <value name="text_1">Совфед: успех Гагариной - показатель отношения европейцев к России</value>
       <value name="text_2">Совфед: Успех Гагариной - показатель отношения европейцев к РФ</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27293</value>
@@ -11362,7 +11362,7 @@
       <value name="id_2">36796</value>
       <value name="text_1">Водителя, сбившего байкера, не могут арестовать по состоянию здоровья</value>
       <value name="text_2">Московский суд не смог арестовать водителя, сбившего насмерть байкера</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27295</value>
@@ -11402,7 +11402,7 @@
       <value name="id_2">36805</value>
       <value name="text_1">МВД Малайзии подтвердило обнаружение массовых захоронений мигрантов</value>
       <value name="text_2">Власти Малайзии подтвердили обнаружение массовых захоронений беженцев</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27309</value>
@@ -11426,7 +11426,7 @@
       <value name="id_2">36808</value>
       <value name="text_1">Еxit poll: "Народная партия" победила на выборах в Испании</value>
       <value name="text_2">Правящая в Испании партия побеждает на выборах с худшим результатом</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27312</value>
@@ -11490,7 +11490,7 @@
       <value name="id_2">36822</value>
       <value name="text_1">МВД Малайзии подтвердило обнаружение массовых захоронений мигрантов</value>
       <value name="text_2">В Малайзии обнаружено еще 139 тайных захоронений мигрантов</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27325</value>
@@ -11682,7 +11682,7 @@
       <value name="id_2">36860</value>
       <value name="text_1">Чемпион мира по каратэ пропал в Новосибирске</value>
       <value name="text_2">В Новосибирске чемпион мира по каратэ найден мертвым</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27360</value>
@@ -11690,7 +11690,7 @@
       <value name="id_2">36864</value>
       <value name="text_1">Военнослужащий открыл огонь по сослуживцам в казарме в Тунисе</value>
       <value name="text_2">В Тунисе трое военнослужащих погибли в результате перестрелки в казарме</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27363</value>
@@ -11770,7 +11770,7 @@
       <value name="id_2">36882</value>
       <value name="text_1">Египетский актер Омар Шариф страдает болезнью Альцгеймера</value>
       <value name="text_2">Сын Омара Шарифа рассказал о болезни Альцгеймера у актера</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27380</value>
@@ -11826,7 +11826,7 @@
       <value name="id_2">36895</value>
       <value name="text_1">Внезапная проверка боеготовности ЦВО продлится четверо суток</value>
       <value name="text_2">Россия предупредила страны ОБСЕ о внезапной проверке боеготовности в ЦВО</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27388</value>
@@ -11938,7 +11938,7 @@
       <value name="id_2">36919</value>
       <value name="text_1">Дочери Би Би Кинга обвиняют помощников музыканта в его смерти</value>
       <value name="text_2">Дочери Би Би Кинга обвинили его помощников в убийстве</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27432</value>
@@ -12170,7 +12170,7 @@
       <value name="id_2">36968</value>
       <value name="text_1">Десять человек погибли в Мексике в результате торнадо</value>
       <value name="text_2">Не менее восьми человек погибли в результате наводнения в США</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27472</value>
@@ -12178,7 +12178,7 @@
       <value name="id_2">36970</value>
       <value name="text_1">Золотовалютные резервы России перестали сокращаться</value>
       <value name="text_2">Forbes: золотовалютные резервы России начинают расти</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27473</value>
@@ -12210,7 +12210,7 @@
       <value name="id_2">36977</value>
       <value name="text_1">Суд наложил арест на имущество экс-губернатора Новосибирской области</value>
       <value name="text_2">Суд наложил арест на имущество бывшего губернатора Новосибирской области</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27478</value>
@@ -12314,7 +12314,7 @@
       <value name="id_2">37003</value>
       <value name="text_1">ЦБ РФ ограничил действие лицензии "Россгосстраха" по ОСАГО</value>
       <value name="text_2">Банк России ограничил лицензию "Росгосстраха" по ОСАГО</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27512</value>
@@ -12322,7 +12322,7 @@
       <value name="id_2">37005</value>
       <value name="text_1">Костина: водитель, сбивший байкера в Москве, признает вину</value>
       <value name="text_2">Полиция не смогла допросить водителя, сбившего байкера в Москве</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27513</value>
@@ -12330,7 +12330,7 @@
       <value name="id_2">37005</value>
       <value name="text_1">Водитель, сбивший байкера в Москве, остается в реанимации без сознания</value>
       <value name="text_2">Полиция не смогла допросить водителя, сбившего байкера в Москве</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27515</value>
@@ -12362,7 +12362,7 @@
       <value name="id_2">37010</value>
       <value name="text_1">Борьба США и России за Турцию</value>
       <value name="text_2">Белый дом: США следят за военными учениями в России</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27532</value>
@@ -12418,7 +12418,7 @@
       <value name="id_2">37020</value>
       <value name="text_1">Посольство: консул в Киеве посетит задержанных россиян скоро</value>
       <value name="text_2">Консул РФ на Украине в ближайшее время посетит задержанных россиян</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27553</value>
@@ -12426,7 +12426,7 @@
       <value name="id_2">37023</value>
       <value name="text_1">ВПК: Россия построит для Ирана новые С-300, а не возьмет из наличия</value>
       <value name="text_2">Иран получит от России новые С-300 прямо с завода</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27554</value>
@@ -12442,7 +12442,7 @@
       <value name="id_2">37027</value>
       <value name="text_1">СМИ: прокуратура даст оценку фотосессии "Мисс России" с триколором</value>
       <value name="text_2">В прокуратуре заявили об отсутствии интереса к фотосессии «Мисс Россия»</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27556</value>
@@ -12490,7 +12490,7 @@
       <value name="id_2">37038</value>
       <value name="text_1">Парламент Мадагаскара объявил импичмент действующему президенту</value>
       <value name="text_2">Мадагаскарский парламент объявил импичмент президенту</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27564</value>
@@ -12506,7 +12506,7 @@
       <value name="id_2">37041</value>
       <value name="text_1">Стратегия нацбезопасности Украины предполагает интеграцию страны в ЕС</value>
       <value name="text_2">Порошенко утвердил предложенную СНБО стратегию нацбезопасности Украины</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27566</value>
@@ -12626,7 +12626,7 @@
       <value name="id_2">37066</value>
       <value name="text_1">Свыше 10 млрд руб субсидий распределено между ведущими вузами страны</value>
       <value name="text_2">Медведев выделил университетам более 10 миллиардов рублей</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27585</value>
@@ -12634,7 +12634,7 @@
       <value name="id_2">37068</value>
       <value name="text_1">Пятнадцать человек стали жертвами наводнений в США</value>
       <value name="text_2">Жертвами наводнений в США стали 15 человек</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27586</value>
@@ -12778,7 +12778,7 @@
       <value name="id_2">37092</value>
       <value name="text_1">Число жертв аномальной жары в Индии превысило 850 человек</value>
       <value name="text_2">В Индии от жары погибли более 1100 человек</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27639</value>
@@ -12882,7 +12882,7 @@
       <value name="id_2">37113</value>
       <value name="text_1">Мосэкомониторинг: ночью загрязнение воздуха в Москве может повыситься</value>
       <value name="text_2">Уровень загрязнения воздуха в Москве 27-28 мая будет повышенным</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27662</value>
@@ -13082,7 +13082,7 @@
       <value name="id_2">37151</value>
       <value name="text_1">РКК "Энергия" запатентовала укороченную схему полета кораблей РФ к МКС</value>
       <value name="text_2">РКК "Энергия" запатентовала укороченную схему полета кораблей к МКС</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27733</value>
@@ -13090,7 +13090,7 @@
       <value name="id_2">37153</value>
       <value name="text_1">Москва призвала МИД Украины воздержаться от информационных вбросов</value>
       <value name="text_2">МИД России призвал Киев воздерживаться от информационных вбросов</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27734</value>
@@ -13210,7 +13210,7 @@
       <value name="id_2">37169</value>
       <value name="text_1">Россия отправит в Донбасс 28-ю колонну с гуманитарной помощью</value>
       <value name="text_2">Грузовики с гуманитарной помощью МЧС России отправилась в Донбасс</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27751</value>
@@ -13314,7 +13314,7 @@
       <value name="id_2">37189</value>
       <value name="text_1">Суд в Петербурге отложил рассмотрение дела против сотрудника Пентагона</value>
       <value name="text_2">В Петербурге задержали сотрудника Пентагона</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27775</value>
@@ -13634,7 +13634,7 @@
       <value name="id_2">37247</value>
       <value name="text_1">МИД РФ: встреча "нормандской четверки" из-за России не срывалась</value>
       <value name="text_2">МИД РФ: На стороне "ИГ" воюют около 500 граждан России</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27883</value>
@@ -13674,7 +13674,7 @@
       <value name="id_2">37257</value>
       <value name="text_1">ЕС продлил на год санкции против руководства Сирии и его приближенных</value>
       <value name="text_2">ЕС продлил на год санкции против Башара Асада и его окружения</value>
-      <value name="class">0</value>
+      <value name="class">1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27899</value>
@@ -13714,7 +13714,7 @@
       <value name="id_2">37265</value>
       <value name="text_1">На ЕГЭ по русскому языку зафиксированы шесть нарушений</value>
       <value name="text_2">Камнепад освободил дагестанских школьников от ЕГЭ по русскому языку</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27904</value>
@@ -13842,7 +13842,7 @@
       <value name="id_2">37292</value>
       <value name="text_1">В Петербурге 25 тысяч выпускников сдают ЕГЭ по русскому языку</value>
       <value name="text_2">На ЕГЭ по русскому языку аннулировано 102 работы</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27951</value>
@@ -13906,7 +13906,7 @@
       <value name="id_2">37304</value>
       <value name="text_1">Указ Путина о гостайне не связан с Украиной, заявил Песков</value>
       <value name="text_2">Путин поговорил с д'Эстеном об Украине</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27959</value>
@@ -13914,7 +13914,7 @@
       <value name="id_2">37304</value>
       <value name="text_1">Песков: Путин обсудил с Д'Эстеном ситуацию в мире, в том числе Украину</value>
       <value name="text_2">Путин поговорил с д'Эстеном об Украине</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">27961</value>
@@ -14082,7 +14082,7 @@
       <value name="id_2">37340</value>
       <value name="text_1">Фонд Горбачева призвал провести в России новую перестройку</value>
       <value name="text_2">Горбачев объединился с Кудриным и призвал страну к новой перестройке</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28077</value>
@@ -14122,7 +14122,7 @@
       <value name="id_2">37347</value>
       <value name="text_1">На юге Японии началось извержение вулкана Кутиноэрабу</value>
       <value name="text_2">На юге Японии внезапно начал извергаться вулкан</value>
-      <value name="class">1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28082</value>
@@ -14162,7 +14162,7 @@
       <value name="id_2">37354</value>
       <value name="text_1">Рыжков сообщил, что его допросили по делу об убийстве Немцова</value>
       <value name="text_2">В деле об убийстве Немцова появился пистолет</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28087</value>
@@ -14570,7 +14570,7 @@
       <value name="id_2">37435</value>
       <value name="text_1">СК: глава подмосковного города попал под следствие за избиение ребенка</value>
       <value name="text_2">Мэр подмосковного города избил ребенка на детской площадке</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28197</value>
@@ -14698,7 +14698,7 @@
       <value name="id_2">37459</value>
       <value name="text_1">Медведев выразил готовность к работе с новым премьером Финляндии</value>
       <value name="text_2">Медведев поздравил нового премьера Финляндии Юхе Сипиля с назначением</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28222</value>
@@ -14890,7 +14890,7 @@
       <value name="id_2">37485</value>
       <value name="text_1">Порошенко в пятницу примет решение о назначении Саакашвили</value>
       <value name="text_2">Порошенко назначил Саакашвили губернатором Одесской области</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28269</value>
@@ -14922,7 +14922,7 @@
       <value name="id_2">37493</value>
       <value name="text_1">G7 считает необходимым сохранение санкций против России</value>
       <value name="text_2">Вашингтон допустил обсуждение новых санкций против России на форуме G7</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28328</value>
@@ -14954,7 +14954,7 @@
       <value name="id_2">37500</value>
       <value name="text_1">Шестнадцать человек погибли в результате аварии в Египте</value>
       <value name="text_2">В результате наводнений в США погибли 28 человек</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28352</value>
@@ -15010,7 +15010,7 @@
       <value name="id_2">37522</value>
       <value name="text_1">У "неотключаемых" потребителей электроэнергии могут взять гарантии</value>
       <value name="text_2">Контроль над неотключаемыми потребителями электроэнергии ужесточат</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28372</value>
@@ -15098,7 +15098,7 @@
       <value name="id_2">37532</value>
       <value name="text_1">При крушении легкомоторнгого самолета в Техасе погибли 3 человека</value>
       <value name="text_2">На Ставрополье два человека пострадали при крушении самолета</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28411</value>
@@ -15202,7 +15202,7 @@
       <value name="id_2">37552</value>
       <value name="text_1">Саакашвили может стать губернатором Одесской области Украины</value>
       <value name="text_2">Порошенко объявил о назначении Саакашвили одесским губернатором</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28450</value>
@@ -15274,7 +15274,7 @@
       <value name="id_2">37572</value>
       <value name="text_1">Медведев о назначении Саакашвили: шапито-шоу продолжается</value>
       <value name="text_2">Медведев назвал назвачение Саакашвили одесским губернатором шапито-шоу</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28464</value>
@@ -15346,7 +15346,7 @@
       <value name="id_2">37595</value>
       <value name="text_1">Шестнадцать человек погибли в результате аварии в Египте</value>
       <value name="text_2">Не менее 26 человек погибли в результате теракта в мечети в Нигерии</value>
-      <value name="class">0</value>
+      <value name="class">-1</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28483</value>
@@ -15386,7 +15386,7 @@
       <value name="id_2">37636</value>
       <value name="text_1">Полицейский в США спас мужчину от наводнения, а потом застрелил</value>
       <value name="text_2">Washington Post: В 2015 году полицейские США застрелили 385 человек</value>
-      <value name="class">-1</value>
+      <value name="class">0</value>
     </paraphrase>
     <paraphrase>
       <value name="id">28562</value>

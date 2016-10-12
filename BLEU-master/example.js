@@ -1,7 +1,7 @@
 var measure_en = require("./en/bleu.js");
 var measure_ru = require("./ru/bleu.js");
 var fs = require('fs');
-var json = JSON.parse(fs.readFileSync('../dataset.json', 'utf8'));
+var json = JSON.parse(fs.readFileSync('../test.json', 'utf8'));
 var n = json.length;
 
 for(var i = 0; i<n; i++) {
