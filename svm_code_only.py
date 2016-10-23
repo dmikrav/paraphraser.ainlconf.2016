@@ -180,6 +180,14 @@ clf = sklearn.ensemble.GradientBoostingClassifier(n_estimators=100, max_depth=3)
 #print self_print_line(160)
 classes_names = ["NON-paraphrase", "Near-paraphrase", "Precise-paraphrase"]
 
+#   ....  [running settings]   ....
+sett = "dataset"
+#sett = "test"
+task_no = 2
+verbose = True
+print "sett =", sett, ";   task_no =", task_no
+#   ....  [end of running settings]   ....
+
 with open('dataset.json') as data_file:    
   data = json.load(data_file)
 with open('test.json') as data_file:    
@@ -199,13 +207,6 @@ dataset_filtered_task_2 = data_copy_task_2
 #random.shuffle(dataset_filtered_task_1)
 #random.shuffle(dataset_filtered_task_2)
 
-#   ....  [running settings]   ....
-sett = "dataset"
-#sett = "test"
-task_no = 2
-verbose = True
-print "sett =", sett, ";   task_no =", task_no
-#   ....  [end of running settings]   ....
 
 '''
 #   .... [these lines of code is for testing specifical metric]  ....
@@ -224,12 +225,20 @@ if task_no == 2:
   for a in data_copy_task_2:
     if a["class"] == classes_names[2]:
       a["class"] = classes_names[1]
+  for a in jtest_copy_task_2:
+    if a["real_class"] == classes_names[2]:
+      a["real_class"] = classes_names[1]
   print "ver 1, task 2"
   train = [
         # testing specifical metric:
         # [a["blue_metrics"].values()[rrr]]
+
+          a["translations"]["google"]["semilar"].values()
+        + a["translations"]["microsoft"]["semilar"].values()
+        + a["translations"]["yandex"]["semilar"].values()      
     
-          a["translations"]["google"]["dkpro"].values()[0:3] 
+
+        + a["translations"]["google"]["dkpro"].values()[0:3] 
         + a["translations"]["google"]["dkpro"].values()[4:9]
         + a["translations"]["google"]["dkpro"].values()[10:15]
 
@@ -242,10 +251,6 @@ if task_no == 2:
         + a["translations"]["yandex"]["dkpro"].values()[10:15]
 
         
-        + a["translations"]["google"]["semilar"].values()
-        + a["translations"]["microsoft"]["semilar"].values()
-        + a["translations"]["yandex"]["semilar"].values()      
-
         + a["translations"]["google"]["difflib"]
         + a["translations"]["microsoft"]["difflib"]
         + a["translations"]["yandex"]["difflib"]
@@ -295,7 +300,13 @@ if task_no == 2:
   for a in dataset_filtered_task_2]
 
   jtest_data = [
-          a["translations"]["google"]["dkpro"].values()[0:3] 
+
+          a["translations"]["google"]["semilar"].values()
+        + a["translations"]["microsoft"]["semilar"].values()
+        + a["translations"]["yandex"]["semilar"].values()
+
+
+        + a["translations"]["google"]["dkpro"].values()[0:3] 
         + a["translations"]["google"]["dkpro"].values()[4:9]
         + a["translations"]["google"]["dkpro"].values()[10:15]
 
@@ -308,10 +319,6 @@ if task_no == 2:
         + a["translations"]["yandex"]["dkpro"].values()[10:15]
 
         
-        + a["translations"]["google"]["semilar"].values()
-        + a["translations"]["microsoft"]["semilar"].values()
-        + a["translations"]["yandex"]["semilar"].values()
-
         + a["translations"]["google"]["difflib"]
         + a["translations"]["microsoft"]["difflib"]
         + a["translations"]["yandex"]["difflib"]
@@ -362,6 +369,7 @@ if task_no == 2:
        for a in jtest_copy_task_2]
 
   classes_dataset = [a["class"] for a in dataset_filtered_task_2]
+  real_classes_test = [a["real_class"] for a in jtest_filtered_task_2]
   if sett == "test":
     clf.fit(train, classes_dataset)
     predicted = clf.predict(jtest_data)
@@ -373,12 +381,14 @@ if task_no == 2:
     f.write(json.dumps(jtest, indent=1, separators=(',', ': '), ensure_ascii=False, sort_keys=True))
     f.close()
   elif sett == "dataset":
-    predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes_dataset, cv=5, verbose=3)
-
-    print "Accuracy:", metrics.accuracy_score(classes_dataset, predicted) 
-    print "micro-F1:", metrics.f1_score(classes_dataset, predicted, average='micro', pos_label=None) 
-    print "macro-F1:", metrics.f1_score(classes_dataset, predicted, average='macro', pos_label=None) 
-    print metrics.confusion_matrix(classes_dataset, predicted)
+    #predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes_dataset, cv=5, verbose=3)
+    clf.fit(train, classes_dataset)
+    predicted = clf.predict(jtest_data)
+    print "before"
+    print "Accuracy:", metrics.accuracy_score(real_classes_test, predicted) 
+    print "micro-F1:", metrics.f1_score(real_classes_test, predicted, average='micro', pos_label=None) 
+    print "macro-F1:", metrics.f1_score(real_classes_test, predicted, average='macro', pos_label=None) 
+    print metrics.confusion_matrix(real_classes_test, predicted)
   
   ts = time.time()
   st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
@@ -387,14 +397,19 @@ if task_no == 2:
 if task_no == 1:
 
     classes_dataset = [a["class"] for a in dataset_filtered_task_1]
+    real_classes_test = [a["real_class"] for a in jtest_filtered_task_1]
   #if sett == "dataset":  
     print "ver 1, task 1"
     train = [
         # testing specifical metric:
         # [a["blue_metrics"].values()[rrr]]
         
+          a["translations"]["google"]["semilar"].values()
+        + a["translations"]["microsoft"]["semilar"].values()
+        + a["translations"]["yandex"]["semilar"].values()
+
         
-          a["translations"]["google"]["dkpro"].values()[0:3] 
+        + a["translations"]["google"]["dkpro"].values()[0:3] 
         + a["translations"]["google"]["dkpro"].values()[4:9]
         + a["translations"]["google"]["dkpro"].values()[10:15]
 
@@ -406,10 +421,6 @@ if task_no == 1:
         + a["translations"]["yandex"]["dkpro"].values()[4:9]
         + a["translations"]["yandex"]["dkpro"].values()[10:15]
 
-
-        + a["translations"]["google"]["semilar"].values()
-        + a["translations"]["microsoft"]["semilar"].values()
-        + a["translations"]["yandex"]["semilar"].values()
 
         + a["translations"]["google"]["difflib"]
         + a["translations"]["microsoft"]["difflib"]
@@ -469,7 +480,13 @@ if task_no == 1:
        for a in dataset_filtered_task_1]
     
     jtest_data = [
-          a["translations"]["google"]["dkpro"].values()[0:3] 
+
+          a["translations"]["google"]["semilar"].values()
+        + a["translations"]["microsoft"]["semilar"].values()
+        + a["translations"]["yandex"]["semilar"].values()
+
+
+        + a["translations"]["google"]["dkpro"].values()[0:3] 
         + a["translations"]["google"]["dkpro"].values()[4:9]
         + a["translations"]["google"]["dkpro"].values()[10:15]
 
@@ -481,10 +498,6 @@ if task_no == 1:
         + a["translations"]["yandex"]["dkpro"].values()[4:9]
         + a["translations"]["yandex"]["dkpro"].values()[10:15]
 
-        
-        + a["translations"]["google"]["semilar"].values()
-        + a["translations"]["microsoft"]["semilar"].values()
-        + a["translations"]["yandex"]["semilar"].values()
 
         + a["translations"]["google"]["difflib"]
         + a["translations"]["microsoft"]["difflib"]
@@ -539,10 +552,12 @@ if task_no == 1:
     for a in jtest_copy_task_1]
     
     if sett == "dataset":   
-      predicted = sklearn.cross_validation.cross_val_predict(clf, train, classes_dataset, cv=5, verbose=3)
-      print "Accuracy:", metrics.accuracy_score(classes_dataset, predicted) 
-      print "micro-F1:", metrics.f1_score(classes_dataset, predicted, average='micro', pos_label=None) 
-      print "macro-F1:", metrics.f1_score(classes_dataset, predicted, average='macro', pos_label=None) 
+      #predicted = sklearn.cross_validation.cross_val_predict(clf, train, real_classes_test, cv=5, verbose=3)
+      clf.fit(train, classes_dataset)
+      predicted = clf.predict(jtest_data)
+      print "Accuracy:", metrics.accuracy_score(real_classes_test, predicted) 
+      print "micro-F1:", metrics.f1_score(real_classes_test, predicted, average='micro', pos_label=None) 
+      print "macro-F1:", metrics.f1_score(real_classes_test, predicted, average='macro', pos_label=None) 
 
       print metrics.confusion_matrix(classes_dataset, predicted)
 
@@ -561,28 +576,28 @@ if task_no == 1:
     st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
     print st
 
-   
-    if verbose and sett == "dataset" and False:
+
+if verbose and sett == "dataset":
       for i in range(len(predicted)):
-        if predicted[i] != classes_dataset[i] and classes_dataset[i] == classes_names[2]:
+        if predicted[i] != real_classes_test[i]:
           print "=" * 80
-          print "predicted:" , predicted[i] , ";  actual:" , classes_dataset[i] 
+          print "predicted:" , predicted[i] , ";  actual:" , real_classes_test[i] 
           print "-" * 80
-          print(dataset_filtered_task_1[i]["id"])
-          print(dataset_filtered_task_1[i]["source"][0].encode('utf8'))
-          print(dataset_filtered_task_1[i]["source"][1].encode('utf8'))
+          print(jtest_filtered_task_1[i]["id"])
+          print(jtest_filtered_task_1[i]["source"][0].encode('utf8'))
+          print(jtest_filtered_task_1[i]["source"][1].encode('utf8'))
 
-          pprint(dataset_filtered_task_1[i]["translations"]["google"]['pair'][0]) 
-          pprint(dataset_filtered_task_1[i]["translations"]["google"]['pair'][1])
+          pprint(jtest_filtered_task_1[i]["translations"]["google"]['pair'][0]) 
+          pprint(jtest_filtered_task_1[i]["translations"]["google"]['pair'][1])
 
-          pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["google"]['pair'][0])) 
-          pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["google"]['pair'][1]))
+          #pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["google"]['pair'][0])) 
+          #pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["google"]['pair'][1]))
 
-          pprint(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][0]) 
-          pprint(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][1])
+          pprint(jtest_filtered_task_1[i]["translations"]["yandex"]['pair'][0]) 
+          pprint(jtest_filtered_task_1[i]["translations"]["yandex"]['pair'][1])
 
-          pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][0])) 
-          pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][1]))
+          #pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][0])) 
+          #pprint(only_verbs(dataset_filtered_task_1[i]["translations"]["yandex"]['pair'][1]))
 
 
           print "\n"
